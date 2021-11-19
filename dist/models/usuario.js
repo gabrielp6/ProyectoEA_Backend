@@ -22,16 +22,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importStar(require("mongoose"));
 const usuarioSchema = new mongoose_1.Schema({
     id: {
-        type: String
+        type: String, unique: true
     },
     username: {
-        type: String
+        type: String, unique: true
     },
     password: {
         type: String
     },
     email: {
-        type: String
+        type: String, unique: true
     }
 });
 exports.default = mongoose_1.default.model('Usuario', usuarioSchema);

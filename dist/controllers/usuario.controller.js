@@ -29,7 +29,7 @@ function getUsuario(req, res) {
 }
 function newUsuario(req, res) {
     const usuario_1 = new usuario_2.default({
-        "id": req.body.id,
+        "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
         "username": req.body.username,
         "password": req.body.password,
         "email": req.body.email

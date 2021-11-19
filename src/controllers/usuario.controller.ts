@@ -28,7 +28,7 @@ function getUsuario (req:Request, res:Response): void {
 
 function newUsuario (req:Request, res:Response): void {
     const usuario_1 = new usuario({
-        "id": req.body.id,
+        "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
         "username": req.body.username,
         "password": req.body.password,
         "email": req.body.email

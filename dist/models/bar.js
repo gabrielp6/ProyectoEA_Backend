@@ -26,7 +26,7 @@ const mongoose_1 = __importStar(require("mongoose"));
 const usuario_1 = __importDefault(require("./usuario"));
 const barSchema = new mongoose_1.Schema({
     id: {
-        type: String,
+        type: String, unique: true
     },
     name: {
         type: String
