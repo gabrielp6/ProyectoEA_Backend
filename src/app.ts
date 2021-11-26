@@ -7,6 +7,8 @@ import UsuarioRoutes from './routes/usuario.route'
 
 const app = express();
 app.set('port', process.env.PORT || 3000);
+process.env.CADUCIDAD_TOKEN= '48h';
+
 
 app.use(morgan('dev'));
 app.use(cors());
