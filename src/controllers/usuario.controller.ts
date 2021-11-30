@@ -2,6 +2,7 @@ import { Request, Response} from "express";
 import { getAllJSDocTags } from "typescript";
 import usuario from "../models/usuario";
 
+
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
@@ -10,7 +11,6 @@ function getAllUsuarios (req:Request, res:Response): void {
     usuario.find({}).then((data)=>{
         let status: number = 200;
         if(data==null) status = 404;
-        console.log(data);
         return res.status(status).json(data);
     }).catch((err) => {
         console.log(err);
@@ -22,7 +22,6 @@ function getUsuario (req:Request, res:Response): void {
     usuario.findOne({"id":req.params.id}).then((data)=>{
         let status: number = 200;
         if(data==null) status = 404;
-        console.log(data);
         return res.status(status).json(data);
     }).catch((err) => {
         return res.status(500).json(err);
@@ -37,7 +36,6 @@ function newUsuario (req:Request, res:Response): void {
         "email": req.body.email
     });
     
-    console.log(req.body);
     usuario_1.save().then((data) => {
         return res.status(201).json(data);
     }).catch((err) => {
@@ -70,7 +68,9 @@ function deleteUsuario(req:Request, res:Response): void {
     })
 }
 
+
 function LogIn (req:Request, res:Response): void {
+    
     let body = req.body;
     //erro y usuarioDB any(?)
     
@@ -111,7 +111,8 @@ function LogIn (req:Request, res:Response): void {
            token,
        })
    })
+   
 }
 
 
-export default { getAllUsuarios, getUsuario, newUsuario, updateUsuario , deleteUsuario , LogIn};
+export default { getAllUsuarios, getUsuario, newUsuario, updateUsuario , deleteUsuario, LogIn };

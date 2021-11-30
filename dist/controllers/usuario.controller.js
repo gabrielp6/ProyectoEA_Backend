@@ -11,7 +11,6 @@ function getAllUsuarios(req, res) {
         let status = 200;
         if (data == null)
             status = 404;
-        console.log(data);
         return res.status(status).json(data);
     }).catch((err) => {
         console.log(err);
@@ -23,7 +22,6 @@ function getUsuario(req, res) {
         let status = 200;
         if (data == null)
             status = 404;
-        console.log(data);
         return res.status(status).json(data);
     }).catch((err) => {
         return res.status(500).json(err);
@@ -36,7 +34,6 @@ function newUsuario(req, res) {
         "password": req.body.password,
         "email": req.body.email
     });
-    console.log(req.body);
     usuario_1.save().then((data) => {
         return res.status(201).json(data);
     }).catch((err) => {

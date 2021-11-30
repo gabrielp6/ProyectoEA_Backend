@@ -9,7 +9,6 @@ function getAllBares(req, res) {
         let status = 200;
         if (data == null)
             status = 404;
-        console.log(data);
         return res.status(status).json(data);
     }).catch((err) => {
         console.log(err);
@@ -21,7 +20,6 @@ function getBar(req, res) {
         let status = 200;
         if (data == null)
             status = 404;
-        console.log(data);
         return res.status(status).json(data);
     }).catch((err) => {
         return res.status(500).json(err);
@@ -32,7 +30,6 @@ function getBarByUser(req, res) {
         let status = 200;
         if (data == null)
             status = 404;
-        console.log(data);
         return res.status(status).json(data);
     }).catch((err) => {
         return res.status(500).json(err);
@@ -40,14 +37,13 @@ function getBarByUser(req, res) {
 }
 function newBar(req, res) {
     const bar_1 = new bar_2.default({
-        "id": req.body.id,
+        "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
         "name": req.body.name,
         "address": req.body.address,
         "musicTaste": req.body.musicTaste,
         "owner": req.body.owner,
         "idOwner": req.body.idOwner
     });
-    console.log(req.body);
     bar_1.save().then((data) => {
         return res.status(201).json(data);
     }).catch((err) => {

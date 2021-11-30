@@ -6,7 +6,6 @@ function getAllBares (req:Request, res:Response): void {
     bar.find({}).then((data)=>{
         let status: number = 200;
         if(data==null) status = 404;
-        console.log(data);
         return res.status(status).json(data);
     }).catch((err) => {
         console.log(err);
@@ -18,7 +17,6 @@ function getBar (req:Request, res:Response): void {
     bar.findOne({"id":req.params.id}).then((data)=>{
         let status: number = 200;
         if(data==null) status = 404;
-        console.log(data);
         return res.status(status).json(data);
     }).catch((err) => {
         return res.status(500).json(err);
@@ -30,7 +28,6 @@ function getBarByUser (req:Request, res:Response): void{
     bar.find({"idOwner":req.params.idOwner}).then((data)=>{
         let status: number = 200;
         if(data==null) status = 404;
-        console.log(data);
         return res.status(status).json(data);
     }).catch((err) => {
         return res.status(500).json(err);
@@ -40,7 +37,7 @@ function getBarByUser (req:Request, res:Response): void{
 
 function newBar (req:Request, res:Response): void {
     const bar_1 = new bar({
-        "id": req.body.id,
+        "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
         "name": req.body.name,
         "address": req.body.address,
         "musicTaste": req.body.musicTaste,
@@ -48,7 +45,6 @@ function newBar (req:Request, res:Response): void {
         "idOwner": req.body.idOwner
     });
     
-    console.log(req.body);
     bar_1.save().then((data) => {
         return res.status(201).json(data);
     }).catch((err) => {

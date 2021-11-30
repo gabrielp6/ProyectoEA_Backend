@@ -18,24 +18,33 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importStar(require("mongoose"));
-var uniqueValidator = require('mongoose-unique-validator');
-const usuarioSchema = new mongoose_1.Schema({
+const usuario_1 = __importDefault(require("./usuario"));
+const comunidadSchema = new mongoose_1.Schema({
     id: {
         type: String, unique: true
     },
-    username: {
+    name: {
         type: String, unique: true
     },
-    password: {
-        type: String
+    owner: {
+        type: String,
+        ref: usuario_1.default
     },
-    email: {
-        type: String, unique: true
-    }
+    idOwner: {
+        type: String,
+        ref: usuario_1.default
+    },
+    prueba: {
+        type: String,
+    },
+    usuarios: [{
+            type: mongoose_1.Schema.Types.ObjectId,
+            ref: usuario_1.default
+        }]
 });
-exports.default = mongoose_1.default.model('Usuario', usuarioSchema);
-usuarioSchema.plugin(uniqueValidator, {
-    message: '{PATH} debe de ser único'
-});
+exports.default = mongoose_1.default.model('Comunidad', comunidadSchema);

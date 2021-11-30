@@ -11,4 +11,5 @@ router.get('/getUsuario/:id', usuario_controller_1.default.getUsuario);
 router.post('/new', usuario_controller_1.default.newUsuario);
 router.put('/update/:id', usuario_controller_1.default.updateUsuario);
 router.delete('/delete/:id', usuario_controller_1.default.deleteUsuario);
+router.post('/login', usuario_controller_1.default.LogIn);
 exports.default = router;
