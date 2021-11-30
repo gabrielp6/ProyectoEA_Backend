@@ -1,0 +1,3014 @@
+total 96
+drwxrwxrwx   10 enric  staff    320 30 nov 15:27 dist
+drwxrwxrwx  102 enric  staff   3264 30 nov 15:27 node_modules
+-rw-r--r--    1 enric  staff      0 30 nov 15:39 old_permissions.txt
+-rw-r--r--    1 enric  staff  34416 16 nov 16:52 package-lock.json
+-rw-r--r--    1 enric  staff    609 20 nov 18:37 package.json
+drwxrwxrwx   10 enric  staff    320 30 nov 15:27 src
+-rw-r--r--    1 enric  staff   6072 16 nov 16:01 tsconfig.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/dist:
+total 24
+-rw-r--r--  1 enric  staff  998 30 nov 15:31 app.js
+drwxrwxrwx  3 enric  staff   96 19 nov 17:21 config
+drwxrwxrwx  4 enric  staff  128 19 nov 17:21 controllers
+-rw-r--r--  1 enric  staff  706 30 nov 15:31 database.js
+-rw-r--r--  1 enric  staff  395 30 nov 15:31 index.js
+drwxrwxrwx  4 enric  staff  128 19 nov 17:21 models
+drwxrwxrwx  5 enric  staff  160 16 nov 16:01 routes
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/dist/config:
+total 8
+-rw-r--r--  1 root  staff  418 30 nov 15:31 config.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/dist/controllers:
+total 16
+-rw-r--r--  1 enric  staff  2603 30 nov 15:31 bar.controller.js
+-rw-r--r--  1 root   staff  2188 30 nov 15:31 usuario.controller.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/dist/models:
+total 16
+-rw-r--r--  1 root  staff  1622 30 nov 15:31 bar.js
+-rw-r--r--  1 root  staff  1318 30 nov 15:31 usuario.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/dist/routes:
+total 24
+-rw-r--r--  1 enric  staff  776 30 nov 15:31 bar.route.js
+-rw-r--r--  1 enric  staff  683 16 nov 16:01 bar.routes.js
+-rw-r--r--  1 enric  staff  748 30 nov 15:31 usuario.route.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules:
+total 0
+drwxr-xr-x  18 enric  staff  576 16 nov 16:05 @types
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 accepts
+drwxr-xr-x   7 enric  staff  224 16 nov 16:05 ansi-regex
+drwxr-xr-x   6 enric  staff  192 16 nov 16:01 array-flatten
+drwxr-xr-x   8 enric  staff  256 16 nov 16:05 base64-js
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 basic-auth
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 body-parser
+drwxr-xr-x  11 enric  staff  352 16 nov 16:05 bson
+drwxr-xr-x   8 enric  staff  256 16 nov 16:05 buffer
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 bytes
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 content-disposition
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 content-type
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 cookie
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 cookie-signature
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 cors
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 cross-spawn
+drwxr-xr-x  15 enric  staff  480 16 nov 16:01 debug
+drwxr-xr-x   8 enric  staff  256 16 nov 16:05 denque
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 depd
+drwxr-xr-x   6 enric  staff  192 16 nov 16:01 destroy
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 duplexer
+drwxr-xr-x   6 enric  staff  192 16 nov 16:01 ee-first
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 encodeurl
+drwxr-xr-x   6 enric  staff  192 16 nov 16:01 escape-html
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 etag
+drwxr-xr-x  10 enric  staff  320 16 nov 16:01 event-stream
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 express
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 finalhandler
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 forwarded
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 fresh
+drwxr-xr-x  10 enric  staff  320 16 nov 16:01 from
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 http-errors
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 iconv-lite
+drwxr-xr-x   7 enric  staff  224 16 nov 16:05 ieee754
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 inherits
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 ipaddr.js
+drwxr-xr-x  10 enric  staff  320 16 nov 16:01 isexe
+drwxr-xr-x  12 enric  staff  384 16 nov 16:05 kareem
+drwxr-xr-x  10 enric  staff  320 16 nov 16:01 map-stream
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 media-typer
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 memory-pager
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 merge-descriptors
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 methods
+drwxr-xr-x  11 enric  staff  352 16 nov 16:01 mime
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 mime-db
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 mime-types
+drwxr-xr-x  10 enric  staff  320 16 nov 16:05 mongodb
+drwxr-xr-x   7 enric  staff  224 16 nov 16:05 mongodb-connection-string-url
+drwxr-xr-x  14 enric  staff  448 16 nov 16:05 mongoose
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 morgan
+drwxr-xr-x  15 enric  staff  480 16 nov 16:05 mpath
+drwxr-xr-x  14 enric  staff  448 16 nov 16:05 mquery
+drwxr-xr-x   6 enric  staff  192 16 nov 16:01 ms
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 negotiator
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 node-cleanup
+drwxr-xr-x   6 enric  staff  192 16 nov 16:01 object-assign
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 on-finished
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 on-headers
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 parseurl
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 path-key
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 path-to-regexp
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 pause-stream
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 proxy-addr
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 ps-tree
+drwxr-xr-x   7 enric  staff  224 16 nov 16:05 punycode
+drwxr-xr-x  12 enric  staff  384 16 nov 16:01 qs
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 range-parser
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 raw-body
+drwxr-xr-x  10 enric  staff  320 16 nov 16:01 regexp-clone
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 safe-buffer
+drwxr-xr-x   9 enric  staff  288 16 nov 16:01 safer-buffer
+drwxr-xr-x  14 enric  staff  448 16 nov 16:01 saslprep
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 send
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 serve-static
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 setprototypeof
+drwxr-xr-x   6 enric  staff  192 16 nov 16:01 shebang-command
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 shebang-regex
+drwxr-xr-x  15 enric  staff  480 16 nov 16:05 sift
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 sliced
+drwxr-xr-x   9 enric  staff  288 16 nov 16:01 sparse-bitfield
+drwxr-xr-x  10 enric  staff  320 16 nov 16:01 split
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 statuses
+drwxr-xr-x   9 enric  staff  288 16 nov 16:01 stream-combiner
+drwxr-xr-x   6 enric  staff  192 16 nov 16:01 string-argv
+drwxr-xr-x   7 enric  staff  224 16 nov 16:52 strip-ansi
+drwxr-xr-x   9 enric  staff  288 16 nov 16:01 through
+drwxr-xr-x   6 enric  staff  192 16 nov 16:01 toidentifier
+drwxr-xr-x   7 enric  staff  224 16 nov 16:05 tr46
+drwxr-xr-x  14 enric  staff  448 16 nov 16:52 tsc-watch
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 type-is
+drwxr-xr-x  12 enric  staff  384 16 nov 16:01 typescript
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 unpipe
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 utils-merge
+drwxr-xr-x   7 enric  staff  224 16 nov 16:01 vary
+drwxr-xr-x   6 enric  staff  192 16 nov 16:05 webidl-conversions
+drwxr-xr-x   8 enric  staff  256 16 nov 16:05 whatwg-url
+drwxr-xr-x   8 enric  staff  256 16 nov 16:01 which
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types:
+total 0
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 body-parser
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 bson
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 connect
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 cors
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 express
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 express-serve-static-core
+drwxr-xr-x   8 enric  staff   256 16 nov 16:01 mime
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 mongodb
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 mongoose
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 morgan
+drwxr-xr-x  52 enric  staff  1664 16 nov 16:01 node
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 qs
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 range-parser
+drwxr-xr-x   6 enric  staff   192 16 nov 16:01 serve-static
+drwxr-xr-x   6 enric  staff   192 16 nov 16:05 webidl-conversions
+drwxr-xr-x   9 enric  staff   288 16 nov 16:05 whatwg-url
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/body-parser:
+total 40
+-rw-r--r--  1 enric  staff  1162 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   885 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  4247 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff  2339 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/bson:
+total 72
+-rw-r--r--  1 enric  staff   1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff    661 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  22890 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff   1952 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/connect:
+total 32
+-rw-r--r--  1 enric  staff  1162 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   568 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  3428 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff  1816 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/cors:
+total 32
+-rw-r--r--  1 enric  staff  1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   561 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1342 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff  1753 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/express:
+total 40
+-rw-r--r--  1 enric  staff  1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   901 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  4377 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff  2124 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/express-serve-static-core:
+total 96
+-rw-r--r--  1 enric  staff   1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff    999 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  35649 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff   2609 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/mime:
+total 48
+-rw-r--r--  1 enric  staff  1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   240 16 nov 16:01 Mime.d.ts
+-rw-r--r--  1 enric  staff   530 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   627 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff   124 16 nov 16:01 lite.d.ts
+-rw-r--r--  1 enric  staff  1751 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/mongodb:
+total 280
+-rw-r--r--  1 enric  staff    1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff    2011 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  125291 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff    4404 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/mongoose:
+total 336
+-rw-r--r--  1 enric  staff    1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff    2435 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  154110 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff    5294 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/morgan:
+total 48
+-rw-r--r--  1 enric  staff   1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff    644 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  10805 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff   1897 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/node:
+total 1544
+-rw-r--r--  1 enric  staff    1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff    2705 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff    5553 16 nov 16:01 assert.d.ts
+-rw-r--r--  1 enric  staff    9693 16 nov 16:01 async_hooks.d.ts
+-rw-r--r--  1 enric  staff     905 16 nov 16:01 base.d.ts
+-rw-r--r--  1 enric  staff     708 16 nov 16:01 buffer.d.ts
+-rw-r--r--  1 enric  staff   16125 16 nov 16:01 cluster.d.ts
+-rw-r--r--  1 enric  staff    5923 16 nov 16:01 console.d.ts
+-rw-r--r--  1 enric  staff     459 16 nov 16:01 constants.d.ts
+-rw-r--r--  1 enric  staff   42253 16 nov 16:01 crypto.d.ts
+-rw-r--r--  1 enric  staff   25000 16 nov 16:01 child_process.d.ts
+-rw-r--r--  1 enric  staff    7195 16 nov 16:01 dgram.d.ts
+-rw-r--r--  1 enric  staff   16161 16 nov 16:01 dns.d.ts
+-rw-r--r--  1 enric  staff     715 16 nov 16:01 domain.d.ts
+-rw-r--r--  1 enric  staff    3691 16 nov 16:01 events.d.ts
+drwxr-xr-x  3 enric  staff      96 16 nov 16:01 fs
+-rw-r--r--  1 enric  staff  117833 16 nov 16:01 fs.d.ts
+-rw-r--r--  1 enric  staff   23811 16 nov 16:01 globals.d.ts
+-rw-r--r--  1 enric  staff      55 16 nov 16:01 globals.global.d.ts
+-rw-r--r--  1 enric  staff   18780 16 nov 16:01 http.d.ts
+-rw-r--r--  1 enric  staff   56541 16 nov 16:01 http2.d.ts
+-rw-r--r--  1 enric  staff    1684 16 nov 16:01 https.d.ts
+-rw-r--r--  1 enric  staff    3762 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff  121933 16 nov 16:01 inspector.d.ts
+-rw-r--r--  1 enric  staff    1643 16 nov 16:01 module.d.ts
+-rw-r--r--  1 enric  staff   12824 16 nov 16:01 net.d.ts
+-rw-r--r--  1 enric  staff    8178 16 nov 16:01 os.d.ts
+-rw-r--r--  1 enric  staff    5815 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff    6309 16 nov 16:01 path.d.ts
+-rw-r--r--  1 enric  staff   10616 16 nov 16:01 perf_hooks.d.ts
+-rw-r--r--  1 enric  staff   20331 16 nov 16:01 process.d.ts
+-rw-r--r--  1 enric  staff    3159 16 nov 16:01 punycode.d.ts
+-rw-r--r--  1 enric  staff    1046 16 nov 16:01 querystring.d.ts
+-rw-r--r--  1 enric  staff    7330 16 nov 16:01 readline.d.ts
+-rw-r--r--  1 enric  staff   18118 16 nov 16:01 repl.d.ts
+-rw-r--r--  1 enric  staff   19374 16 nov 16:01 stream.d.ts
+-rw-r--r--  1 enric  staff     193 16 nov 16:01 string_decoder.d.ts
+-rw-r--r--  1 enric  staff     826 16 nov 16:01 timers.d.ts
+-rw-r--r--  1 enric  staff   37761 16 nov 16:01 tls.d.ts
+-rw-r--r--  1 enric  staff    2113 16 nov 16:01 trace_events.d.ts
+drwxr-xr-x  6 enric  staff     192 16 nov 16:01 ts3.4
+drwxr-xr-x  4 enric  staff     128 16 nov 16:01 ts3.6
+-rw-r--r--  1 enric  staff    2442 16 nov 16:01 tty.d.ts
+-rw-r--r--  1 enric  staff    3831 16 nov 16:01 url.d.ts
+-rw-r--r--  1 enric  staff   12351 16 nov 16:01 util.d.ts
+-rw-r--r--  1 enric  staff    6769 16 nov 16:01 v8.d.ts
+-rw-r--r--  1 enric  staff    5900 16 nov 16:01 vm.d.ts
+-rw-r--r--  1 enric  staff    3379 16 nov 16:01 wasi.d.ts
+-rw-r--r--  1 enric  staff   11446 16 nov 16:01 worker_threads.d.ts
+-rw-r--r--  1 enric  staff   14327 16 nov 16:01 zlib.d.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/node/fs:
+total 64
+-rw-r--r--  1 enric  staff  30101 16 nov 16:01 promises.d.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/node/ts3.4:
+total 40
+-rw-r--r--  1 enric  staff  4548 16 nov 16:01 assert.d.ts
+-rw-r--r--  1 enric  staff  2420 16 nov 16:01 base.d.ts
+-rw-r--r--  1 enric  staff    35 16 nov 16:01 globals.global.d.ts
+-rw-r--r--  1 enric  staff   429 16 nov 16:01 index.d.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/node/ts3.6:
+total 16
+-rw-r--r--  1 enric  staff  1000 16 nov 16:01 base.d.ts
+-rw-r--r--  1 enric  staff   303 16 nov 16:01 index.d.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/qs:
+total 32
+-rw-r--r--  1 enric  staff  1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   811 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  2671 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff  2358 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/range-parser:
+total 32
+-rw-r--r--  1 enric  staff  1162 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   486 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1224 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff  1728 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/serve-static:
+total 40
+-rw-r--r--  1 enric  staff  1141 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   701 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  4606 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff  1995 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/webidl-conversions:
+total 40
+-rwxr-xr-x  1 enric  staff  1141  2 jul 20:05 LICENSE
+-rwxr-xr-x  1 enric  staff   534  2 jul 20:05 README.md
+-rwxr-xr-x  1 enric  staff  4636  2 jul 20:05 index.d.ts
+-rwxr-xr-x  1 enric  staff  1799 16 nov 16:05 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/whatwg-url:
+total 48
+-rwxr-xr-x  1 enric  staff  1141  2 jul 20:05 LICENSE
+-rwxr-xr-x  1 enric  staff   683  2 jul 20:05 README.md
+drwxr-xr-x  6 enric  staff   192 16 nov 16:05 dist
+-rwxr-xr-x  1 enric  staff  4836  2 jul 20:05 index.d.ts
+-rwxr-xr-x  1 enric  staff  1982 16 nov 16:05 package.json
+drwxr-xr-x  5 enric  staff   160 16 nov 16:05 ts3.9
+-rwxr-xr-x  1 enric  staff   128  2 jul 20:05 webidl2js-wrapper.d.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/whatwg-url/dist:
+total 32
+-rwxr-xr-x  1 enric  staff   507  2 jul 20:05 URL-impl.d.ts
+-rwxr-xr-x  1 enric  staff  2327  2 jul 20:05 URL.d.ts
+-rwxr-xr-x  1 enric  staff   756  2 jul 20:05 URLSearchParams-impl.d.ts
+-rwxr-xr-x  1 enric  staff  3083  2 jul 20:05 URLSearchParams.d.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/whatwg-url/ts3.9:
+total 24
+drwxr-xr-x  6 enric  staff   192 16 nov 16:05 dist
+-rwxr-xr-x  1 enric  staff  4381  2 jul 20:05 index.d.ts
+-rwxr-xr-x  1 enric  staff   128  2 jul 20:05 webidl2js-wrapper.d.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/@types/whatwg-url/ts3.9/dist:
+total 32
+-rwxr-xr-x  1 enric  staff   492  2 jul 20:05 URL-impl.d.ts
+-rwxr-xr-x  1 enric  staff  2282  2 jul 20:05 URL.d.ts
+-rwxr-xr-x  1 enric  staff   719  2 jul 20:05 URLSearchParams-impl.d.ts
+-rwxr-xr-x  1 enric  staff  3029  2 jul 20:05 URLSearchParams.d.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/accepts:
+total 56
+-rw-r--r--  1 enric  staff  4972 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1167 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  4081 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  5252 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2306 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/ansi-regex:
+total 40
+-rw-r--r--  1 enric  staff   744 26 oct  1985 index.d.ts
+-rw-r--r--  1 enric  staff   350 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  1109 26 oct  1985 license
+-rw-r--r--  1 enric  staff  1965 16 nov 16:05 package.json
+-rw-r--r--  1 enric  staff  2565 26 oct  1985 readme.md
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/array-flatten:
+total 32
+-rw-r--r--  1 enric  staff  1103 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1245 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1195 16 nov 16:01 array-flatten.js
+-rw-r--r--  1 enric  staff  1721 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/base64-js:
+total 48
+-rw-r--r--  1 enric  staff  1081 26 oct  1985 LICENSE
+-rw-r--r--  1 enric  staff  1143 26 oct  1985 README.md
+-rw-r--r--  1 enric  staff  2192 26 oct  1985 base64js.min.js
+-rw-r--r--  1 enric  staff   161 26 oct  1985 index.d.ts
+-rw-r--r--  1 enric  staff  3932 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  1972 16 nov 16:05 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/basic-auth:
+total 40
+-rw-r--r--  1 enric  staff  1052 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1206 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  3192 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  2361 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2158 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/body-parser:
+total 96
+-rw-r--r--  1 enric  staff  15113 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff   1172 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  17100 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   2656 16 nov 16:01 index.js
+drwxr-xr-x  4 enric  staff    128 16 nov 16:01 lib
+-rw-r--r--  1 enric  staff   2746 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/body-parser/lib:
+total 8
+-rw-r--r--  1 enric  staff  3894 16 nov 16:01 read.js
+drwxr-xr-x  6 enric  staff   192 16 nov 16:01 types
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/body-parser/lib/types:
+total 48
+-rw-r--r--  1 enric  staff  4918 16 nov 16:01 json.js
+-rw-r--r--  1 enric  staff  1884 16 nov 16:01 raw.js
+-rw-r--r--  1 enric  staff  2285 16 nov 16:01 text.js
+-rw-r--r--  1 enric  staff  5797 16 nov 16:01 urlencoded.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/bson:
+total 168
+-rw-r--r--   1 enric  staff  11357 26 oct  1985 LICENSE.md
+-rw-r--r--   1 enric  staff  15855 26 oct  1985 README.md
+-rw-r--r--   1 enric  staff    473 26 oct  1985 bower.json
+-rw-r--r--   1 enric  staff  42411 26 oct  1985 bson.d.ts
+drwxr-xr-x  10 enric  staff    320 16 nov 16:05 dist
+drwxr-xr-x   3 enric  staff     96 16 nov 16:05 etc
+drwxr-xr-x  50 enric  staff   1600 16 nov 16:05 lib
+-rw-r--r--   1 enric  staff   4442 16 nov 16:05 package.json
+drwxr-xr-x  27 enric  staff    864 16 nov 16:05 src
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/bson/dist:
+total 4232
+-rw-r--r--  1 enric  staff  275356 26 oct  1985 bson.browser.esm.js
+-rw-r--r--  1 enric  staff  303995 26 oct  1985 bson.browser.esm.js.map
+-rw-r--r--  1 enric  staff  284349 26 oct  1985 bson.browser.umd.js
+-rw-r--r--  1 enric  staff  304090 26 oct  1985 bson.browser.umd.js.map
+-rw-r--r--  1 enric  staff  284074 26 oct  1985 bson.bundle.js
+-rw-r--r--  1 enric  staff  304084 26 oct  1985 bson.bundle.js.map
+-rw-r--r--  1 enric  staff  216167 26 oct  1985 bson.esm.js
+-rw-r--r--  1 enric  staff  174402 26 oct  1985 bson.esm.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/bson/etc:
+total 8
+-rwxr-xr-x  1 enric  staff  615 26 oct  1985 prepare.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/bson/lib:
+total 752
+-rw-r--r--   1 enric  staff   9358 26 oct  1985 binary.js
+-rw-r--r--   1 enric  staff   6908 26 oct  1985 binary.js.map
+-rw-r--r--   1 enric  staff  16815 26 oct  1985 bson.js
+-rw-r--r--   1 enric  staff   5849 26 oct  1985 bson.js.map
+-rw-r--r--   1 enric  staff   1428 26 oct  1985 code.js
+-rw-r--r--   1 enric  staff   1232 26 oct  1985 code.js.map
+-rw-r--r--   1 enric  staff   3824 26 oct  1985 constants.js
+-rw-r--r--   1 enric  staff   1900 26 oct  1985 constants.js.map
+-rw-r--r--   1 enric  staff   3289 26 oct  1985 db_ref.js
+-rw-r--r--   1 enric  staff   2665 26 oct  1985 db_ref.js.map
+-rw-r--r--   1 enric  staff  27827 26 oct  1985 decimal128.js
+-rw-r--r--   1 enric  staff  22512 26 oct  1985 decimal128.js.map
+-rw-r--r--   1 enric  staff   2521 26 oct  1985 double.js
+-rw-r--r--   1 enric  staff   1943 26 oct  1985 double.js.map
+-rw-r--r--   1 enric  staff   1025 26 oct  1985 ensure_buffer.js
+-rw-r--r--   1 enric  staff    507 26 oct  1985 ensure_buffer.js.map
+-rw-r--r--   1 enric  staff   1879 26 oct  1985 error.js
+-rw-r--r--   1 enric  staff    436 26 oct  1985 error.js.map
+-rw-r--r--   1 enric  staff  16358 26 oct  1985 extended_json.js
+-rw-r--r--   1 enric  staff  12284 26 oct  1985 extended_json.js.map
+-rw-r--r--   1 enric  staff   4488 26 oct  1985 float_parser.js
+-rw-r--r--   1 enric  staff   4776 26 oct  1985 float_parser.js.map
+-rw-r--r--   1 enric  staff   1725 26 oct  1985 int_32.js
+-rw-r--r--   1 enric  staff   1337 26 oct  1985 int_32.js.map
+-rw-r--r--   1 enric  staff  37223 26 oct  1985 long.js
+-rw-r--r--   1 enric  staff  30642 26 oct  1985 long.js.map
+-rw-r--r--   1 enric  staff   4419 26 oct  1985 map.js
+-rw-r--r--   1 enric  staff   3626 26 oct  1985 map.js.map
+-rw-r--r--   1 enric  staff    909 26 oct  1985 max_key.js
+-rw-r--r--   1 enric  staff    658 26 oct  1985 max_key.js.map
+-rw-r--r--   1 enric  staff    909 26 oct  1985 min_key.js
+-rw-r--r--   1 enric  staff    658 26 oct  1985 min_key.js.map
+-rw-r--r--   1 enric  staff  11838 26 oct  1985 objectid.js
+-rw-r--r--   1 enric  staff   8197 26 oct  1985 objectid.js.map
+drwxr-xr-x  10 enric  staff    320 16 nov 16:05 parser
+-rw-r--r--   1 enric  staff   3016 26 oct  1985 regexp.js
+-rw-r--r--   1 enric  staff   2528 26 oct  1985 regexp.js.map
+-rw-r--r--   1 enric  staff   1439 26 oct  1985 symbol.js
+-rw-r--r--   1 enric  staff    988 26 oct  1985 symbol.js.map
+-rw-r--r--   1 enric  staff   4017 26 oct  1985 timestamp.js
+-rw-r--r--   1 enric  staff   2081 26 oct  1985 timestamp.js.map
+drwxr-xr-x   4 enric  staff    128 16 nov 16:05 utils
+-rw-r--r--   1 enric  staff   6276 26 oct  1985 uuid.js
+-rw-r--r--   1 enric  staff   3485 26 oct  1985 uuid.js.map
+-rw-r--r--   1 enric  staff   1690 26 oct  1985 uuid_utils.js
+-rw-r--r--   1 enric  staff   1123 26 oct  1985 uuid_utils.js.map
+-rw-r--r--   1 enric  staff   1466 26 oct  1985 validate_utf8.js
+-rw-r--r--   1 enric  staff   1121 26 oct  1985 validate_utf8.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/bson/lib/parser:
+total 320
+-rw-r--r--  1 enric  staff   9157 26 oct  1985 calculate_size.js
+-rw-r--r--  1 enric  staff   8367 26 oct  1985 calculate_size.js.map
+-rw-r--r--  1 enric  staff  26397 26 oct  1985 deserializer.js
+-rw-r--r--  1 enric  staff  20749 26 oct  1985 deserializer.js.map
+-rw-r--r--  1 enric  staff  36834 26 oct  1985 serializer.js
+-rw-r--r--  1 enric  staff  35385 26 oct  1985 serializer.js.map
+-rw-r--r--  1 enric  staff   4576 26 oct  1985 utils.js
+-rw-r--r--  1 enric  staff   3150 26 oct  1985 utils.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/bson/lib/utils:
+total 16
+-rw-r--r--  1 enric  staff  761 26 oct  1985 global.js
+-rw-r--r--  1 enric  staff  545 26 oct  1985 global.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/bson/src:
+total 376
+-rw-r--r--  1 enric  staff   8700 26 oct  1985 binary.ts
+-rw-r--r--  1 enric  staff   9863 26 oct  1985 bson.ts
+-rw-r--r--  1 enric  staff   1356 26 oct  1985 code.ts
+-rw-r--r--  1 enric  staff   2852 26 oct  1985 constants.ts
+-rw-r--r--  1 enric  staff   3047 26 oct  1985 db_ref.ts
+-rw-r--r--  1 enric  staff  24298 26 oct  1985 decimal128.ts
+-rw-r--r--  1 enric  staff   2256 26 oct  1985 double.ts
+-rw-r--r--  1 enric  staff    885 26 oct  1985 ensure_buffer.ts
+-rw-r--r--  1 enric  staff    227 26 oct  1985 error.ts
+-rw-r--r--  1 enric  staff  16017 26 oct  1985 extended_json.ts
+-rw-r--r--  1 enric  staff   4221 26 oct  1985 float_parser.ts
+-rw-r--r--  1 enric  staff   1539 26 oct  1985 int_32.ts
+-rw-r--r--  1 enric  staff  35390 26 oct  1985 long.ts
+-rw-r--r--  1 enric  staff   3288 26 oct  1985 map.ts
+-rw-r--r--  1 enric  staff    676 26 oct  1985 max_key.ts
+-rw-r--r--  1 enric  staff    676 26 oct  1985 min_key.ts
+-rw-r--r--  1 enric  staff  10528 26 oct  1985 objectid.ts
+drwxr-xr-x  6 enric  staff    192 16 nov 16:05 parser
+-rw-r--r--  1 enric  staff   3052 26 oct  1985 regexp.ts
+-rw-r--r--  1 enric  staff   1115 26 oct  1985 symbol.ts
+-rw-r--r--  1 enric  staff   3574 26 oct  1985 timestamp.ts
+drwxr-xr-x  3 enric  staff     96 16 nov 16:05 utils
+-rw-r--r--  1 enric  staff   5577 26 oct  1985 uuid.ts
+-rw-r--r--  1 enric  staff   1228 26 oct  1985 uuid_utils.ts
+-rw-r--r--  1 enric  staff   1218 26 oct  1985 validate_utf8.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/bson/src/parser:
+total 152
+-rw-r--r--  1 enric  staff   7573 26 oct  1985 calculate_size.ts
+-rw-r--r--  1 enric  staff  24203 26 oct  1985 deserializer.ts
+-rw-r--r--  1 enric  staff  34910 26 oct  1985 serializer.ts
+-rw-r--r--  1 enric  staff   4448 26 oct  1985 utils.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/bson/src/utils:
+total 8
+-rw-r--r--  1 enric  staff  838 26 oct  1985 global.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/buffer:
+total 192
+-rw-r--r--  1 enric  staff   2672 26 oct  1985 AUTHORS.md
+-rw-r--r--  1 enric  staff   1106 26 oct  1985 LICENSE
+-rw-r--r--  1 enric  staff  17300 26 oct  1985 README.md
+-rw-r--r--  1 enric  staff   8755 26 oct  1985 index.d.ts
+-rw-r--r--  1 enric  staff  50097 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff   3467 16 nov 16:05 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/bytes:
+total 40
+-rw-r--r--  1 enric  staff  1581 16 nov 16:01 History.md
+-rw-r--r--  1 enric  staff  1153 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  3890 16 nov 16:01 Readme.md
+-rw-r--r--  1 enric  staff  3469 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2081 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/content-disposition:
+total 64
+-rw-r--r--  1 enric  staff    952 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff   1094 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   5237 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  10594 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff   2444 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/content-type:
+total 48
+-rw-r--r--  1 enric  staff   436 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1089 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  2796 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  4809 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2219 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/cookie:
+total 56
+-rw-r--r--  1 enric  staff  2698 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1175 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  8809 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  4037 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2240 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/cookie-signature:
+total 32
+-rw-r--r--  1 enric  staff   695 16 nov 16:01 History.md
+-rw-r--r--  1 enric  staff  1490 16 nov 16:01 Readme.md
+-rw-r--r--  1 enric  staff  1230 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1591 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/cors:
+total 56
+-rw-r--r--  1 enric  staff  1028 16 nov 16:01 CONTRIBUTING.md
+-rw-r--r--  1 enric  staff  1169 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1095 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  9206 16 nov 16:01 README.md
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 lib
+-rw-r--r--  1 enric  staff  1919 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/cors/lib:
+total 16
+-rw-r--r--  1 enric  staff  6623 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/cross-spawn:
+total 56
+-rw-r--r--  1 enric  staff  4704 16 nov 16:01 CHANGELOG.md
+-rw-r--r--  1 enric  staff  1105 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  4728 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1192 16 nov 16:01 index.js
+drwxr-xr-x  5 enric  staff   160 16 nov 16:01 lib
+-rw-r--r--  1 enric  staff  2669 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/cross-spawn/lib:
+total 16
+-rw-r--r--  1 enric  staff  1480 16 nov 16:01 enoent.js
+-rw-r--r--  1 enric  staff  3065 16 nov 16:01 parse.js
+drwxr-xr-x  5 enric  staff   160 16 nov 16:01 util
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/cross-spawn/lib/util:
+total 24
+-rw-r--r--  1 enric  staff  1172 16 nov 16:01 escape.js
+-rw-r--r--  1 enric  staff   549 16 nov 16:01 readShebang.js
+-rw-r--r--  1 enric  staff  1557 16 nov 16:01 resolveCommand.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/debug:
+total 112
+-rw-r--r--  1 enric  staff  11707 16 nov 16:01 CHANGELOG.md
+-rw-r--r--  1 enric  staff   1107 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   1059 16 nov 16:01 Makefile
+-rw-r--r--  1 enric  staff  17918 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff    321 16 nov 16:01 component.json
+-rw-r--r--  1 enric  staff   1736 16 nov 16:01 karma.conf.js
+-rw-r--r--  1 enric  staff     40 16 nov 16:01 node.js
+-rw-r--r--  1 enric  staff   2296 16 nov 16:01 package.json
+drwxr-xr-x  7 enric  staff    224 16 nov 16:01 src
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/debug/src:
+total 64
+-rw-r--r--  1 enric  staff  4734 16 nov 16:01 browser.js
+-rw-r--r--  1 enric  staff  4394 16 nov 16:01 debug.js
+-rw-r--r--  1 enric  staff   263 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff   373 16 nov 16:01 inspector-log.js
+-rw-r--r--  1 enric  staff  6015 16 nov 16:01 node.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/denque:
+total 80
+-rw-r--r--  1 enric  staff    860 26 oct  1985 CHANGELOG.md
+-rw-r--r--  1 enric  staff  11355 26 oct  1985 LICENSE
+-rw-r--r--  1 enric  staff   2856 26 oct  1985 README.md
+-rw-r--r--  1 enric  staff    730 26 oct  1985 index.d.ts
+-rw-r--r--  1 enric  staff  11542 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff   2455 16 nov 16:05 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/depd:
+total 72
+-rw-r--r--  1 enric  staff   2060 16 nov 16:01 History.md
+-rw-r--r--  1 enric  staff   1094 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  10025 16 nov 16:01 Readme.md
+-rw-r--r--  1 enric  staff  10669 16 nov 16:01 index.js
+drwxr-xr-x  4 enric  staff    128 16 nov 16:01 lib
+-rw-r--r--  1 enric  staff   2189 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/depd/lib:
+total 0
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 browser
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 compat
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/depd/lib/browser:
+total 8
+-rw-r--r--  1 enric  staff  1512 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/depd/lib/compat:
+total 24
+-rw-r--r--  1 enric  staff  2229 16 nov 16:01 callsite-tostring.js
+-rw-r--r--  1 enric  staff   338 16 nov 16:01 event-listener-count.js
+-rw-r--r--  1 enric  staff  1421 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/destroy:
+total 32
+-rw-r--r--  1 enric  staff  1099 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  2185 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1043 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1847 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/duplexer:
+total 32
+-rw-r--r--  1 enric  staff  1050 16 nov 16:01 LICENCE
+-rw-r--r--  1 enric  staff  1027 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1884 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1871 16 nov 16:01 package.json
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/duplexer/test:
+total 8
+-rw-r--r--  1 enric  staff  525 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/ee-first:
+total 32
+-rw-r--r--  1 enric  staff  1099 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  2617 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1684 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1852 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/encodeurl:
+total 40
+-rw-r--r--  1 enric  staff   238 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1089 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  3855 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1586 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2190 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/escape-html:
+total 32
+-rw-r--r--  1 enric  staff  1157 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   707 16 nov 16:01 Readme.md
+-rw-r--r--  1 enric  staff  1362 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1519 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/etag:
+total 48
+-rw-r--r--  1 enric  staff  1732 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1094 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  4198 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  2479 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2342 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/event-stream:
+total 56
+-rw-r--r--   1 enric  staff  1094 16 nov 16:01 LICENCE
+drwxr-xr-x   3 enric  staff    96 16 nov 16:01 examples
+-rw-r--r--   1 enric  staff  7443 16 nov 16:01 index.js
+-rw-r--r--   1 enric  staff  2088 16 nov 16:01 package.json
+-rw-r--r--   1 enric  staff  9083 16 nov 16:01 readme.markdown
+drwxr-xr-x  16 enric  staff   512 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/event-stream/examples:
+total 8
+-rw-r--r--  1 enric  staff  807 16 nov 16:01 pretty.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/event-stream/test:
+total 120
+-rw-r--r--  1 enric  staff  1780 16 nov 16:01 connect.asynct.js
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 helper
+-rw-r--r--  1 enric  staff   805 16 nov 16:01 merge.asynct.js
+-rw-r--r--  1 enric  staff   782 16 nov 16:01 parse.asynct.js
+-rw-r--r--  1 enric  staff   944 16 nov 16:01 pause.asynct.js
+-rw-r--r--  1 enric  staff  1019 16 nov 16:01 pipeline.asynct.js
+-rw-r--r--  1 enric  staff  2142 16 nov 16:01 readArray.asynct.js
+-rw-r--r--  1 enric  staff  4665 16 nov 16:01 readable.asynct.js
+-rw-r--r--  1 enric  staff  2078 16 nov 16:01 replace.asynct.js
+-rw-r--r--  1 enric  staff  6940 16 nov 16:01 simple-map.asynct.js
+-rw-r--r--  1 enric  staff  1693 16 nov 16:01 spec.asynct.js
+-rw-r--r--  1 enric  staff  1226 16 nov 16:01 split.asynct.js
+-rw-r--r--  1 enric  staff   237 16 nov 16:01 stringify.js
+-rw-r--r--  1 enric  staff   653 16 nov 16:01 writeArray.asynct.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/event-stream/test/helper:
+total 8
+-rw-r--r--  1 enric  staff  235 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/express:
+total 256
+-rw-r--r--   1 enric  staff  109589 16 nov 16:01 History.md
+-rw-r--r--   1 enric  staff    1249 16 nov 16:01 LICENSE
+-rw-r--r--   1 enric  staff    4607 16 nov 16:01 Readme.md
+-rw-r--r--   1 enric  staff     224 16 nov 16:01 index.js
+drwxr-xr-x  10 enric  staff     320 16 nov 16:01 lib
+-rw-r--r--   1 enric  staff    4079 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/express/lib:
+total 152
+-rw-r--r--  1 enric  staff  14270 16 nov 16:01 application.js
+-rw-r--r--  1 enric  staff   2409 16 nov 16:01 express.js
+drwxr-xr-x  4 enric  staff    128 16 nov 16:01 middleware
+-rw-r--r--  1 enric  staff  12504 16 nov 16:01 request.js
+-rw-r--r--  1 enric  staff  27124 16 nov 16:01 response.js
+drwxr-xr-x  5 enric  staff    160 16 nov 16:01 router
+-rw-r--r--  1 enric  staff   5972 16 nov 16:01 utils.js
+-rw-r--r--  1 enric  staff   3326 16 nov 16:01 view.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/express/lib/middleware:
+total 16
+-rw-r--r--  1 enric  staff  853 16 nov 16:01 init.js
+-rw-r--r--  1 enric  staff  885 16 nov 16:01 query.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/express/lib/router:
+total 56
+-rw-r--r--  1 enric  staff  14883 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff   3296 16 nov 16:01 layer.js
+-rw-r--r--  1 enric  staff   4149 16 nov 16:01 route.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/finalhandler:
+total 48
+-rw-r--r--  1 enric  staff  4080 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1119 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  4012 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  6518 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2447 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/forwarded:
+total 40
+-rw-r--r--  1 enric  staff   306 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1094 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1637 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1360 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2196 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/fresh:
+total 40
+-rw-r--r--  1 enric  staff  1500 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1174 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  3374 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  2711 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2462 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/from:
+total 40
+-rw-r--r--  1 enric  staff   586 16 nov 16:01 LICENSE.APACHE2
+-rw-r--r--  1 enric  staff  1088 16 nov 16:01 LICENSE.MIT
+-rw-r--r--  1 enric  staff  1460 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1473 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff   872 16 nov 16:01 readme.markdown
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/from/test:
+total 8
+-rw-r--r--  1 enric  staff  3881 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/http-errors:
+total 56
+-rw-r--r--  1 enric  staff  3145 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1168 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  5554 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  5878 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2581 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/iconv-lite:
+total 48
+-rw-r--r--   1 enric  staff  4342 16 nov 16:01 Changelog.md
+-rw-r--r--   1 enric  staff  1064 16 nov 16:01 LICENSE
+-rw-r--r--   1 enric  staff  6534 16 nov 16:01 README.md
+drwxr-xr-x  12 enric  staff   384 16 nov 16:01 encodings
+drwxr-xr-x   7 enric  staff   224 16 nov 16:01 lib
+-rw-r--r--   1 enric  staff  2052 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/iconv-lite/encodings:
+total 224
+-rw-r--r--   1 enric  staff  21415 16 nov 16:01 dbcs-codec.js
+-rw-r--r--   1 enric  staff   8291 16 nov 16:01 dbcs-data.js
+-rw-r--r--   1 enric  staff    710 16 nov 16:01 index.js
+-rw-r--r--   1 enric  staff   6115 16 nov 16:01 internal.js
+-rw-r--r--   1 enric  staff   2191 16 nov 16:01 sbcs-codec.js
+-rw-r--r--   1 enric  staff  32034 16 nov 16:01 sbcs-data-generated.js
+-rw-r--r--   1 enric  staff   4686 16 nov 16:01 sbcs-data.js
+drwxr-xr-x  10 enric  staff    320 16 nov 16:01 tables
+-rw-r--r--   1 enric  staff   5011 16 nov 16:01 utf16.js
+-rw-r--r--   1 enric  staff   9215 16 nov 16:01 utf7.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/iconv-lite/encodings/tables:
+total 456
+-rw-r--r--  1 enric  staff  17717 16 nov 16:01 big5-added.json
+-rw-r--r--  1 enric  staff  47320 16 nov 16:01 cp936.json
+-rw-r--r--  1 enric  staff  38122 16 nov 16:01 cp949.json
+-rw-r--r--  1 enric  staff  42356 16 nov 16:01 cp950.json
+-rw-r--r--  1 enric  staff  41064 16 nov 16:01 eucjp.json
+-rw-r--r--  1 enric  staff   2216 16 nov 16:01 gb18030-ranges.json
+-rw-r--r--  1 enric  staff   1227 16 nov 16:01 gbk-added.json
+-rw-r--r--  1 enric  staff  23782 16 nov 16:01 shiftjis.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/iconv-lite/lib:
+total 64
+-rw-r--r--  1 enric  staff  1109 16 nov 16:01 bom-handling.js
+-rw-r--r--  1 enric  staff  8701 16 nov 16:01 extend-node.js
+-rw-r--r--  1 enric  staff   982 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff  5123 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  3387 16 nov 16:01 streams.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/ieee754:
+total 40
+-rw-r--r--  1 enric  staff  1465 26 oct  1985 LICENSE
+-rw-r--r--  1 enric  staff  1651 26 oct  1985 README.md
+-rw-r--r--  1 enric  staff   332 26 oct  1985 index.d.ts
+-rw-r--r--  1 enric  staff  2154 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  2173 16 nov 16:05 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/inherits:
+total 40
+-rw-r--r--  1 enric  staff   749 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1625 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   192 16 nov 16:01 inherits.js
+-rw-r--r--  1 enric  staff   672 16 nov 16:01 inherits_browser.js
+-rw-r--r--  1 enric  staff  1582 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/ipaddr.js:
+total 64
+-rw-r--r--  1 enric  staff  1087 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  8309 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  9738 16 nov 16:01 ipaddr.min.js
+drwxr-xr-x  4 enric  staff   128 16 nov 16:01 lib
+-rw-r--r--  1 enric  staff  1803 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/ipaddr.js/lib:
+total 48
+-rw-r--r--  1 enric  staff  19333 16 nov 16:01 ipaddr.js
+-rw-r--r--  1 enric  staff   2959 16 nov 16:01 ipaddr.js.d.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/isexe:
+total 48
+-rw-r--r--  1 enric  staff   765 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1395 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1192 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff   909 16 nov 16:01 mode.js
+-rw-r--r--  1 enric  staff  1598 16 nov 16:01 package.json
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 test
+-rw-r--r--  1 enric  staff   890 16 nov 16:01 windows.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/isexe/test:
+total 16
+-rw-r--r--  1 enric  staff  4996 16 nov 16:01 basic.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/kareem:
+total 184
+-rw-r--r--  1 enric  staff  34295 26 oct  1985 CHANGELOG.md
+-rw-r--r--  1 enric  staff  11325 26 oct  1985 LICENSE
+-rw-r--r--  1 enric  staff    127 26 oct  1985 Makefile
+-rw-r--r--  1 enric  staff   8608 26 oct  1985 README.md
+-rw-r--r--  1 enric  staff   1629 26 oct  1985 docs.js
+-rw-r--r--  1 enric  staff    430 26 oct  1985 gulpfile.js
+-rw-r--r--  1 enric  staff  13010 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff   1471 16 nov 16:05 package.json
+drwxr-xr-x  7 enric  staff    224 16 nov 16:05 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/kareem/test:
+total 80
+-rw-r--r--  1 enric  staff  10283 26 oct  1985 examples.test.js
+-rw-r--r--  1 enric  staff   2046 26 oct  1985 misc.test.js
+-rw-r--r--  1 enric  staff   4636 26 oct  1985 post.test.js
+-rw-r--r--  1 enric  staff   7330 26 oct  1985 pre.test.js
+-rw-r--r--  1 enric  staff   6488 26 oct  1985 wrap.test.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/map-stream:
+total 32
+-rw-r--r--  1 enric  staff  1070 16 nov 16:01 LICENCE
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 examples
+-rw-r--r--  1 enric  staff  3543 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1514 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  1075 16 nov 16:01 readme.markdown
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/map-stream/examples:
+total 8
+-rw-r--r--  1 enric  staff  858 16 nov 16:01 pretty.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/map-stream/test:
+total 16
+-rw-r--r--  1 enric  staff  6397 16 nov 16:01 simple-map.asynct.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/media-typer:
+total 48
+-rw-r--r--  1 enric  staff   461 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1089 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  2371 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  6375 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1815 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/memory-pager:
+total 40
+-rw-r--r--  1 enric  staff  1079 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1243 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  3731 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1553 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  1444 16 nov 16:01 test.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/merge-descriptors:
+total 40
+-rw-r--r--  1 enric  staff   363 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1167 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1213 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1215 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2053 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/methods:
+total 40
+-rw-r--r--  1 enric  staff   427 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1180 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1694 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1040 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2069 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mime:
+total 128
+-rw-r--r--  1 enric  staff   9473 16 nov 16:01 CHANGELOG.md
+-rw-r--r--  1 enric  staff   1098 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   2119 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff    149 16 nov 16:01 cli.js
+-rw-r--r--  1 enric  staff   2726 16 nov 16:01 mime.js
+-rw-r--r--  1 enric  staff   1894 16 nov 16:01 package.json
+drwxr-xr-x  4 enric  staff    128 16 nov 16:01 src
+-rw-r--r--  1 enric  staff  31555 16 nov 16:01 types.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mime/src:
+total 16
+-rw-r--r--  1 enric  staff  1351 16 nov 16:01 build.js
+-rw-r--r--  1 enric  staff  2334 16 nov 16:01 test.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mime-db:
+total 408
+-rw-r--r--  1 enric  staff   10913 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff    1099 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff    4065 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  178741 16 nov 16:01 db.json
+-rw-r--r--  1 enric  staff     136 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff    2807 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mime-types:
+total 48
+-rw-r--r--  1 enric  staff  7090 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1167 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  3635 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  3663 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2407 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb:
+total 1000
+-rw-r--r--   1 enric  staff   11323 26 oct  1985 LICENSE.md
+-rw-r--r--   1 enric  staff   10713 26 oct  1985 README.md
+drwxr-xr-x   3 enric  staff      96 16 nov 16:05 etc
+drwxr-xr-x  54 enric  staff    1728 16 nov 16:05 lib
+-rw-r--r--   1 enric  staff  236928 26 oct  1985 mongodb.d.ts
+-rw-r--r--   1 enric  staff  240526 26 oct  1985 mongodb.ts34.d.ts
+-rw-r--r--   1 enric  staff    5445 16 nov 16:05 package.json
+drwxr-xr-x  31 enric  staff     992 16 nov 16:05 src
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/etc:
+total 8
+-rwxr-xr-x  1 enric  staff  377 26 oct  1985 prepare.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/lib:
+total 1080
+-rw-r--r--   1 enric  staff   5352 26 oct  1985 admin.js
+-rw-r--r--   1 enric  staff   4146 26 oct  1985 admin.js.map
+-rw-r--r--   1 enric  staff   5514 26 oct  1985 bson.js
+-rw-r--r--   1 enric  staff   2086 26 oct  1985 bson.js.map
+drwxr-xr-x   8 enric  staff    256 16 nov 16:05 bulk
+drwxr-xr-x  24 enric  staff    768 16 nov 16:05 cmap
+-rw-r--r--   1 enric  staff  24669 26 oct  1985 collection.js
+-rw-r--r--   1 enric  staff  16987 26 oct  1985 collection.js.map
+-rw-r--r--   1 enric  staff  38235 26 oct  1985 connection_string.js
+-rw-r--r--   1 enric  staff  30414 26 oct  1985 connection_string.js.map
+-rw-r--r--   1 enric  staff    632 26 oct  1985 constants.js
+-rw-r--r--   1 enric  staff    315 26 oct  1985 constants.js.map
+drwxr-xr-x   8 enric  staff    256 16 nov 16:05 cursor
+-rw-r--r--   1 enric  staff  19914 26 oct  1985 change_stream.js
+-rw-r--r--   1 enric  staff  14711 26 oct  1985 change_stream.js.map
+-rw-r--r--   1 enric  staff  14358 26 oct  1985 db.js
+-rw-r--r--   1 enric  staff   9151 26 oct  1985 db.js.map
+-rw-r--r--   1 enric  staff   2391 26 oct  1985 deps.js
+-rw-r--r--   1 enric  staff   1540 26 oct  1985 deps.js.map
+-rw-r--r--   1 enric  staff   4130 26 oct  1985 encrypter.js
+-rw-r--r--   1 enric  staff   3138 26 oct  1985 encrypter.js.map
+-rw-r--r--   1 enric  staff  22891 26 oct  1985 error.js
+-rw-r--r--   1 enric  staff  11656 26 oct  1985 error.js.map
+-rw-r--r--   1 enric  staff   1221 26 oct  1985 explain.js
+-rw-r--r--   1 enric  staff    858 26 oct  1985 explain.js.map
+drwxr-xr-x   8 enric  staff    256 16 nov 16:05 gridfs
+-rw-r--r--   1 enric  staff  18164 26 oct  1985 index.js
+-rw-r--r--   1 enric  staff   2980 26 oct  1985 index.js.map
+-rw-r--r--   1 enric  staff   7490 26 oct  1985 logger.js
+-rw-r--r--   1 enric  staff   5404 26 oct  1985 logger.js.map
+-rw-r--r--   1 enric  staff   9345 26 oct  1985 mongo_client.js
+-rw-r--r--   1 enric  staff   6037 26 oct  1985 mongo_client.js.map
+-rw-r--r--   1 enric  staff    973 26 oct  1985 mongo_types.js
+-rw-r--r--   1 enric  staff    754 26 oct  1985 mongo_types.js.map
+drwxr-xr-x  70 enric  staff   2240 16 nov 16:05 operations
+-rw-r--r--   1 enric  staff   1031 26 oct  1985 promise_provider.js
+-rw-r--r--   1 enric  staff    779 26 oct  1985 promise_provider.js.map
+-rw-r--r--   1 enric  staff   2501 26 oct  1985 read_concern.js
+-rw-r--r--   1 enric  staff   1304 26 oct  1985 read_concern.js.map
+-rw-r--r--   1 enric  staff   8206 26 oct  1985 read_preference.js
+-rw-r--r--   1 enric  staff   5013 26 oct  1985 read_preference.js.map
+drwxr-xr-x  20 enric  staff    640 16 nov 16:05 sdam
+-rw-r--r--   1 enric  staff  32161 26 oct  1985 sessions.js
+-rw-r--r--   1 enric  staff  20642 26 oct  1985 sessions.js.map
+-rw-r--r--   1 enric  staff   2755 26 oct  1985 sort.js
+-rw-r--r--   1 enric  staff   3193 26 oct  1985 sort.js.map
+-rw-r--r--   1 enric  staff   5120 26 oct  1985 transactions.js
+-rw-r--r--   1 enric  staff   3374 26 oct  1985 transactions.js.map
+-rw-r--r--   1 enric  staff  39948 26 oct  1985 utils.js
+-rw-r--r--   1 enric  staff  28292 26 oct  1985 utils.js.map
+-rw-r--r--   1 enric  staff   2662 26 oct  1985 write_concern.js
+-rw-r--r--   1 enric  staff   1721 26 oct  1985 write_concern.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/lib/bulk:
+total 168
+-rw-r--r--  1 enric  staff  36024 26 oct  1985 common.js
+-rw-r--r--  1 enric  staff  25601 26 oct  1985 common.js.map
+-rw-r--r--  1 enric  staff   3110 26 oct  1985 ordered.js
+-rw-r--r--  1 enric  staff   2159 26 oct  1985 ordered.js.map
+-rw-r--r--  1 enric  staff   4149 26 oct  1985 unordered.js
+-rw-r--r--  1 enric  staff   3074 26 oct  1985 unordered.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/lib/cmap:
+total 472
+drwxr-xr-x  20 enric  staff    640 16 nov 16:05 auth
+-rw-r--r--   1 enric  staff   9028 26 oct  1985 command_monitoring_events.js
+-rw-r--r--   1 enric  staff   7083 26 oct  1985 command_monitoring_events.js.map
+-rw-r--r--   1 enric  staff  26583 26 oct  1985 commands.js
+-rw-r--r--   1 enric  staff  24794 26 oct  1985 commands.js.map
+-rw-r--r--   1 enric  staff  13720 26 oct  1985 connect.js
+-rw-r--r--   1 enric  staff   9895 26 oct  1985 connect.js.map
+-rw-r--r--   1 enric  staff  22644 26 oct  1985 connection.js
+-rw-r--r--   1 enric  staff  18546 26 oct  1985 connection.js.map
+-rw-r--r--   1 enric  staff  20003 26 oct  1985 connection_pool.js
+-rw-r--r--   1 enric  staff  14182 26 oct  1985 connection_pool.js.map
+-rw-r--r--   1 enric  staff   4484 26 oct  1985 connection_pool_events.js
+-rw-r--r--   1 enric  staff   2142 26 oct  1985 connection_pool_events.js.map
+-rw-r--r--   1 enric  staff    988 26 oct  1985 errors.js
+-rw-r--r--   1 enric  staff    546 26 oct  1985 errors.js.map
+-rw-r--r--   1 enric  staff   6490 26 oct  1985 message_stream.js
+-rw-r--r--   1 enric  staff   4961 26 oct  1985 message_stream.js.map
+-rw-r--r--   1 enric  staff   1931 26 oct  1985 metrics.js
+-rw-r--r--   1 enric  staff   1210 26 oct  1985 metrics.js.map
+-rw-r--r--   1 enric  staff   1951 26 oct  1985 stream_description.js
+-rw-r--r--   1 enric  staff   1503 26 oct  1985 stream_description.js.map
+drwxr-xr-x   8 enric  staff    256 16 nov 16:05 wire_protocol
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/lib/cmap/auth:
+total 224
+-rw-r--r--  1 enric  staff   1273 26 oct  1985 auth_provider.js
+-rw-r--r--  1 enric  staff    625 26 oct  1985 auth_provider.js.map
+-rw-r--r--  1 enric  staff   1258 26 oct  1985 defaultAuthProviders.js
+-rw-r--r--  1 enric  staff    890 26 oct  1985 defaultAuthProviders.js.map
+-rw-r--r--  1 enric  staff   5879 26 oct  1985 gssapi.js
+-rw-r--r--  1 enric  staff   4837 26 oct  1985 gssapi.js.map
+-rw-r--r--  1 enric  staff   6686 26 oct  1985 mongo_credentials.js
+-rw-r--r--  1 enric  staff   3985 26 oct  1985 mongo_credentials.js.map
+-rw-r--r--  1 enric  staff   1786 26 oct  1985 mongocr.js
+-rw-r--r--  1 enric  staff   1429 26 oct  1985 mongocr.js.map
+-rw-r--r--  1 enric  staff   8322 26 oct  1985 mongodb_aws.js
+-rw-r--r--  1 enric  staff   6460 26 oct  1985 mongodb_aws.js.map
+-rw-r--r--  1 enric  staff   1058 26 oct  1985 plain.js
+-rw-r--r--  1 enric  staff    786 26 oct  1985 plain.js.map
+-rw-r--r--  1 enric  staff  10411 26 oct  1985 scram.js
+-rw-r--r--  1 enric  staff   9718 26 oct  1985 scram.js.map
+-rw-r--r--  1 enric  staff   1541 26 oct  1985 x509.js
+-rw-r--r--  1 enric  staff   1176 26 oct  1985 x509.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/lib/cmap/wire_protocol:
+total 48
+-rw-r--r--  1 enric  staff  3039 26 oct  1985 compression.js
+-rw-r--r--  1 enric  staff  2250 26 oct  1985 compression.js.map
+-rw-r--r--  1 enric  staff   870 26 oct  1985 constants.js
+-rw-r--r--  1 enric  staff   546 26 oct  1985 constants.js.map
+-rw-r--r--  1 enric  staff  2618 26 oct  1985 shared.js
+-rw-r--r--  1 enric  staff  1815 26 oct  1985 shared.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/lib/cursor:
+total 160
+-rw-r--r--  1 enric  staff  23955 26 oct  1985 abstract_cursor.js
+-rw-r--r--  1 enric  staff  17830 26 oct  1985 abstract_cursor.js.map
+-rw-r--r--  1 enric  staff   6570 26 oct  1985 aggregation_cursor.js
+-rw-r--r--  1 enric  staff   3795 26 oct  1985 aggregation_cursor.js.map
+-rw-r--r--  1 enric  staff  14549 26 oct  1985 find_cursor.js
+-rw-r--r--  1 enric  staff   7921 26 oct  1985 find_cursor.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/lib/gridfs:
+total 136
+-rw-r--r--  1 enric  staff  11841 26 oct  1985 download.js
+-rw-r--r--  1 enric  staff   9683 26 oct  1985 download.js.map
+-rw-r--r--  1 enric  staff   6307 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff   4479 26 oct  1985 index.js.map
+-rw-r--r--  1 enric  staff  13814 26 oct  1985 upload.js
+-rw-r--r--  1 enric  staff  11845 26 oct  1985 upload.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/lib/operations:
+total 704
+-rw-r--r--  1 enric  staff   2622 26 oct  1985 add_user.js
+-rw-r--r--  1 enric  staff   2049 26 oct  1985 add_user.js.map
+-rw-r--r--  1 enric  staff   3719 26 oct  1985 aggregate.js
+-rw-r--r--  1 enric  staff   2843 26 oct  1985 aggregate.js.map
+-rw-r--r--  1 enric  staff   1585 26 oct  1985 bulk_write.js
+-rw-r--r--  1 enric  staff   1366 26 oct  1985 bulk_write.js.map
+-rw-r--r--  1 enric  staff   1178 26 oct  1985 collections.js
+-rw-r--r--  1 enric  staff   1053 26 oct  1985 collections.js.map
+-rw-r--r--  1 enric  staff   4411 26 oct  1985 command.js
+-rw-r--r--  1 enric  staff   3133 26 oct  1985 command.js.map
+-rw-r--r--  1 enric  staff   2342 26 oct  1985 common_functions.js
+-rw-r--r--  1 enric  staff   2040 26 oct  1985 common_functions.js.map
+-rw-r--r--  1 enric  staff   3756 26 oct  1985 connect.js
+-rw-r--r--  1 enric  staff   2755 26 oct  1985 connect.js.map
+-rw-r--r--  1 enric  staff   1388 26 oct  1985 count.js
+-rw-r--r--  1 enric  staff   1308 26 oct  1985 count.js.map
+-rw-r--r--  1 enric  staff   1437 26 oct  1985 count_documents.js
+-rw-r--r--  1 enric  staff   1371 26 oct  1985 count_documents.js.map
+-rw-r--r--  1 enric  staff   1795 26 oct  1985 create_collection.js
+-rw-r--r--  1 enric  staff   1508 26 oct  1985 create_collection.js.map
+-rw-r--r--  1 enric  staff   5367 26 oct  1985 delete.js
+-rw-r--r--  1 enric  staff   4579 26 oct  1985 delete.js.map
+-rw-r--r--  1 enric  staff   2572 26 oct  1985 distinct.js
+-rw-r--r--  1 enric  staff   1731 26 oct  1985 distinct.js.map
+-rw-r--r--  1 enric  staff   1607 26 oct  1985 drop.js
+-rw-r--r--  1 enric  staff   1373 26 oct  1985 drop.js.map
+-rw-r--r--  1 enric  staff   2197 26 oct  1985 estimated_document_count.js
+-rw-r--r--  1 enric  staff   1898 26 oct  1985 estimated_document_count.js.map
+-rw-r--r--  1 enric  staff   2143 26 oct  1985 eval.js
+-rw-r--r--  1 enric  staff   1755 26 oct  1985 eval.js.map
+-rw-r--r--  1 enric  staff   7657 26 oct  1985 execute_operation.js
+-rw-r--r--  1 enric  staff   5272 26 oct  1985 execute_operation.js.map
+-rw-r--r--  1 enric  staff   7876 26 oct  1985 find.js
+-rw-r--r--  1 enric  staff   6703 26 oct  1985 find.js.map
+-rw-r--r--  1 enric  staff   6205 26 oct  1985 find_and_modify.js
+-rw-r--r--  1 enric  staff   4440 26 oct  1985 find_and_modify.js.map
+-rw-r--r--  1 enric  staff  12257 26 oct  1985 indexes.js
+-rw-r--r--  1 enric  staff   9818 26 oct  1985 indexes.js.map
+-rw-r--r--  1 enric  staff   4349 26 oct  1985 insert.js
+-rw-r--r--  1 enric  staff   3379 26 oct  1985 insert.js.map
+-rw-r--r--  1 enric  staff   1202 26 oct  1985 is_capped.js
+-rw-r--r--  1 enric  staff   1037 26 oct  1985 is_capped.js.map
+-rw-r--r--  1 enric  staff   4480 26 oct  1985 list_collections.js
+-rw-r--r--  1 enric  staff   3784 26 oct  1985 list_collections.js.map
+-rw-r--r--  1 enric  staff   1243 26 oct  1985 list_databases.js
+-rw-r--r--  1 enric  staff   1046 26 oct  1985 list_databases.js.map
+-rw-r--r--  1 enric  staff   6518 26 oct  1985 map_reduce.js
+-rw-r--r--  1 enric  staff   4688 26 oct  1985 map_reduce.js.map
+-rw-r--r--  1 enric  staff   2329 26 oct  1985 operation.js
+-rw-r--r--  1 enric  staff   1687 26 oct  1985 operation.js.map
+-rw-r--r--  1 enric  staff   1129 26 oct  1985 options_operation.js
+-rw-r--r--  1 enric  staff    982 26 oct  1985 options_operation.js.map
+-rw-r--r--  1 enric  staff   1350 26 oct  1985 profiling_level.js
+-rw-r--r--  1 enric  staff   1081 26 oct  1985 profiling_level.js.map
+-rw-r--r--  1 enric  staff    793 26 oct  1985 remove_user.js
+-rw-r--r--  1 enric  staff    700 26 oct  1985 remove_user.js.map
+-rw-r--r--  1 enric  staff   1869 26 oct  1985 rename.js
+-rw-r--r--  1 enric  staff   1530 26 oct  1985 rename.js.map
+-rw-r--r--  1 enric  staff   1013 26 oct  1985 run_command.js
+-rw-r--r--  1 enric  staff    776 26 oct  1985 run_command.js.map
+-rw-r--r--  1 enric  staff   1886 26 oct  1985 set_profiling_level.js
+-rw-r--r--  1 enric  staff   1540 26 oct  1985 set_profiling_level.js.map
+-rw-r--r--  1 enric  staff   1775 26 oct  1985 stats.js
+-rw-r--r--  1 enric  staff   1308 26 oct  1985 stats.js.map
+-rw-r--r--  1 enric  staff   9152 26 oct  1985 update.js
+-rw-r--r--  1 enric  staff   8174 26 oct  1985 update.js.map
+-rw-r--r--  1 enric  staff   1990 26 oct  1985 validate_collection.js
+-rw-r--r--  1 enric  staff   1730 26 oct  1985 validate_collection.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/lib/sdam:
+total 408
+-rw-r--r--  1 enric  staff   1996 26 oct  1985 common.js
+-rw-r--r--  1 enric  staff   1306 26 oct  1985 common.js.map
+-rw-r--r--  1 enric  staff   3692 26 oct  1985 events.js
+-rw-r--r--  1 enric  staff   1753 26 oct  1985 events.js.map
+-rw-r--r--  1 enric  staff  13396 26 oct  1985 monitor.js
+-rw-r--r--  1 enric  staff  10412 26 oct  1985 monitor.js.map
+-rw-r--r--  1 enric  staff  15174 26 oct  1985 server.js
+-rw-r--r--  1 enric  staff  12097 26 oct  1985 server.js.map
+-rw-r--r--  1 enric  staff   9034 26 oct  1985 server_description.js
+-rw-r--r--  1 enric  staff   6475 26 oct  1985 server_description.js.map
+-rw-r--r--  1 enric  staff   8677 26 oct  1985 server_selection.js
+-rw-r--r--  1 enric  staff   5950 26 oct  1985 server_selection.js.map
+-rw-r--r--  1 enric  staff   3967 26 oct  1985 srv_polling.js
+-rw-r--r--  1 enric  staff   3263 26 oct  1985 srv_polling.js.map
+-rw-r--r--  1 enric  staff  32057 26 oct  1985 topology.js
+-rw-r--r--  1 enric  staff  22885 26 oct  1985 topology.js.map
+-rw-r--r--  1 enric  staff  16299 26 oct  1985 topology_description.js
+-rw-r--r--  1 enric  staff  11326 26 oct  1985 topology_description.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/src:
+total 784
+-rw-r--r--   1 enric  staff  11457 26 oct  1985 admin.ts
+-rw-r--r--   1 enric  staff   2725 26 oct  1985 bson.ts
+drwxr-xr-x   5 enric  staff    160 16 nov 16:05 bulk
+drwxr-xr-x  14 enric  staff    448 16 nov 16:05 cmap
+-rw-r--r--   1 enric  staff  56712 26 oct  1985 collection.ts
+-rw-r--r--   1 enric  staff  33839 26 oct  1985 connection_string.ts
+-rw-r--r--   1 enric  staff    332 26 oct  1985 constants.ts
+drwxr-xr-x   5 enric  staff    160 16 nov 16:05 cursor
+-rw-r--r--   1 enric  staff  26224 26 oct  1985 change_stream.ts
+-rw-r--r--   1 enric  staff  26349 26 oct  1985 db.ts
+-rw-r--r--   1 enric  staff   9665 26 oct  1985 deps.ts
+-rw-r--r--   1 enric  staff   4191 26 oct  1985 encrypter.ts
+-rw-r--r--   1 enric  staff  20547 26 oct  1985 error.ts
+-rw-r--r--   1 enric  staff   1488 26 oct  1985 explain.ts
+drwxr-xr-x   5 enric  staff    160 16 nov 16:05 gridfs
+-rw-r--r--   1 enric  staff  12501 26 oct  1985 index.ts
+-rw-r--r--   1 enric  staff   6984 26 oct  1985 logger.ts
+-rw-r--r--   1 enric  staff  25492 26 oct  1985 mongo_client.ts
+-rw-r--r--   1 enric  staff  13656 26 oct  1985 mongo_types.ts
+drwxr-xr-x  36 enric  staff   1152 16 nov 16:05 operations
+-rw-r--r--   1 enric  staff    974 26 oct  1985 promise_provider.ts
+-rw-r--r--   1 enric  staff   2485 26 oct  1985 read_concern.ts
+-rw-r--r--   1 enric  staff   8886 26 oct  1985 read_preference.ts
+drwxr-xr-x  11 enric  staff    352 16 nov 16:05 sdam
+-rw-r--r--   1 enric  staff  32193 26 oct  1985 sessions.ts
+-rw-r--r--   1 enric  staff   3586 26 oct  1985 sort.ts
+-rw-r--r--   1 enric  staff   5393 26 oct  1985 transactions.ts
+-rw-r--r--   1 enric  staff  39131 26 oct  1985 utils.ts
+-rw-r--r--   1 enric  staff   3435 26 oct  1985 write_concern.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/src/bulk:
+total 96
+-rw-r--r--  1 enric  staff  40006 26 oct  1985 common.ts
+-rw-r--r--  1 enric  staff   3028 26 oct  1985 ordered.ts
+-rw-r--r--  1 enric  staff   4006 26 oct  1985 unordered.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/src/cmap:
+total 272
+drwxr-xr-x  11 enric  staff    352 16 nov 16:05 auth
+-rw-r--r--   1 enric  staff   8949 26 oct  1985 command_monitoring_events.ts
+-rw-r--r--   1 enric  staff  27128 26 oct  1985 commands.ts
+-rw-r--r--   1 enric  staff  13087 26 oct  1985 connect.ts
+-rw-r--r--   1 enric  staff  24726 26 oct  1985 connection.ts
+-rw-r--r--   1 enric  staff  22145 26 oct  1985 connection_pool.ts
+-rw-r--r--   1 enric  staff   4526 26 oct  1985 connection_pool_events.ts
+-rw-r--r--   1 enric  staff    916 26 oct  1985 errors.ts
+-rw-r--r--   1 enric  staff   6950 26 oct  1985 message_stream.ts
+-rw-r--r--   1 enric  staff   1574 26 oct  1985 metrics.ts
+-rw-r--r--   1 enric  staff   2107 26 oct  1985 stream_description.ts
+drwxr-xr-x   5 enric  staff    160 16 nov 16:05 wire_protocol
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/src/cmap/auth:
+total 112
+-rw-r--r--  1 enric  staff   1995 26 oct  1985 auth_provider.ts
+-rw-r--r--  1 enric  staff   1130 26 oct  1985 defaultAuthProviders.ts
+-rw-r--r--  1 enric  staff   5571 26 oct  1985 gssapi.ts
+-rw-r--r--  1 enric  staff   6070 26 oct  1985 mongo_credentials.ts
+-rw-r--r--  1 enric  staff   1445 26 oct  1985 mongocr.ts
+-rw-r--r--  1 enric  staff   8021 26 oct  1985 mongodb_aws.ts
+-rw-r--r--  1 enric  staff    858 26 oct  1985 plain.ts
+-rw-r--r--  1 enric  staff  10212 26 oct  1985 scram.ts
+-rw-r--r--  1 enric  staff   1583 26 oct  1985 x509.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/src/cmap/wire_protocol:
+total 24
+-rw-r--r--  1 enric  staff  2914 26 oct  1985 compression.ts
+-rw-r--r--  1 enric  staff   475 26 oct  1985 constants.ts
+-rw-r--r--  1 enric  staff  2791 26 oct  1985 shared.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/src/cursor:
+total 104
+-rw-r--r--  1 enric  staff  25933 26 oct  1985 abstract_cursor.ts
+-rw-r--r--  1 enric  staff   7223 26 oct  1985 aggregation_cursor.ts
+-rw-r--r--  1 enric  staff  14719 26 oct  1985 find_cursor.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/src/gridfs:
+total 96
+-rw-r--r--  1 enric  staff  13001 26 oct  1985 download.ts
+-rw-r--r--  1 enric  staff   8410 26 oct  1985 index.ts
+-rw-r--r--  1 enric  staff  16447 26 oct  1985 upload.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/src/operations:
+total 432
+-rw-r--r--  1 enric  staff   3366 26 oct  1985 add_user.ts
+-rw-r--r--  1 enric  staff   4842 26 oct  1985 aggregate.ts
+-rw-r--r--  1 enric  staff   1807 26 oct  1985 bulk_write.ts
+-rw-r--r--  1 enric  staff   1318 26 oct  1985 collections.ts
+-rw-r--r--  1 enric  staff   5504 26 oct  1985 command.ts
+-rw-r--r--  1 enric  staff   2827 26 oct  1985 common_functions.ts
+-rw-r--r--  1 enric  staff   3421 26 oct  1985 connect.ts
+-rw-r--r--  1 enric  staff   1915 26 oct  1985 count.ts
+-rw-r--r--  1 enric  staff   1670 26 oct  1985 count_documents.ts
+-rw-r--r--  1 enric  staff   4486 26 oct  1985 create_collection.ts
+-rw-r--r--  1 enric  staff   6350 26 oct  1985 delete.ts
+-rw-r--r--  1 enric  staff   2775 26 oct  1985 distinct.ts
+-rw-r--r--  1 enric  staff   1719 26 oct  1985 drop.ts
+-rw-r--r--  1 enric  staff   2406 26 oct  1985 estimated_document_count.ts
+-rw-r--r--  1 enric  staff   2334 26 oct  1985 eval.ts
+-rw-r--r--  1 enric  staff   8863 26 oct  1985 execute_operation.ts
+-rw-r--r--  1 enric  staff  10707 26 oct  1985 find.ts
+-rw-r--r--  1 enric  staff   9209 26 oct  1985 find_and_modify.ts
+-rw-r--r--  1 enric  staff  15466 26 oct  1985 indexes.ts
+-rw-r--r--  1 enric  staff   5231 26 oct  1985 insert.ts
+-rw-r--r--  1 enric  staff   1288 26 oct  1985 is_capped.ts
+-rw-r--r--  1 enric  staff   4981 26 oct  1985 list_collections.ts
+-rw-r--r--  1 enric  staff   1945 26 oct  1985 list_databases.ts
+-rw-r--r--  1 enric  staff   7881 26 oct  1985 map_reduce.ts
+-rw-r--r--  1 enric  staff   3361 26 oct  1985 operation.ts
+-rw-r--r--  1 enric  staff   1257 26 oct  1985 options_operation.ts
+-rw-r--r--  1 enric  staff   1339 26 oct  1985 profiling_level.ts
+-rw-r--r--  1 enric  staff    948 26 oct  1985 remove_user.ts
+-rw-r--r--  1 enric  staff   2084 26 oct  1985 rename.ts
+-rw-r--r--  1 enric  staff   1150 26 oct  1985 run_command.ts
+-rw-r--r--  1 enric  staff   2044 26 oct  1985 set_profiling_level.ts
+-rw-r--r--  1 enric  staff   9947 26 oct  1985 stats.ts
+-rw-r--r--  1 enric  staff  10799 26 oct  1985 update.ts
+-rw-r--r--  1 enric  staff   2255 26 oct  1985 validate_collection.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb/src/sdam:
+total 256
+-rw-r--r--  1 enric  staff   2123 26 oct  1985 common.ts
+-rw-r--r--  1 enric  staff   4436 26 oct  1985 events.ts
+-rw-r--r--  1 enric  staff  13165 26 oct  1985 monitor.ts
+-rw-r--r--  1 enric  staff  16725 26 oct  1985 server.ts
+-rw-r--r--  1 enric  staff   8012 26 oct  1985 server_description.ts
+-rw-r--r--  1 enric  staff   8977 26 oct  1985 server_selection.ts
+-rw-r--r--  1 enric  staff   4104 26 oct  1985 srv_polling.ts
+-rw-r--r--  1 enric  staff  34624 26 oct  1985 topology.ts
+-rw-r--r--  1 enric  staff  15945 26 oct  1985 topology_description.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb-connection-string-url:
+total 40
+-rw-r--r--  1 enric  staff  10759 26 oct  1985 LICENSE
+-rw-r--r--  1 enric  staff    882 26 oct  1985 README.md
+drwxr-xr-x  5 enric  staff    160 16 nov 16:05 lib
+-rw-r--r--  1 enric  staff   2780 16 nov 16:05 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongodb-connection-string-url/lib:
+total 40
+-rw-r--r--  1 enric  staff  1253 26 oct  1985 index.d.ts
+-rw-r--r--  1 enric  staff  6186 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  5819 26 oct  1985 index.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose:
+total 368
+-rw-r--r--   1 enric  staff    1130 26 oct  1985 LICENSE.md
+-rw-r--r--   1 enric  staff   12845 26 oct  1985 README.md
+-rw-r--r--   1 enric  staff     125 26 oct  1985 SECURITY.md
+-rw-r--r--   1 enric  staff      93 26 oct  1985 browser.js
+-rw-r--r--   1 enric  staff     428 26 oct  1985 build-browser.js
+drwxr-xr-x   3 enric  staff      96 16 nov 16:05 dist
+-rw-r--r--   1 enric  staff  142361 26 oct  1985 index.d.ts
+-rw-r--r--   1 enric  staff      87 26 oct  1985 index.js
+drwxr-xr-x  34 enric  staff    1088 16 nov 16:05 lib
+drwxr-xr-x   3 enric  staff      96 16 nov 16:05 node_modules
+-rw-r--r--   1 enric  staff    6690 16 nov 16:05 package.json
+drwxr-xr-x   5 enric  staff     160 16 nov 16:05 tools
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/dist:
+total 2136
+-rw-r--r--  1 enric  staff  1093105 26 oct  1985 browser.umd.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib:
+total 1640
+-rw-r--r--   1 enric  staff   33391 26 oct  1985 aggregate.js
+-rw-r--r--   1 enric  staff    3196 26 oct  1985 browser.js
+-rw-r--r--   1 enric  staff    2707 26 oct  1985 browserDocument.js
+drwxr-xr-x   8 enric  staff     256 16 nov 16:05 cast
+-rw-r--r--   1 enric  staff   12391 26 oct  1985 cast.js
+-rw-r--r--   1 enric  staff    6647 26 oct  1985 collection.js
+-rw-r--r--   1 enric  staff   45494 26 oct  1985 connection.js
+-rw-r--r--   1 enric  staff     547 26 oct  1985 connectionstate.js
+drwxr-xr-x   5 enric  staff     160 16 nov 16:05 cursor
+-rw-r--r--   1 enric  staff  125611 26 oct  1985 document.js
+-rw-r--r--   1 enric  staff     475 26 oct  1985 document_provider.js
+-rw-r--r--   1 enric  staff     161 26 oct  1985 driver.js
+drwxr-xr-x   5 enric  staff     160 16 nov 16:05 drivers
+drwxr-xr-x  21 enric  staff     672 16 nov 16:05 error
+drwxr-xr-x  42 enric  staff    1344 16 nov 16:05 helpers
+-rw-r--r--   1 enric  staff   42714 26 oct  1985 index.js
+-rw-r--r--   1 enric  staff    1323 26 oct  1985 internal.js
+-rw-r--r--   1 enric  staff  174403 26 oct  1985 model.js
+drwxr-xr-x  17 enric  staff     544 16 nov 16:05 options
+-rw-r--r--   1 enric  staff     232 26 oct  1985 options.js
+drwxr-xr-x   8 enric  staff     256 16 nov 16:05 plugins
+-rw-r--r--   1 enric  staff     677 26 oct  1985 promise_provider.js
+-rw-r--r--   1 enric  staff  168471 26 oct  1985 query.js
+-rw-r--r--   1 enric  staff    8753 26 oct  1985 queryhelpers.js
+drwxr-xr-x  17 enric  staff     544 16 nov 16:05 schema
+-rw-r--r--   1 enric  staff   66748 26 oct  1985 schema.js
+-rw-r--r--   1 enric  staff   47508 26 oct  1985 schematype.js
+-rw-r--r--   1 enric  staff    4425 26 oct  1985 statemachine.js
+drwxr-xr-x  11 enric  staff     352 16 nov 16:05 types
+-rw-r--r--   1 enric  staff   20529 26 oct  1985 utils.js
+-rw-r--r--   1 enric  staff     537 26 oct  1985 validoptions.js
+-rw-r--r--   1 enric  staff    5690 26 oct  1985 virtualtype.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/cast:
+total 48
+-rw-r--r--  1 enric  staff   860 26 oct  1985 boolean.js
+-rw-r--r--  1 enric  staff  1125 26 oct  1985 date.js
+-rw-r--r--  1 enric  staff   828 26 oct  1985 decimal128.js
+-rw-r--r--  1 enric  staff   998 26 oct  1985 number.js
+-rw-r--r--  1 enric  staff   570 26 oct  1985 objectid.js
+-rw-r--r--  1 enric  staff   995 26 oct  1985 string.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/cursor:
+total 64
+-rw-r--r--  1 enric  staff   9449 26 oct  1985 AggregationCursor.js
+-rw-r--r--  1 enric  staff   1125 26 oct  1985 ChangeStream.js
+-rw-r--r--  1 enric  staff  13433 26 oct  1985 QueryCursor.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/drivers:
+total 8
+-rw-r--r--  1 enric  staff   21 26 oct  1985 SPEC.md
+drwxr-xr-x  7 enric  staff  224 16 nov 16:05 browser
+drwxr-xr-x  9 enric  staff  288 16 nov 16:05 node-mongodb-native
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/drivers/browser:
+total 40
+-rw-r--r--  1 enric  staff   66 26 oct  1985 ReadPreference.js
+-rw-r--r--  1 enric  staff  152 26 oct  1985 binary.js
+-rw-r--r--  1 enric  staff   79 26 oct  1985 decimal128.js
+-rw-r--r--  1 enric  staff  446 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  462 26 oct  1985 objectid.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/drivers/node-mongodb-native:
+total 88
+-rw-r--r--  1 enric  staff    777 26 oct  1985 ReadPreference.js
+-rw-r--r--  1 enric  staff    127 26 oct  1985 binary.js
+-rw-r--r--  1 enric  staff  12546 26 oct  1985 collection.js
+-rw-r--r--  1 enric  staff   4516 26 oct  1985 connection.js
+-rw-r--r--  1 enric  staff     82 26 oct  1985 decimal128.js
+-rw-r--r--  1 enric  staff    323 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff    263 26 oct  1985 objectid.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/error:
+total 160
+-rw-r--r--  1 enric  staff   467 26 oct  1985 browserMissingSchema.js
+-rw-r--r--  1 enric  staff  3445 26 oct  1985 cast.js
+-rw-r--r--  1 enric  staff   709 26 oct  1985 disconnected.js
+-rw-r--r--  1 enric  staff  1030 26 oct  1985 divergentArray.js
+-rw-r--r--  1 enric  staff  6945 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  1906 26 oct  1985 messages.js
+-rw-r--r--  1 enric  staff   538 26 oct  1985 missingSchema.js
+-rw-r--r--  1 enric  staff   192 26 oct  1985 mongooseError.js
+-rw-r--r--  1 enric  staff   993 26 oct  1985 notFound.js
+-rw-r--r--  1 enric  staff   637 26 oct  1985 objectExpected.js
+-rw-r--r--  1 enric  staff   668 26 oct  1985 objectParameter.js
+-rw-r--r--  1 enric  staff   468 26 oct  1985 overwriteModel.js
+-rw-r--r--  1 enric  staff   523 26 oct  1985 parallelSave.js
+-rw-r--r--  1 enric  staff   560 26 oct  1985 parallelValidate.js
+-rw-r--r--  1 enric  staff  1896 26 oct  1985 serverSelection.js
+-rw-r--r--  1 enric  staff   670 26 oct  1985 strict.js
+-rw-r--r--  1 enric  staff  2134 26 oct  1985 validation.js
+-rw-r--r--  1 enric  staff  1899 26 oct  1985 validator.js
+-rw-r--r--  1 enric  staff   771 26 oct  1985 version.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers:
+total 208
+drwxr-xr-x   3 enric  staff    96 16 nov 16:05 aggregate
+-rw-r--r--   1 enric  staff   765 26 oct  1985 arrayDepth.js
+-rw-r--r--   1 enric  staff  3827 26 oct  1985 clone.js
+-rw-r--r--   1 enric  staff  2766 26 oct  1985 common.js
+drwxr-xr-x   3 enric  staff    96 16 nov 16:05 cursor
+drwxr-xr-x   7 enric  staff   224 16 nov 16:05 discriminator
+drwxr-xr-x   6 enric  staff   192 16 nov 16:05 document
+-rw-r--r--   1 enric  staff   418 26 oct  1985 each.js
+-rw-r--r--   1 enric  staff  1262 26 oct  1985 get.js
+-rw-r--r--   1 enric  staff   317 26 oct  1985 getConstructorName.js
+-rw-r--r--   1 enric  staff   501 26 oct  1985 getDefaultBulkwriteResult.js
+-rw-r--r--   1 enric  staff   164 26 oct  1985 getFunctionName.js
+-rw-r--r--   1 enric  staff   363 26 oct  1985 immediate.js
+drwxr-xr-x   4 enric  staff   128 16 nov 16:05 indexes
+-rw-r--r--   1 enric  staff   203 26 oct  1985 isAsyncFunction.js
+-rw-r--r--   1 enric  staff   212 26 oct  1985 isBsonType.js
+-rw-r--r--   1 enric  staff   464 26 oct  1985 isMongooseObject.js
+-rw-r--r--   1 enric  staff   311 26 oct  1985 isObject.js
+-rw-r--r--   1 enric  staff   178 26 oct  1985 isPromise.js
+drwxr-xr-x   8 enric  staff   256 16 nov 16:05 model
+-rw-r--r--   1 enric  staff   198 26 oct  1985 once.js
+-rw-r--r--   1 enric  staff   980 26 oct  1985 parallelLimit.js
+drwxr-xr-x   5 enric  staff   160 16 nov 16:05 path
+-rw-r--r--   1 enric  staff  1761 26 oct  1985 pluralize.js
+drwxr-xr-x  15 enric  staff   480 16 nov 16:05 populate
+-rw-r--r--   1 enric  staff   745 26 oct  1985 printJestWarning.js
+-rw-r--r--   1 enric  staff  1884 26 oct  1985 processConnectionOptions.js
+drwxr-xr-x   8 enric  staff   256 16 nov 16:05 projection
+-rw-r--r--   1 enric  staff  1285 26 oct  1985 promiseOrCallback.js
+drwxr-xr-x  17 enric  staff   544 16 nov 16:05 query
+drwxr-xr-x  13 enric  staff   416 16 nov 16:05 schema
+drwxr-xr-x   3 enric  staff    96 16 nov 16:05 schematype
+-rw-r--r--   1 enric  staff  2779 26 oct  1985 setDefaultsOnInsert.js
+-rw-r--r--   1 enric  staff    83 26 oct  1985 specialProperties.js
+-rw-r--r--   1 enric  staff  1170 26 oct  1985 symbols.js
+-rw-r--r--   1 enric  staff    47 26 oct  1985 timers.js
+drwxr-xr-x   3 enric  staff    96 16 nov 16:05 timestamps
+drwxr-xr-x   5 enric  staff   160 16 nov 16:05 topology
+drwxr-xr-x   9 enric  staff   288 16 nov 16:05 update
+-rw-r--r--   1 enric  staff  7709 26 oct  1985 updateValidators.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/aggregate:
+total 8
+-rw-r--r--  1 enric  staff  1427 26 oct  1985 stringifyFunctionOperators.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/cursor:
+total 16
+-rw-r--r--  1 enric  staff  4343 26 oct  1985 eachAsync.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/discriminator:
+total 40
+-rw-r--r--  1 enric  staff  408 26 oct  1985 areDiscriminatorValuesEqual.js
+-rw-r--r--  1 enric  staff  511 26 oct  1985 checkEmbeddedDiscriminatorKeyProjection.js
+-rw-r--r--  1 enric  staff  775 26 oct  1985 getConstructor.js
+-rw-r--r--  1 enric  staff  621 26 oct  1985 getDiscriminatorByValue.js
+-rw-r--r--  1 enric  staff  713 26 oct  1985 getSchemaDiscriminatorByValue.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/document:
+total 40
+-rw-r--r--  1 enric  staff   651 26 oct  1985 cleanModifiedSubpaths.js
+-rw-r--r--  1 enric  staff  5871 26 oct  1985 compile.js
+-rw-r--r--  1 enric  staff  1713 26 oct  1985 getEmbeddedDiscriminatorPath.js
+-rw-r--r--  1 enric  staff   380 26 oct  1985 handleSpreadDoc.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/indexes:
+total 16
+-rw-r--r--  1 enric  staff   443 26 oct  1985 isDefaultIdIndex.js
+-rw-r--r--  1 enric  staff  2856 26 oct  1985 isIndexEqual.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/model:
+total 72
+-rw-r--r--  1 enric  staff  4139 26 oct  1985 applyHooks.js
+-rw-r--r--  1 enric  staff  1788 26 oct  1985 applyMethods.js
+-rw-r--r--  1 enric  staff  2374 26 oct  1985 applyStaticHooks.js
+-rw-r--r--  1 enric  staff   241 26 oct  1985 applyStatics.js
+-rw-r--r--  1 enric  staff  7676 26 oct  1985 castBulkWrite.js
+-rw-r--r--  1 enric  staff  6623 26 oct  1985 discriminator.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/path:
+total 24
+-rw-r--r--  1 enric  staff  1054 26 oct  1985 flattenObjectWithDottedPaths.js
+-rw-r--r--  1 enric  staff   265 26 oct  1985 parentPaths.js
+-rw-r--r--  1 enric  staff   347 26 oct  1985 setDottedPath.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/populate:
+total 168
+-rw-r--r--  1 enric  staff    191 26 oct  1985 SkipPopulateValue.js
+-rw-r--r--  1 enric  staff   3036 26 oct  1985 assignRawDocsToIdStructure.js
+-rw-r--r--  1 enric  staff   9844 26 oct  1985 assignVals.js
+-rw-r--r--  1 enric  staff   2363 26 oct  1985 createPopulateQueryFilter.js
+-rw-r--r--  1 enric  staff  22855 26 oct  1985 getModelsMapForPopulate.js
+-rw-r--r--  1 enric  staff   7880 26 oct  1985 getSchemaTypes.js
+-rw-r--r--  1 enric  staff   1916 26 oct  1985 getVirtual.js
+-rw-r--r--  1 enric  staff     65 26 oct  1985 leanPopulateMap.js
+-rw-r--r--  1 enric  staff    719 26 oct  1985 lookupLocalFields.js
+-rw-r--r--  1 enric  staff   1106 26 oct  1985 markArraySubdocsPopulated.js
+-rw-r--r--  1 enric  staff   2296 26 oct  1985 modelNamesFromRefPath.js
+-rw-r--r--  1 enric  staff    743 26 oct  1985 removeDeselectedForeignField.js
+-rw-r--r--  1 enric  staff    383 26 oct  1985 validateRef.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/projection:
+total 48
+-rw-r--r--  1 enric  staff  435 26 oct  1985 isDefiningProjection.js
+-rw-r--r--  1 enric  staff  678 26 oct  1985 isExclusive.js
+-rw-r--r--  1 enric  staff  774 26 oct  1985 isInclusive.js
+-rw-r--r--  1 enric  staff  731 26 oct  1985 isPathExcluded.js
+-rw-r--r--  1 enric  staff  566 26 oct  1985 isPathSelectedInclusive.js
+-rw-r--r--  1 enric  staff  685 26 oct  1985 parseProjection.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/query:
+total 144
+-rw-r--r--  1 enric  staff    455 26 oct  1985 applyGlobalMaxTimeMS.js
+-rw-r--r--  1 enric  staff   2068 26 oct  1985 applyQueryMiddleware.js
+-rw-r--r--  1 enric  staff   1341 26 oct  1985 castFilterPath.js
+-rw-r--r--  1 enric  staff  15294 26 oct  1985 castUpdate.js
+-rw-r--r--  1 enric  staff   1331 26 oct  1985 completeMany.js
+-rw-r--r--  1 enric  staff   3017 26 oct  1985 getEmbeddedDiscriminatorPath.js
+-rw-r--r--  1 enric  staff    661 26 oct  1985 handleImmutable.js
+-rw-r--r--  1 enric  staff    314 26 oct  1985 hasDollarKeys.js
+-rw-r--r--  1 enric  staff    181 26 oct  1985 isOperator.js
+-rw-r--r--  1 enric  staff    868 26 oct  1985 sanitizeFilter.js
+-rw-r--r--  1 enric  staff    295 26 oct  1985 sanitizeProjection.js
+-rw-r--r--  1 enric  staff   1211 26 oct  1985 selectPopulatedFields.js
+-rw-r--r--  1 enric  staff    267 26 oct  1985 trusted.js
+-rw-r--r--  1 enric  staff    371 26 oct  1985 validOps.js
+-rw-r--r--  1 enric  staff    906 26 oct  1985 wrapThunk.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/schema:
+total 96
+-rw-r--r--  1 enric  staff   172 26 oct  1985 addAutoId.js
+-rw-r--r--  1 enric  staff  1208 26 oct  1985 applyPlugins.js
+-rw-r--r--  1 enric  staff   937 26 oct  1985 applyWriteConcern.js
+-rw-r--r--  1 enric  staff   330 26 oct  1985 cleanPositionalOperators.js
+-rw-r--r--  1 enric  staff  4898 26 oct  1985 getIndexes.js
+-rw-r--r--  1 enric  staff   620 26 oct  1985 getKeysInSchemaOrder.js
+-rw-r--r--  1 enric  staff   793 26 oct  1985 getPath.js
+-rw-r--r--  1 enric  staff   412 26 oct  1985 handleIdOption.js
+-rw-r--r--  1 enric  staff   363 26 oct  1985 handleTimestampOption.js
+-rw-r--r--  1 enric  staff   504 26 oct  1985 idGetter.js
+-rw-r--r--  1 enric  staff   678 26 oct  1985 merge.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/schematype:
+total 8
+-rw-r--r--  1 enric  staff  1208 26 oct  1985 handleImmutable.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/timestamps:
+total 8
+-rw-r--r--  1 enric  staff  3657 26 oct  1985 setupTimestamps.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/topology:
+total 24
+-rw-r--r--  1 enric  staff  395 26 oct  1985 allServersUnknown.js
+-rw-r--r--  1 enric  staff  401 26 oct  1985 isAtlas.js
+-rw-r--r--  1 enric  staff  558 26 oct  1985 isSSLError.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/helpers/update:
+total 64
+-rw-r--r--  1 enric  staff  5600 26 oct  1985 applyTimestampsToChildren.js
+-rw-r--r--  1 enric  staff  3252 26 oct  1985 applyTimestampsToUpdate.js
+-rw-r--r--  1 enric  staff  2584 26 oct  1985 castArrayFilters.js
+-rw-r--r--  1 enric  staff   845 26 oct  1985 modifiedPaths.js
+-rw-r--r--  1 enric  staff  1258 26 oct  1985 moveImmutableProperties.js
+-rw-r--r--  1 enric  staff  1097 26 oct  1985 removeUnusedArrayFilters.js
+-rw-r--r--  1 enric  staff   771 26 oct  1985 updatedPathsByArrayFilter.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/options:
+total 128
+-rw-r--r--  1 enric  staff   828 26 oct  1985 PopulateOptions.js
+-rw-r--r--  1 enric  staff  1348 26 oct  1985 SchemaArrayOptions.js
+-rw-r--r--  1 enric  staff   743 26 oct  1985 SchemaBufferOptions.js
+-rw-r--r--  1 enric  staff  1264 26 oct  1985 SchemaDateOptions.js
+-rw-r--r--  1 enric  staff  1775 26 oct  1985 SchemaDocumentArrayOptions.js
+-rw-r--r--  1 enric  staff  1109 26 oct  1985 SchemaMapOptions.js
+-rw-r--r--  1 enric  staff  2152 26 oct  1985 SchemaNumberOptions.js
+-rw-r--r--  1 enric  staff  1381 26 oct  1985 SchemaObjectIdOptions.js
+-rw-r--r--  1 enric  staff  3548 26 oct  1985 SchemaStringOptions.js
+-rw-r--r--  1 enric  staff  1020 26 oct  1985 SchemaSubdocumentOptions.js
+-rw-r--r--  1 enric  staff  5703 26 oct  1985 SchemaTypeOptions.js
+-rw-r--r--  1 enric  staff  3632 26 oct  1985 VirtualOptions.js
+-rw-r--r--  1 enric  staff   127 26 oct  1985 propertyOptions.js
+-rw-r--r--  1 enric  staff   220 26 oct  1985 removeOptions.js
+-rw-r--r--  1 enric  staff   216 26 oct  1985 saveOptions.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/plugins:
+total 48
+-rw-r--r--  1 enric  staff   612 26 oct  1985 clearValidating.js
+-rw-r--r--  1 enric  staff   642 26 oct  1985 removeSubdocs.js
+-rw-r--r--  1 enric  staff  1412 26 oct  1985 saveSubdocs.js
+-rw-r--r--  1 enric  staff  1666 26 oct  1985 sharding.js
+-rw-r--r--  1 enric  staff  2874 26 oct  1985 trackTransaction.js
+-rw-r--r--  1 enric  staff  1259 26 oct  1985 validateBeforeSave.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/schema:
+total 288
+-rw-r--r--  1 enric  staff   9719 26 oct  1985 SubdocumentPath.js
+-rw-r--r--  1 enric  staff  17972 26 oct  1985 array.js
+-rw-r--r--  1 enric  staff   5863 26 oct  1985 boolean.js
+-rw-r--r--  1 enric  staff   6609 26 oct  1985 buffer.js
+-rw-r--r--  1 enric  staff  10441 26 oct  1985 date.js
+-rw-r--r--  1 enric  staff   4530 26 oct  1985 decimal128.js
+-rw-r--r--  1 enric  staff  16739 26 oct  1985 documentarray.js
+-rw-r--r--  1 enric  staff    701 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff   1715 26 oct  1985 map.js
+-rw-r--r--  1 enric  staff   2750 26 oct  1985 mixed.js
+-rw-r--r--  1 enric  staff  10839 26 oct  1985 number.js
+-rw-r--r--  1 enric  staff   6773 26 oct  1985 objectid.js
+drwxr-xr-x  8 enric  staff    256 16 nov 16:05 operators
+-rw-r--r--  1 enric  staff  18244 26 oct  1985 string.js
+-rw-r--r--  1 enric  staff    152 26 oct  1985 symbols.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/schema/operators:
+total 48
+-rw-r--r--  1 enric  staff   622 26 oct  1985 bitwise.js
+-rw-r--r--  1 enric  staff   203 26 oct  1985 exists.js
+-rw-r--r--  1 enric  staff  2354 26 oct  1985 geospatial.js
+-rw-r--r--  1 enric  staff   495 26 oct  1985 helpers.js
+-rw-r--r--  1 enric  staff  1134 26 oct  1985 text.js
+-rw-r--r--  1 enric  staff   447 26 oct  1985 type.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/types:
+total 88
+-rw-r--r--  1 enric  staff  4064 26 oct  1985 ArraySubdocument.js
+drwxr-xr-x  4 enric  staff   128 16 nov 16:05 DocumentArray
+drwxr-xr-x  5 enric  staff   160 16 nov 16:05 array
+-rw-r--r--  1 enric  staff  5839 26 oct  1985 buffer.js
+-rw-r--r--  1 enric  staff   205 26 oct  1985 decimal128.js
+-rw-r--r--  1 enric  staff   425 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  6054 26 oct  1985 map.js
+-rw-r--r--  1 enric  staff   793 26 oct  1985 objectid.js
+-rw-r--r--  1 enric  staff  8453 26 oct  1985 subdocument.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/types/DocumentArray:
+total 8
+-rw-r--r--  1 enric  staff  3821 26 oct  1985 index.js
+drwxr-xr-x  3 enric  staff    96 16 nov 16:05 methods
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/types/DocumentArray/methods:
+total 24
+-rw-r--r--  1 enric  staff  9728 26 oct  1985 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/types/array:
+total 64
+-rw-r--r--  1 enric  staff  26405 26 oct  1985 ArrayWrapper.js
+-rw-r--r--  1 enric  staff   3332 26 oct  1985 index.js
+drwxr-xr-x  3 enric  staff     96 16 nov 16:05 methods
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/lib/types/array/methods:
+total 56
+-rw-r--r--  1 enric  staff  25999 26 oct  1985 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/node_modules:
+total 0
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 ms
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/node_modules/ms:
+total 32
+-rw-r--r--  1 enric  staff  3023 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1077 16 nov 16:01 license.md
+-rw-r--r--  1 enric  staff  1698 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  2037 16 nov 16:01 readme.md
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mongoose/tools:
+total 24
+-rw-r--r--  1 enric  staff  602 26 oct  1985 auth.js
+-rw-r--r--  1 enric  staff  737 26 oct  1985 repl.js
+-rw-r--r--  1 enric  staff  921 26 oct  1985 sharded.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/morgan:
+total 80
+-rw-r--r--  1 enric  staff   5429 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff   1172 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  11056 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  10765 16 nov 16:01 index.js
+drwxr-xr-x  3 enric  staff     96 16 nov 16:01 node_modules
+-rw-r--r--  1 enric  staff   2412 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/morgan/node_modules:
+total 0
+drwxr-xr-x  8 enric  staff  256 16 nov 16:01 depd
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/morgan/node_modules/depd:
+total 72
+-rw-r--r--  1 enric  staff   2256 16 nov 16:01 History.md
+-rw-r--r--  1 enric  staff   1094 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   9988 16 nov 16:01 Readme.md
+-rw-r--r--  1 enric  staff  10932 16 nov 16:01 index.js
+drwxr-xr-x  3 enric  staff     96 16 nov 16:01 lib
+-rw-r--r--  1 enric  staff   2404 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/morgan/node_modules/depd/lib:
+total 0
+drwxr-xr-x  3 enric  staff  96 16 nov 16:01 browser
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/morgan/node_modules/depd/lib/browser:
+total 8
+-rw-r--r--  1 enric  staff  1512 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mpath:
+total 88
+-rw-r--r--  1 enric  staff  2269 26 oct  1985 History.md
+-rw-r--r--  1 enric  staff  1112 26 oct  1985 LICENSE
+-rw-r--r--  1 enric  staff    36 26 oct  1985 Makefile
+-rw-r--r--  1 enric  staff  6941 26 oct  1985 README.md
+-rw-r--r--  1 enric  staff   256 26 oct  1985 SECURITY.md
+-rw-r--r--  1 enric  staff  3351 26 oct  1985 bench.js
+-rw-r--r--  1 enric  staff     0 26 oct  1985 bench.log
+-rw-r--r--  1 enric  staff  4142 26 oct  1985 bench.out
+-rw-r--r--  1 enric  staff    60 26 oct  1985 index.js
+drwxr-xr-x  4 enric  staff   128 16 nov 16:05 lib
+-rw-r--r--  1 enric  staff  4033 16 nov 16:05 package.json
+drwxr-xr-x  5 enric  staff   160 16 nov 16:05 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mpath/lib:
+total 32
+-rw-r--r--  1 enric  staff  8605 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  1394 26 oct  1985 stringToParts.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mpath/test:
+total 136
+-rw-r--r--  1 enric  staff  63884 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff   1072 26 oct  1985 stringToParts.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mquery:
+total 128
+-rw-r--r--  1 enric  staff  10212 26 oct  1985 History.md
+-rw-r--r--  1 enric  staff   1112 26 oct  1985 LICENSE
+-rw-r--r--  1 enric  staff    546 26 oct  1985 Makefile
+-rw-r--r--  1 enric  staff  36558 26 oct  1985 README.md
+-rw-r--r--  1 enric  staff    125 26 oct  1985 SECURITY.md
+drwxr-xr-x  7 enric  staff    224 16 nov 16:05 lib
+drwxr-xr-x  4 enric  staff    128 16 nov 16:05 node_modules
+-rw-r--r--  1 enric  staff   1733 16 nov 16:05 package.json
+drwxr-xr-x  7 enric  staff    224 16 nov 16:05 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mquery/lib:
+total 192
+drwxr-xr-x  5 enric  staff    160 16 nov 16:05 collection
+-rw-r--r--  1 enric  staff    662 26 oct  1985 env.js
+-rw-r--r--  1 enric  staff  81381 26 oct  1985 mquery.js
+-rw-r--r--  1 enric  staff   1755 26 oct  1985 permissions.js
+-rw-r--r--  1 enric  staff   7623 26 oct  1985 utils.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mquery/lib/collection:
+total 24
+-rw-r--r--  1 enric  staff   814 26 oct  1985 collection.js
+-rw-r--r--  1 enric  staff   249 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  3201 26 oct  1985 node.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mquery/node_modules:
+total 0
+drwxr-xr-x  6 enric  staff  192 16 nov 16:05 debug
+drwxr-xr-x  6 enric  staff  192 16 nov 16:05 ms
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mquery/node_modules/debug:
+total 64
+-rw-r--r--  1 enric  staff   1107 26 oct  1985 LICENSE
+-rw-r--r--  1 enric  staff  21551 26 oct  1985 README.md
+-rw-r--r--  1 enric  staff   2452 16 nov 16:05 package.json
+drwxr-xr-x  6 enric  staff    192 16 nov 16:05 src
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mquery/node_modules/debug/src:
+total 56
+-rw-r--r--  1 enric  staff  6010 26 oct  1985 browser.js
+-rw-r--r--  1 enric  staff  6298 26 oct  1985 common.js
+-rw-r--r--  1 enric  staff   314 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  4685 26 oct  1985 node.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mquery/node_modules/ms:
+total 32
+-rw-r--r--  1 enric  staff  3023 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  1077 26 oct  1985 license.md
+-rw-r--r--  1 enric  staff  1674 16 nov 16:05 package.json
+-rw-r--r--  1 enric  staff  2037 26 oct  1985 readme.md
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mquery/test:
+total 200
+drwxr-xr-x  5 enric  staff    160 16 nov 16:05 collection
+-rw-r--r--  1 enric  staff    459 26 oct  1985 env.js
+-rw-r--r--  1 enric  staff  92452 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff   4067 26 oct  1985 utils.test.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/mquery/test/collection:
+total 8
+-rw-r--r--  1 enric  staff    0 26 oct  1985 browser.js
+-rw-r--r--  1 enric  staff    0 26 oct  1985 mongo.js
+-rw-r--r--  1 enric  staff  606 26 oct  1985 node.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/ms:
+total 32
+-rw-r--r--  1 enric  staff  2764 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1077 16 nov 16:01 license.md
+-rw-r--r--  1 enric  staff  1644 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  1721 16 nov 16:01 readme.md
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/negotiator:
+total 48
+-rw-r--r--  1 enric  staff  2406 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1177 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  4811 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  3344 16 nov 16:01 index.js
+drwxr-xr-x  6 enric  staff   192 16 nov 16:01 lib
+-rw-r--r--  1 enric  staff  2214 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/negotiator/lib:
+total 40
+-rw-r--r--  1 enric  staff  3081 16 nov 16:01 charset.js
+-rw-r--r--  1 enric  staff  3506 16 nov 16:01 encoding.js
+-rw-r--r--  1 enric  staff  3408 16 nov 16:01 language.js
+-rw-r--r--  1 enric  staff  5358 16 nov 16:01 mediaType.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/node-cleanup:
+total 56
+-rw-r--r--  1 enric  staff   1071 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  11070 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   5835 16 nov 16:01 node-cleanup.js
+-rw-r--r--  1 enric  staff   1738 16 nov 16:01 package.json
+drwxr-xr-x  7 enric  staff    224 16 nov 16:01 tests
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/node-cleanup/tests:
+total 56
+drwxr-xr-x  5 enric  staff    160 16 nov 16:01 bin
+drwxr-xr-x  3 enric  staff     96 16 nov 16:01 lib
+-rw-r--r--  1 enric  staff   8768 16 nov 16:01 multiple.js
+-rw-r--r--  1 enric  staff   3955 16 nov 16:01 nocleanup.js
+-rw-r--r--  1 enric  staff  10220 16 nov 16:01 single.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/node-cleanup/tests/bin:
+total 32
+-rw-r--r--  1 enric  staff   731 16 nov 16:01 grandchild.js
+-rw-r--r--  1 enric  staff  4342 16 nov 16:01 groupable.js
+-rw-r--r--  1 enric  staff  2701 16 nov 16:01 stackable.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/node-cleanup/tests/lib:
+total 16
+-rw-r--r--  1 enric  staff  4121 16 nov 16:01 library.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/object-assign:
+total 32
+-rw-r--r--  1 enric  staff  2108 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1119 16 nov 16:01 license
+-rw-r--r--  1 enric  staff  1819 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  1502 16 nov 16:01 readme.md
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/on-finished:
+total 48
+-rw-r--r--  1 enric  staff  1694 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1167 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  4886 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  3686 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2061 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/on-headers:
+total 40
+-rw-r--r--  1 enric  staff   387 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1089 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  2155 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  2664 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2349 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/parseurl:
+total 40
+-rw-r--r--  1 enric  staff  1043 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1173 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  4094 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  2809 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2369 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/path-key:
+total 40
+-rw-r--r--  1 enric  staff  1032 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff   415 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1109 16 nov 16:01 license
+-rw-r--r--  1 enric  staff  1776 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  1347 16 nov 16:01 readme.md
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/path-to-regexp:
+total 40
+-rw-r--r--  1 enric  staff   694 16 nov 16:01 History.md
+-rw-r--r--  1 enric  staff  1103 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1102 16 nov 16:01 Readme.md
+-rw-r--r--  1 enric  staff  3328 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1558 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/pause-stream:
+total 56
+-rw-r--r--  1 enric  staff  12544 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff     74 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff   1762 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff    878 16 nov 16:01 readme.markdown
+drwxr-xr-x  4 enric  staff    128 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/pause-stream/test:
+total 16
+-rw-r--r--  1 enric  staff  417 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  423 16 nov 16:01 pause-end.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/proxy-addr:
+total 56
+-rw-r--r--  1 enric  staff  2869 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1094 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  4400 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  6000 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2308 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/ps-tree:
+total 40
+-rw-r--r--  1 enric  staff   172 16 nov 16:01 CHANGELOG.md
+-rw-r--r--  1 enric  staff  1115 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  3340 16 nov 16:01 README.md
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 bin
+-rw-r--r--  1 enric  staff  3129 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2336 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/ps-tree/bin:
+total 8
+-rw-r--r--  1 enric  staff  257 16 nov 16:01 ps-tree.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/punycode:
+total 96
+-rw-r--r--  1 enric  staff   1077 15 mar  2018 LICENSE-MIT.txt
+-rw-r--r--  1 enric  staff   4941 22 may  2018 README.md
+-rw-r--r--  1 enric  staff   2058 16 nov 16:05 package.json
+-rw-r--r--  1 enric  staff  12630 22 may  2018 punycode.es6.js
+-rw-r--r--  1 enric  staff  12561 22 may  2018 punycode.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/qs:
+total 88
+-rw-r--r--  1 enric  staff  14655 16 nov 16:01 CHANGELOG.md
+-rw-r--r--  1 enric  staff   1654 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  18228 16 nov 16:01 README.md
+drwxr-xr-x  3 enric  staff     96 16 nov 16:01 dist
+drwxr-xr-x  7 enric  staff    224 16 nov 16:01 lib
+-rw-r--r--  1 enric  staff   2419 16 nov 16:01 package.json
+drwxr-xr-x  7 enric  staff    224 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/qs/dist:
+total 56
+-rw-r--r--  1 enric  staff  24660 16 nov 16:01 qs.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/qs/lib:
+total 80
+-rw-r--r--  1 enric  staff   387 16 nov 16:01 formats.js
+-rw-r--r--  1 enric  staff   211 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  8492 16 nov 16:01 parse.js
+-rw-r--r--  1 enric  staff  8230 16 nov 16:01 stringify.js
+-rw-r--r--  1 enric  staff  6204 16 nov 16:01 utils.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/qs/test:
+total 128
+-rw-r--r--  1 enric  staff     81 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  27758 16 nov 16:01 parse.js
+-rw-r--r--  1 enric  staff  24073 16 nov 16:01 stringify.js
+-rw-r--r--  1 enric  staff   5096 16 nov 16:01 utils.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/range-parser:
+total 40
+-rw-r--r--  1 enric  staff   917 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1178 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  2278 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  2900 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2466 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/raw-body:
+total 72
+-rw-r--r--  1 enric  staff  5354 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1181 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  6339 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  2286 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff  6059 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2662 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/regexp-clone:
+total 48
+-rw-r--r--  1 enric  staff    59 16 nov 16:01 History.md
+-rw-r--r--  1 enric  staff  1112 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff    76 16 nov 16:01 Makefile
+-rw-r--r--  1 enric  staff   955 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   698 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1532 16 nov 16:01 package.json
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/regexp-clone/test:
+total 8
+-rw-r--r--  1 enric  staff  3733 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/safe-buffer:
+total 88
+-rw-r--r--  1 enric  staff   1081 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  19555 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   8738 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff   1529 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff   1805 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/safer-buffer:
+total 120
+-rw-r--r--  1 enric  staff   1094 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  12794 16 nov 16:01 Porting-Buffer.md
+-rw-r--r--  1 enric  staff   8261 16 nov 16:01 Readme.md
+-rw-r--r--  1 enric  staff   1483 16 nov 16:01 dangerous.js
+-rw-r--r--  1 enric  staff   1784 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff   2110 16 nov 16:01 safer.js
+-rw-r--r--  1 enric  staff  15735 16 nov 16:01 tests.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/saslprep:
+total 712
+-rw-r--r--  1 enric  staff     587 16 nov 16:01 CHANGELOG.md
+-rw-r--r--  1 enric  staff    1060 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  419864 16 nov 16:01 code-points.mem
+-rw-r--r--  1 enric  staff    1361 16 nov 16:01 generate-code-points.js
+-rw-r--r--  1 enric  staff    3955 16 nov 16:01 index.js
+drwxr-xr-x  5 enric  staff     160 16 nov 16:01 lib
+-rw-r--r--  1 enric  staff    2448 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff    1071 16 nov 16:01 readme.md
+drwxr-xr-x  4 enric  staff     128 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/saslprep/lib:
+total 64
+-rw-r--r--  1 enric  staff  23986 16 nov 16:01 code-points.js
+-rw-r--r--  1 enric  staff    969 16 nov 16:01 memory-code-points.js
+-rw-r--r--  1 enric  staff    344 16 nov 16:01 util.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/saslprep/test:
+total 16
+-rw-r--r--  1 enric  staff  2160 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff   354 16 nov 16:01 util.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/send:
+total 120
+-rw-r--r--  1 enric  staff  12643 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff   1128 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   9442 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  23287 16 nov 16:01 index.js
+drwxr-xr-x  3 enric  staff     96 16 nov 16:01 node_modules
+-rw-r--r--  1 enric  staff   2861 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/send/node_modules:
+total 0
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 ms
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/send/node_modules/ms:
+total 32
+-rw-r--r--  1 enric  staff  3034 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1077 16 nov 16:01 license.md
+-rw-r--r--  1 enric  staff  1690 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  2002 16 nov 16:01 readme.md
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/serve-static:
+total 72
+-rw-r--r--  1 enric  staff  10083 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff   1189 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   7783 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   4570 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff   2412 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/setprototypeof:
+total 40
+-rw-r--r--  1 enric  staff   727 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   850 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff    93 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff   384 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2124 16 nov 16:01 package.json
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/setprototypeof/test:
+total 8
+-rw-r--r--  1 enric  staff  690 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/shebang-command:
+total 32
+-rw-r--r--  1 enric  staff   387 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1116 16 nov 16:01 license
+-rw-r--r--  1 enric  staff  1735 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff   495 16 nov 16:01 readme.md
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/shebang-regex:
+total 40
+-rw-r--r--  1 enric  staff   446 16 nov 16:01 index.d.ts
+-rw-r--r--  1 enric  staff    42 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1109 16 nov 16:01 license
+-rw-r--r--  1 enric  staff  1759 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff   649 16 nov 16:01 readme.md
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/sift:
+total 256
+-rw-r--r--  1 enric  staff   1056 26 oct  1985 MIT-LICENSE.txt
+-rwxr-xr-x  1 enric  staff  10029 26 oct  1985 README.md
+-rw-r--r--  1 enric  staff   2285 26 oct  1985 changelog.md
+drwxr-xr-x  4 enric  staff    128 16 nov 16:05 es
+drwxr-xr-x  4 enric  staff    128 16 nov 16:05 es5m
+-rw-r--r--  1 enric  staff     71 26 oct  1985 index.d.ts
+-rw-r--r--  1 enric  staff     97 26 oct  1985 index.js
+drwxr-xr-x  8 enric  staff    256 16 nov 16:05 lib
+-rw-r--r--  1 enric  staff   2509 16 nov 16:05 package.json
+-rw-r--r--  1 enric  staff  27806 26 oct  1985 sift.csp.min.js
+-rw-r--r--  1 enric  staff  30685 26 oct  1985 sift.csp.min.js.map
+-rw-r--r--  1 enric  staff  10808 26 oct  1985 sift.min.js
+-rw-r--r--  1 enric  staff  23490 26 oct  1985 sift.min.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/sift/es:
+total 80
+-rw-r--r--  1 enric  staff  17646 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  17495 26 oct  1985 index.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/sift/es5m:
+total 112
+-rw-r--r--  1 enric  staff  24345 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  30709 26 oct  1985 index.js.map
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/sift/lib:
+total 160
+-rw-r--r--  1 enric  staff   5059 26 oct  1985 core.d.ts
+-rw-r--r--  1 enric  staff    775 26 oct  1985 index.d.ts
+-rw-r--r--  1 enric  staff  27914 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  30810 26 oct  1985 index.js.map
+-rw-r--r--  1 enric  staff   3849 26 oct  1985 operations.d.ts
+-rw-r--r--  1 enric  staff    562 26 oct  1985 utils.d.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/sliced:
+total 40
+-rw-r--r--  1 enric  staff   842 16 nov 16:01 History.md
+-rw-r--r--  1 enric  staff  1112 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  2539 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   565 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1564 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/sparse-bitfield:
+total 40
+-rw-r--r--  1 enric  staff  1079 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1773 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  2303 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1648 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  1976 16 nov 16:01 test.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/split:
+total 32
+-rw-r--r--  1 enric  staff  1070 16 nov 16:01 LICENCE
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 examples
+-rw-r--r--  1 enric  staff  1515 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1577 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  1573 16 nov 16:01 readme.markdown
+drwxr-xr-x  6 enric  staff   192 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/split/examples:
+total 8
+-rw-r--r--  1 enric  staff  837 16 nov 16:01 pretty.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/split/test:
+total 32
+-rw-r--r--  1 enric  staff   438 16 nov 16:01 options.asynct.js
+-rw-r--r--  1 enric  staff   743 16 nov 16:01 partitioned_unicode.js
+-rw-r--r--  1 enric  staff  3532 16 nov 16:01 split.asynct.js
+-rw-r--r--  1 enric  staff  1105 16 nov 16:01 try_catch.asynct.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/statuses:
+total 48
+-rw-r--r--  1 enric  staff  1023 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1172 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  3458 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1821 16 nov 16:01 codes.json
+-rw-r--r--  1 enric  staff  2088 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2607 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/stream-combiner:
+total 32
+-rw-r--r--  1 enric  staff  1073 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff   890 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   912 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1628 16 nov 16:01 package.json
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/stream-combiner/test:
+total 8
+-rw-r--r--  1 enric  staff  1047 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/string-argv:
+total 32
+-rw-r--r--  1 enric  staff  1080 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1599 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1303 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1925 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/strip-ansi:
+total 40
+-rw-r--r--  1 enric  staff   369 26 oct  1985 index.d.ts
+-rw-r--r--  1 enric  staff   154 26 oct  1985 index.js
+-rw-r--r--  1 enric  staff  1109 26 oct  1985 license
+-rw-r--r--  1 enric  staff  1919 16 nov 16:52 package.json
+-rw-r--r--  1 enric  staff  1599 26 oct  1985 readme.md
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/through:
+total 40
+-rw-r--r--  1 enric  staff   586 16 nov 16:01 LICENSE.APACHE2
+-rw-r--r--  1 enric  staff  1088 16 nov 16:01 LICENSE.MIT
+-rw-r--r--  1 enric  staff  2619 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1746 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  1665 16 nov 16:01 readme.markdown
+drwxr-xr-x  7 enric  staff   224 16 nov 16:01 test
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/through/test:
+total 40
+-rw-r--r--  1 enric  staff   629 16 nov 16:01 async.js
+-rw-r--r--  1 enric  staff   516 16 nov 16:01 auto-destroy.js
+-rw-r--r--  1 enric  staff  1510 16 nov 16:01 buffering.js
+-rw-r--r--  1 enric  staff   707 16 nov 16:01 end.js
+-rw-r--r--  1 enric  staff  2365 16 nov 16:01 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/toidentifier:
+total 32
+-rw-r--r--  1 enric  staff  1108 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1718 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   490 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2240 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/tr46:
+total 40
+-rw-r--r--  1 enric  staff  1076 26 oct  1985 LICENSE.md
+-rw-r--r--  1 enric  staff  2113 26 oct  1985 README.md
+-rw-r--r--  1 enric  staff  7357 26 oct  1985 index.js
+drwxr-xr-x  5 enric  staff   160 16 nov 16:05 lib
+-rw-r--r--  1 enric  staff  2124 16 nov 16:05 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/tr46/lib:
+total 416
+-rw-r--r--  1 enric  staff  137190 26 oct  1985 mappingTable.json
+-rw-r--r--  1 enric  staff   66248 26 oct  1985 regexes.js
+-rw-r--r--  1 enric  staff     180 26 oct  1985 statusMapping.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/tsc-watch:
+total 64
+-rw-r--r--   1 enric  staff  3796 26 oct  1985 CHANGELOG.md
+-rw-r--r--   1 enric  staff  1084 26 oct  1985 LICENSE
+-rw-r--r--   1 enric  staff  3906 26 oct  1985 README.md
+-rw-r--r--   1 enric  staff    43 26 oct  1985 client.js
+drwxr-xr-x   5 enric  staff   160 16 nov 16:52 example
+-rwxr-xr-x   1 enric  staff    49 26 oct  1985 index.js
+drwxr-xr-x   8 enric  staff   256 16 nov 16:52 lib
+-rw-r--r--   1 enric  staff  1945 16 nov 16:52 package.json
+-rw-r--r--   1 enric  staff  2449 26 oct  1985 release.js
+drwxr-xr-x  10 enric  staff   320 16 nov 16:52 test
+-rw-r--r--   1 enric  staff  1008 26 oct  1985 tsc-watch-client-example.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/tsc-watch/example:
+total 24
+-rw-r--r--  1 enric  staff  106 26 oct  1985 main.js
+-rw-r--r--  1 enric  staff  108 26 oct  1985 main.ts
+-rw-r--r--  1 enric  staff  198 26 oct  1985 tsconfig.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/tsc-watch/lib:
+total 56
+-rw-r--r--  1 enric  staff  2367 26 oct  1985 args-manager.js
+-rw-r--r--  1 enric  staff  1064 26 oct  1985 client.js
+-rw-r--r--  1 enric  staff   845 26 oct  1985 killer.js
+-rw-r--r--  1 enric  staff   625 26 oct  1985 runner.js
+-rw-r--r--  1 enric  staff  3621 26 oct  1985 stdout-manipulator.js
+-rw-r--r--  1 enric  staff  4884 26 oct  1985 tsc-watch.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/tsc-watch/test:
+total 56
+-rw-r--r--  1 enric  staff  3802 26 oct  1985 args-manager.it.js
+-rw-r--r--  1 enric  staff  1667 26 oct  1985 client.it.js
+-rw-r--r--  1 enric  staff  1470 26 oct  1985 driver.js
+drwxr-xr-x  4 enric  staff   128 16 nov 16:52 fixtures
+-rw-r--r--  1 enric  staff   194 26 oct  1985 hooks.js
+-rw-r--r--  1 enric  staff    16 26 oct  1985 mocha.opts
+-rw-r--r--  1 enric  staff   683 26 oct  1985 runner.it.js
+-rw-r--r--  1 enric  staff  1739 26 oct  1985 tsc-watch.it.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/tsc-watch/test/fixtures:
+total 16
+-rw-r--r--  1 enric  staff  11 26 oct  1985 failing.ts
+-rw-r--r--  1 enric  staff  12 26 oct  1985 passing.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/type-is:
+total 64
+-rw-r--r--  1 enric  staff  5447 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1172 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  5183 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  5562 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2293 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript:
+total 168
+-rw-r--r--   1 enric  staff   7989 16 nov 16:01 AUTHORS.md
+-rw-r--r--   1 enric  staff    333 16 nov 16:01 CODE_OF_CONDUCT.md
+-rw-r--r--   1 enric  staff    812 16 nov 16:01 CopyrightNotice.txt
+-rw-r--r--   1 enric  staff   9142 16 nov 16:01 LICENSE.txt
+-rw-r--r--   1 enric  staff   5504 16 nov 16:01 README.md
+-rw-r--r--   1 enric  staff  37574 16 nov 16:01 ThirdPartyNoticeText.txt
+drwxr-xr-x   4 enric  staff    128 16 nov 16:01 bin
+drwxr-xr-x  82 enric  staff   2624 16 nov 16:01 lib
+drwxr-xr-x   3 enric  staff     96 16 nov 16:01 loc
+-rw-r--r--   1 enric  staff   4776 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/bin:
+total 16
+-rw-r--r--  1 enric  staff  45 16 nov 16:01 tsc
+-rw-r--r--  1 enric  staff  50 16 nov 16:01 tsserver
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib:
+total 100000
+-rw-r--r--  1 enric  staff      270 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff     2890 16 nov 16:01 cancellationToken.js
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 cs
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 de
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 es
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 fr
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 it
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 ja
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 ko
+-rw-r--r--  1 enric  staff      994 16 nov 16:01 lib.d.ts
+-rw-r--r--  1 enric  staff   835914 16 nov 16:01 lib.dom.d.ts
+-rw-r--r--  1 enric  staff    13658 16 nov 16:01 lib.dom.iterable.d.ts
+-rw-r--r--  1 enric  staff     2833 16 nov 16:01 lib.es2015.collection.d.ts
+-rw-r--r--  1 enric  staff    19924 16 nov 16:01 lib.es2015.core.d.ts
+-rw-r--r--  1 enric  staff     1243 16 nov 16:01 lib.es2015.d.ts
+-rw-r--r--  1 enric  staff     2554 16 nov 16:01 lib.es2015.generator.d.ts
+-rw-r--r--  1 enric  staff    15218 16 nov 16:01 lib.es2015.iterable.d.ts
+-rw-r--r--  1 enric  staff     7146 16 nov 16:01 lib.es2015.promise.d.ts
+-rw-r--r--  1 enric  staff     1954 16 nov 16:01 lib.es2015.proxy.d.ts
+-rw-r--r--  1 enric  staff     1906 16 nov 16:01 lib.es2015.reflect.d.ts
+-rw-r--r--  1 enric  staff     1650 16 nov 16:01 lib.es2015.symbol.d.ts
+-rw-r--r--  1 enric  staff    10294 16 nov 16:01 lib.es2015.symbol.wellknown.d.ts
+-rw-r--r--  1 enric  staff     4863 16 nov 16:01 lib.es2016.array.include.d.ts
+-rw-r--r--  1 enric  staff      930 16 nov 16:01 lib.es2016.d.ts
+-rw-r--r--  1 enric  staff     1033 16 nov 16:01 lib.es2016.full.d.ts
+-rw-r--r--  1 enric  staff     1085 16 nov 16:01 lib.es2017.d.ts
+-rw-r--r--  1 enric  staff     1033 16 nov 16:01 lib.es2017.full.d.ts
+-rw-r--r--  1 enric  staff     1246 16 nov 16:01 lib.es2017.intl.d.ts
+-rw-r--r--  1 enric  staff     2453 16 nov 16:01 lib.es2017.object.d.ts
+-rw-r--r--  1 enric  staff     6341 16 nov 16:01 lib.es2017.sharedmemory.d.ts
+-rw-r--r--  1 enric  staff     2380 16 nov 16:01 lib.es2017.string.d.ts
+-rw-r--r--  1 enric  staff     1427 16 nov 16:01 lib.es2017.typedarrays.d.ts
+-rw-r--r--  1 enric  staff     2689 16 nov 16:01 lib.es2018.asyncgenerator.d.ts
+-rw-r--r--  1 enric  staff     1748 16 nov 16:01 lib.es2018.asynciterable.d.ts
+-rw-r--r--  1 enric  staff     1090 16 nov 16:01 lib.es2018.d.ts
+-rw-r--r--  1 enric  staff     1033 16 nov 16:01 lib.es2018.full.d.ts
+-rw-r--r--  1 enric  staff     2244 16 nov 16:01 lib.es2018.intl.d.ts
+-rw-r--r--  1 enric  staff     1354 16 nov 16:01 lib.es2018.promise.d.ts
+-rw-r--r--  1 enric  staff     1229 16 nov 16:01 lib.es2018.regexp.d.ts
+-rw-r--r--  1 enric  staff     3175 16 nov 16:01 lib.es2019.array.d.ts
+-rw-r--r--  1 enric  staff     1037 16 nov 16:01 lib.es2019.d.ts
+-rw-r--r--  1 enric  staff     1034 16 nov 16:01 lib.es2019.full.d.ts
+-rw-r--r--  1 enric  staff     1474 16 nov 16:01 lib.es2019.object.d.ts
+-rw-r--r--  1 enric  staff     1334 16 nov 16:01 lib.es2019.string.d.ts
+-rw-r--r--  1 enric  staff     1008 16 nov 16:01 lib.es2019.symbol.d.ts
+-rw-r--r--  1 enric  staff    35199 16 nov 16:01 lib.es2020.bigint.d.ts
+-rw-r--r--  1 enric  staff     1085 16 nov 16:01 lib.es2020.d.ts
+-rw-r--r--  1 enric  staff     1034 16 nov 16:01 lib.es2020.full.d.ts
+-rw-r--r--  1 enric  staff    14683 16 nov 16:01 lib.es2020.intl.d.ts
+-rw-r--r--  1 enric  staff     1870 16 nov 16:01 lib.es2020.promise.d.ts
+-rw-r--r--  1 enric  staff     1239 16 nov 16:01 lib.es2020.string.d.ts
+-rw-r--r--  1 enric  staff     1450 16 nov 16:01 lib.es2020.symbol.wellknown.d.ts
+-rw-r--r--  1 enric  staff   206048 16 nov 16:01 lib.es5.d.ts
+-rw-r--r--  1 enric  staff     1034 16 nov 16:01 lib.es6.d.ts
+-rw-r--r--  1 enric  staff      999 16 nov 16:01 lib.esnext.d.ts
+-rw-r--r--  1 enric  staff     1033 16 nov 16:01 lib.esnext.full.d.ts
+-rw-r--r--  1 enric  staff     1246 16 nov 16:01 lib.esnext.intl.d.ts
+-rw-r--r--  1 enric  staff     1780 16 nov 16:01 lib.esnext.promise.d.ts
+-rw-r--r--  1 enric  staff     1594 16 nov 16:01 lib.esnext.string.d.ts
+-rw-r--r--  1 enric  staff     9455 16 nov 16:01 lib.scripthost.d.ts
+-rw-r--r--  1 enric  staff   257815 16 nov 16:01 lib.webworker.d.ts
+-rw-r--r--  1 enric  staff     1044 16 nov 16:01 lib.webworker.importscripts.d.ts
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 pl
+-rw-r--r--  1 enric  staff    94730 16 nov 16:01 protocol.d.ts
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 pt-br
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 ru
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 tr
+-rw-r--r--  1 enric  staff  5007989 16 nov 16:01 tsc.js
+-rw-r--r--  1 enric  staff  9399976 16 nov 16:01 tsserver.js
+-rw-r--r--  1 enric  staff   578718 16 nov 16:01 tsserverlibrary.d.ts
+-rw-r--r--  1 enric  staff  9365177 16 nov 16:01 tsserverlibrary.js
+-rw-r--r--  1 enric  staff    16786 16 nov 16:01 typesMap.json
+-rw-r--r--  1 enric  staff   442899 16 nov 16:01 typescript.d.ts
+-rw-r--r--  1 enric  staff  8790560 16 nov 16:01 typescript.js
+-rw-r--r--  1 enric  staff   442886 16 nov 16:01 typescriptServices.d.ts
+-rw-r--r--  1 enric  staff  8790567 16 nov 16:01 typescriptServices.js
+-rw-r--r--  1 enric  staff  6600007 16 nov 16:01 typingsInstaller.js
+-rw-r--r--  1 enric  staff     1135 16 nov 16:01 watchGuard.js
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 zh-cn
+drwxr-xr-x  3 enric  staff       96 16 nov 16:01 zh-tw
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/cs:
+total 424
+-rw-r--r--  1 enric  staff  215191 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/de:
+total 456
+-rw-r--r--  1 enric  staff  232044 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/es:
+total 448
+-rw-r--r--  1 enric  staff  229185 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/fr:
+total 456
+-rw-r--r--  1 enric  staff  230248 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/it:
+total 456
+-rw-r--r--  1 enric  staff  229499 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/ja:
+total 512
+-rw-r--r--  1 enric  staff  258368 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/ko:
+total 464
+-rw-r--r--  1 enric  staff  235939 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/pl:
+total 456
+-rw-r--r--  1 enric  staff  230663 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/pt-br:
+total 440
+-rw-r--r--  1 enric  staff  222753 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/ru:
+total 592
+-rw-r--r--  1 enric  staff  300277 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/tr:
+total 440
+-rw-r--r--  1 enric  staff  222812 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/zh-cn:
+total 400
+-rw-r--r--  1 enric  staff  201111 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/lib/zh-tw:
+total 392
+-rw-r--r--  1 enric  staff  197022 16 nov 16:01 diagnosticMessages.generated.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc:
+total 0
+drwxr-xr-x  15 enric  staff  480 16 nov 16:01 lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl:
+total 0
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 CSY
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 CHS
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 CHT
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 DEU
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 ESN
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 FRA
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 ITA
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 JPN
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 KOR
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 PLK
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 PTB
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 RUS
+drwxr-xr-x  6 enric  staff  192 16 nov 16:01 TRK
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CSY:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CSY/Targets:
+total 72
+-rw-r--r--  1 enric  staff   1441 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8066 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20760 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CSY/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5305 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CSY/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  161923 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CSY/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  9917 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CHS:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CHS/Targets:
+total 64
+-rw-r--r--  1 enric  staff   1439 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   7983 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20473 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CHS/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5246 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CHS/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  161054 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CHS/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  9614 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CHT:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CHT/Targets:
+total 64
+-rw-r--r--  1 enric  staff   1439 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8013 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20474 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CHT/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5270 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CHT/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  160975 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/CHT/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  9620 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/DEU:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/DEU/Targets:
+total 72
+-rw-r--r--  1 enric  staff   1437 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8040 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20686 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/DEU/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5324 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/DEU/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  162217 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/DEU/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  10050 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/ESN:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/ESN/Targets:
+total 72
+-rw-r--r--  1 enric  staff   1441 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8096 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20925 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/ESN/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5364 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/ESN/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  162256 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/ESN/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  10038 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/FRA:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/FRA/Targets:
+total 72
+-rw-r--r--  1 enric  staff   1441 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8098 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20883 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/FRA/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5362 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/FRA/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  162657 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/FRA/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  10058 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/ITA:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/ITA/Targets:
+total 72
+-rw-r--r--  1 enric  staff   1435 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8059 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20802 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/ITA/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5419 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/ITA/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  162331 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/ITA/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  10097 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/JPN:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/JPN/Targets:
+total 80
+-rw-r--r--  1 enric  staff   1451 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8262 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  21072 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/JPN/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5524 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/JPN/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  163710 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/JPN/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  10609 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/KOR:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/KOR/Targets:
+total 72
+-rw-r--r--  1 enric  staff   1439 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8075 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20726 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/KOR/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5361 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/KOR/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  162280 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/KOR/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  10129 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/PLK:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/PLK/Targets:
+total 72
+-rw-r--r--  1 enric  staff   1435 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8058 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20853 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/PLK/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5336 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/PLK/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  162084 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/PLK/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  10106 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/PTB:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/PTB/Targets:
+total 72
+-rw-r--r--  1 enric  staff   1441 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8067 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20760 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/PTB/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5317 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/PTB/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  162041 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/PTB/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  9984 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/RUS:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/RUS/Targets:
+total 80
+-rw-r--r--  1 enric  staff   1443 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8342 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  21941 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/RUS/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5978 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/RUS/TypeScriptLanguageService:
+total 328
+-rw-r--r--  1 enric  staff  165589 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/RUS/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  11282 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/TRK:
+total 0
+drwxr-xr-x  5 enric  staff  160 16 nov 16:01 Targets
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptDebugEngine
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptLanguageService
+drwxr-xr-x  3 enric  staff   96 16 nov 16:01 TypeScriptTasks
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/TRK/Targets:
+total 72
+-rw-r--r--  1 enric  staff   1443 16 nov 16:01 ProjectItemsSchema.xaml.lcl
+-rw-r--r--  1 enric  staff   8050 16 nov 16:01 TypeScriptCompile.xaml.lcl
+-rw-r--r--  1 enric  staff  20711 16 nov 16:01 TypeScriptProjectProperties.xaml.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/TRK/TypeScriptDebugEngine:
+total 16
+-rw-r--r--  1 enric  staff  5351 16 nov 16:01 TypeScriptDebugEngine.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/TRK/TypeScriptLanguageService:
+total 320
+-rw-r--r--  1 enric  staff  161894 16 nov 16:01 Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/typescript/loc/lcl/TRK/TypeScriptTasks:
+total 24
+-rw-r--r--  1 enric  staff  9928 16 nov 16:01 TypeScript.Tasks.dll.lcl
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/unpipe:
+total 40
+-rw-r--r--  1 enric  staff    59 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1114 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1250 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  1118 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1805 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/utils-merge:
+total 32
+-rw-r--r--  1 enric  staff  1084 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1319 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff   381 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  1730 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/vary:
+total 40
+-rw-r--r--  1 enric  staff   792 16 nov 16:01 HISTORY.md
+-rw-r--r--  1 enric  staff  1094 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  2716 16 nov 16:01 README.md
+-rw-r--r--  1 enric  staff  2930 16 nov 16:01 index.js
+-rw-r--r--  1 enric  staff  2207 16 nov 16:01 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/webidl-conversions:
+total 40
+-rw-r--r--  1 enric  staff  1323 26 oct  1985 LICENSE.md
+-rw-r--r--  1 enric  staff  9212 26 oct  1985 README.md
+drwxr-xr-x  3 enric  staff    96 16 nov 16:05 lib
+-rw-r--r--  1 enric  staff  2152 16 nov 16:05 package.json
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/webidl-conversions/lib:
+total 32
+-rw-r--r--  1 enric  staff  12725 26 oct  1985 index.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/whatwg-url:
+total 48
+-rw-r--r--   1 enric  staff  1076 26 oct  1985 LICENSE.txt
+-rw-r--r--   1 enric  staff  7074 26 oct  1985 README.md
+-rw-r--r--   1 enric  staff  1264 26 oct  1985 index.js
+drwxr-xr-x  14 enric  staff   448 16 nov 16:05 lib
+-rw-r--r--   1 enric  staff  2582 16 nov 16:05 package.json
+-rw-r--r--   1 enric  staff   170 26 oct  1985 webidl2js-wrapper.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/whatwg-url/lib:
+total 224
+-rw-r--r--  1 enric  staff   1186 26 oct  1985 Function.js
+-rw-r--r--  1 enric  staff   4445 26 oct  1985 URL-impl.js
+-rw-r--r--  1 enric  staff  13537 26 oct  1985 URL.js
+-rw-r--r--  1 enric  staff   2763 26 oct  1985 URLSearchParams-impl.js
+-rw-r--r--  1 enric  staff  16132 26 oct  1985 URLSearchParams.js
+-rw-r--r--  1 enric  staff    728 26 oct  1985 VoidFunction.js
+-rw-r--r--  1 enric  staff    328 26 oct  1985 encoding.js
+-rw-r--r--  1 enric  staff    518 26 oct  1985 infra.js
+-rw-r--r--  1 enric  staff   4887 26 oct  1985 percent-encoding.js
+-rw-r--r--  1 enric  staff  30970 26 oct  1985 url-state-machine.js
+-rw-r--r--  1 enric  staff   2760 26 oct  1985 urlencoded.js
+-rw-r--r--  1 enric  staff   5390 26 oct  1985 utils.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/which:
+total 40
+-rw-r--r--  1 enric  staff  2667 16 nov 16:01 CHANGELOG.md
+-rw-r--r--  1 enric  staff   765 16 nov 16:01 LICENSE
+-rw-r--r--  1 enric  staff  1352 16 nov 16:01 README.md
+drwxr-xr-x  3 enric  staff    96 16 nov 16:01 bin
+-rw-r--r--  1 enric  staff  2056 16 nov 16:01 package.json
+-rw-r--r--  1 enric  staff  3163 16 nov 16:01 which.js
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/node_modules/which/bin:
+total 8
+-rw-r--r--  1 enric  staff  985 16 nov 16:01 node-which
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/src:
+total 24
+-rw-r--r--  1 enric  staff  550 26 nov 20:42 app.ts
+drwxr-xr-x  3 enric  staff   96 19 nov 17:21 config
+drwxr-xr-x  4 enric  staff  128 19 nov 17:21 controllers
+-rw-r--r--  1 enric  staff  455 16 nov 16:01 database.ts
+-rw-r--r--  1 enric  staff  126 16 nov 16:01 index.ts
+drwxr-xr-x  4 enric  staff  128 19 nov 17:21 models
+drwxr-xr-x  4 enric  staff  128 16 nov 16:01 routes
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/src/config:
+total 8
+-rw-r--r--  1 root  staff  328 19 nov 17:21 config.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/src/controllers:
+total 16
+-rw-r--r--  1 enric  staff  2542 16 nov 16:01 bar.controller.ts
+-rw-r--r--  1 root   staff  2110 19 nov 17:21 usuario.controller.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/src/models:
+total 16
+-rw-r--r--  1 root  staff  663 19 nov 17:21 bar.ts
+-rw-r--r--  1 root  staff  500 19 nov 17:21 usuario.ts
+
+/Users/enric/Documents/Enric/Uni/EA/ProyectoEA_Backend/src/routes:
+total 16
+-rw-r--r--  1 enric  staff  454 16 nov 16:01 bar.route.ts
+-rw-r--r--  1 enric  staff  437 16 nov 16:01 usuario.route.ts
