@@ -13,7 +13,24 @@ const usuarioSchema = new Schema({
     },
     email: {
         type: String, unique: true
+    },
+    name:{
+        type: String
+    },
+    edad:{
+        type: Number
+    },
+    descripcion:{
+        type: String
+    },
+    imageUrl:{
+        type: String
+    },
+    puntuacion:{
+        type: Number
     }
+
+
     });
 
 export interface IUsuario extends Document {
@@ -21,6 +38,12 @@ export interface IUsuario extends Document {
     username: String;
     password: String;
     email: String;
+    name: String;
+    edad: Number;
+    descripcion: String;
+    imageUrl: String;
+    puntuacion: Number;
+
 }
 
 export default mongoose.model<IUsuario>('Usuario', usuarioSchema);

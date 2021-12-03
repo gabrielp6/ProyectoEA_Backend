@@ -79,45 +79,39 @@ function deleteComunidad(req:Request, res:Response): void {
 
 
 
-function unirmeComunidad(req:Request, res:Response): void{   
+async function unirmeComunidad(req:Request, res:Response): Promise<void>{   
 
     const idUsuario  = req.params.idUsuario;
     const idComunidad  = req.params.idComunidad;
 
-    const usuario_1 = usuario.findOne({"id": idUsuario});
-    const comunidad_1 = comunidad.findOne({"id": idComunidad});
+    const usuario_1 = await usuario.findOne({"id": idUsuario}).exec();
+    //const comunidad_1 = await comunidad.findOne({"id": idComunidad}).exec();
 
-    let vector = [];
-    vector = req.body.usuarios;
-    vector.push(usuario_1);
-
-    comunidad_1.update({"id": idUsuario}, {$set: {"usuarios": vector}}).then((data) => {
+    await comunidad.updateOne({"id": idComunidad}, {$addToSet: {"usuarios": usuario_1?._id}}).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);
     })
-
 }
 
 
-function abandonarComunidad(req:Request, res:Response): void{
+async function abandonarComunidad(req:Request, res:Response): Promise<void>{   
 
     const idUsuario  = req.params.idUsuario;
     const idComunidad  = req.params.idComunidad;
 
-    const usuario_1 = usuario.findOne({"id": idUsuario});
-    const comunidad_1 = comunidad.findOne({"id": idComunidad});
+    const usuario_1 = await usuario.findOne({"id": idUsuario}).exec();
+    const comunidad_1 = await comunidad.findOne({"id": idComunidad}).exec();
 
-    let vector = [];
-    vector = req.body.usuarios;
-    vector.splice(usuario_1);
+    console.log(comunidad_1?.usuarios);
+    comunidad_1?.usuarios.splice(usuario_1?._id);
+    console.log(comunidad_1?.usuarios);
 
-    comunidad_1.update({"id": idUsuario}, {$set: {"usuarios": vector}}).then((data) => {
+    await comunidad.updateOne({"id": idComunidad}, {$set: {"usuarios": comunidad_1?.usuarios}}).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);
     })
-
 }
 
 export default { getAllComunidades, getComunidad, getComunidadByUser, newComunidad, updateComunidad , deleteComunidad, unirmeComunidad, abandonarComunidad };

@@ -44,6 +44,21 @@ const barSchema = new mongoose_1.Schema({
     idOwner: {
         type: String,
         ref: usuario_1.default
+    },
+    aforo: {
+        type: Number
+    },
+    aforoMax: {
+        type: Number
+    },
+    horario: {
+        type: String
+    },
+    descripcion: {
+        type: String
+    },
+    imageUrl: {
+        type: String
     }
 });
 exports.default = mongoose_1.default.model('Bar', barSchema);

@@ -21,6 +21,26 @@ const barSchema = new Schema({
     idOwner:{
         type: String,
         ref: Usuario
+    },
+
+    aforo:{
+        type: Number
+    },
+
+    aforoMax:{
+        type: Number
+    },
+
+    horario:{
+        type: String
+    },
+
+    descripcion:{
+        type: String
+    },
+
+    imageUrl:{
+        type: String
     }
     });
 
@@ -31,6 +51,11 @@ export interface IBar extends Document {
     musicTaste: String;
     owner: String;
     idOwner: String;
+    aforo: Number;
+    aforoMax: Number;
+    horario: String;
+    descripcion: String;
+    imageUrl: String;
 }
 
 export default mongoose.model<IBar>('Bar', barSchema);

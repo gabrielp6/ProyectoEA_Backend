@@ -27,6 +27,16 @@ function getUsuario(req, res) {
         return res.status(500).json(err);
     });
 }
+function getUsuarioByEmail(req, res) {
+    usuario_2.default.findOne({ "email": req.params.email }).then((data) => {
+        let status = 200;
+        if (data == null)
+            status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    });
+}
 function newUsuario(req, res) {
     const usuario_1 = new usuario_2.default({
         "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
@@ -100,4 +110,4 @@ function LogIn(req, res) {
         });
     });
 }
-exports.default = { getAllUsuarios, getUsuario, newUsuario, updateUsuario, deleteUsuario, LogIn };
+exports.default = { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario, deleteUsuario, LogIn };

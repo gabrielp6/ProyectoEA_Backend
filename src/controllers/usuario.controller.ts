@@ -28,6 +28,17 @@ function getUsuario (req:Request, res:Response): void {
     })
 }
 
+function getUsuarioByEmail (req:Request, res:Response): void {
+    usuario.findOne({"email":req.params.email}).then((data)=>{
+        let status: number = 200;
+        if(data==null) status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    })
+}
+
+
 function newUsuario (req:Request, res:Response): void {
     const usuario_1 = new usuario({
         "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
@@ -115,4 +126,4 @@ function LogIn (req:Request, res:Response): void {
 }
 
 
-export default { getAllUsuarios, getUsuario, newUsuario, updateUsuario , deleteUsuario, LogIn };
+export default { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario , deleteUsuario, LogIn };

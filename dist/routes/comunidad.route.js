@@ -13,5 +13,5 @@ router.post('/new', comunidad_controller_1.default.newComunidad);
 router.put('/update/:id', comunidad_controller_1.default.updateComunidad);
 router.delete('/delete/:id', comunidad_controller_1.default.deleteComunidad);
 router.put('/addUsuario/:idUsuario/comunidad/:idComunidad', comunidad_controller_1.default.unirmeComunidad);
-router.put('/deleteUsuario/:idUsuario/comunidad/:idComunidad', comunidad_controller_1.default.deleteComunidad);
+router.put('/deleteUsuario/:idUsuario/comunidad/:idComunidad', comunidad_controller_1.default.abandonarComunidad);
 exports.default = router;

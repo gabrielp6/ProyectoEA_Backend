@@ -1,4 +1,13 @@
 "use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -70,31 +79,32 @@ function deleteComunidad(req, res) {
     });
 }
 function unirmeComunidad(req, res) {
-    const idUsuario = req.params.idUsuario;
-    const idComunidad = req.params.idComunidad;
-    const usuario_1 = usuario_2.default.findOne({ "id": idUsuario });
-    const comunidad_1 = comunidad_2.default.findOne({ "id": idComunidad });
-    let vector = [];
-    vector = req.body.usuarios;
-    vector.push(usuario_1);
-    comunidad_1.update({ "id": idUsuario }, { $set: { "usuarios": vector } }).then((data) => {
-        res.status(201).json(data);
-    }).catch((err) => {
-        res.status(500).json(err);
+    return __awaiter(this, void 0, void 0, function* () {
+        const idUsuario = req.params.idUsuario;
+        const idComunidad = req.params.idComunidad;
+        const usuario_1 = yield usuario_2.default.findOne({ "id": idUsuario }).exec();
+        //const comunidad_1 = await comunidad.findOne({"id": idComunidad}).exec();
+        yield comunidad_2.default.updateOne({ "id": idComunidad }, { $addToSet: { "usuarios": usuario_1 === null || usuario_1 === void 0 ? void 0 : usuario_1._id } }).then((data) => {
+            res.status(201).json(data);
+        }).catch((err) => {
+            res.status(500).json(err);
+        });
     });
 }
 function abandonarComunidad(req, res) {
-    const idUsuario = req.params.idUsuario;
-    const idComunidad = req.params.idComunidad;
-    const usuario_1 = usuario_2.default.findOne({ "id": idUsuario });
-    const comunidad_1 = comunidad_2.default.findOne({ "id": idComunidad });
-    let vector = [];
-    vector = req.body.usuarios;
-    vector.splice(usuario_1);
-    comunidad_1.update({ "id": idUsuario }, { $set: { "usuarios": vector } }).then((data) => {
-        res.status(201).json(data);
-    }).catch((err) => {
-        res.status(500).json(err);
+    return __awaiter(this, void 0, void 0, function* () {
+        const idUsuario = req.params.idUsuario;
+        const idComunidad = req.params.idComunidad;
+        const usuario_1 = yield usuario_2.default.findOne({ "id": idUsuario }).exec();
+        const comunidad_1 = yield comunidad_2.default.findOne({ "id": idComunidad }).exec();
+        console.log(comunidad_1 === null || comunidad_1 === void 0 ? void 0 : comunidad_1.usuarios);
+        comunidad_1 === null || comunidad_1 === void 0 ? void 0 : comunidad_1.usuarios.splice(usuario_1 === null || usuario_1 === void 0 ? void 0 : usuario_1._id);
+        console.log(comunidad_1 === null || comunidad_1 === void 0 ? void 0 : comunidad_1.usuarios);
+        yield comunidad_2.default.updateOne({ "id": idComunidad }, { $set: { "usuarios": comunidad_1 === null || comunidad_1 === void 0 ? void 0 : comunidad_1.usuarios } }).then((data) => {
+            res.status(201).json(data);
+        }).catch((err) => {
+            res.status(500).json(err);
+        });
     });
 }
 exports.default = { getAllComunidades, getComunidad, getComunidadByUser, newComunidad, updateComunidad, deleteComunidad, unirmeComunidad, abandonarComunidad };

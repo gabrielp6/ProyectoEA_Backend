@@ -33,6 +33,21 @@ const usuarioSchema = new mongoose_1.Schema({
     },
     email: {
         type: String, unique: true
+    },
+    name: {
+        type: String
+    },
+    edad: {
+        type: Number
+    },
+    descripcion: {
+        type: String
+    },
+    imageUrl: {
+        type: String
+    },
+    puntuacion: {
+        type: Number
     }
 });
 exports.default = mongoose_1.default.model('Usuario', usuarioSchema);
