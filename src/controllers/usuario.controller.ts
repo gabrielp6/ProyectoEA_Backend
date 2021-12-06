@@ -44,7 +44,12 @@ function newUsuario (req:Request, res:Response): void {
         "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
         "username": req.body.username,
         "password": req.body.password,
-        "email": req.body.email
+        "email": req.body.email,
+        "nombre": req.body.nombre,
+        "edad": req.body.edad,
+        "descripcion": req.body.descripcion,
+        "imageUrl": req.body.imageUrl,
+        "puntuacion": req.body.puntuacion
     });
     
     usuario_1.save().then((data) => {
@@ -60,9 +65,14 @@ function updateUsuario (req:Request, res:Response): void {
     const username: String = req.body.username;
     const password: String = req.body.password;
     const email: String = req.body.email;
+    const nombre: String = req.body.nombre;
+    const edad: Number = req.body.edad;
+    const descripcion: String = req.body.descripcion;
+    const imageUrl: String = req.body.imageUrl;
+    const puntuacion: Number = req.body.puntuacion;
 
 
-    usuario.update({"id": id}, {$set: {"id": id, "username": username, "password": password, "email": email}}).then((data) => {
+    usuario.update({"id": id}, {$set: {"id": id, "username": username, "password": password, "email": email, "nombre": nombre, "edad": edad, "descripcion": descripcion, "imageUrl": imageUrl, "puntuacion": puntuacion}}).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);

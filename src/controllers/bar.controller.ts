@@ -42,7 +42,12 @@ function newBar (req:Request, res:Response): void {
         "address": req.body.address,
         "musicTaste": req.body.musicTaste,
         "owner": req.body.owner,
-        "idOwner": req.body.idOwner
+        "idOwner": req.body.idOwner,
+        "aforo": req.body.aforo,
+        "aforoMax": req.body.aforoMax,
+        "horario": req.body.horario,
+        "descripcion": req.body.descripcion,
+        "imageUrl": req.body.imageUrl
     });
     
     bar_1.save().then((data) => {
@@ -60,9 +65,14 @@ function updateBar (req:Request, res:Response): void {
     const musicTaste: String = req.body.musicTaste;
     const owner: String = req.body.owner;
     const idOwner: String = req.body.idOwner;
+    const aforo: Number = req.body.aforo;
+    const aforoMax: Number = req.body.aforoMax;
+    const horario: String = req.body.horario;
+    const descripcion: String = req.body.descripcion;
+    const imageUrl: String = req.body.imageUrl;
 
 
-    bar.update({"id": id}, {$set: {"id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner}}).then((data) => {
+    bar.update({"id": id}, {$set: {"id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl}}).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);

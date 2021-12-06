@@ -41,7 +41,9 @@ function newComunidad (req:Request, res:Response): void {
         "id":  Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
         "name": req.body.name,
         "owner": req.body.owner,
-        "idOwner": req.body.idOwner
+        "idOwner": req.body.idOwner,
+        "descripcion": req.body.descripcion,
+        "imageUrl": req.body.imageUrl
     });
     
     comunidad_1.save().then((data) => {
@@ -57,10 +59,11 @@ function updateComunidad (req:Request, res:Response): void {
     const name: String = req.body.name;
     const owner: String = req.body.owner;
     const idOwner: String = req.body.idOwner;
-    //const usuarios: Usuario[] = req.body.usuarios;
+    const descripcion: String = req.body.descripcion;
+    const imageUrl: String = req.body.imageUrl;
 
 
-    comunidad.update({"id": id}, {$set: {"id": id, "name": name, "owner": owner, "idOwner": idOwner}}).then((data) => {
+    comunidad.update({"id": id}, {$set: {"id": id, "name": name, "owner": owner, "idOwner": idOwner, "descripcion": descripcion, "imageUrl": imageUrl}}).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);
@@ -85,7 +88,6 @@ async function unirmeComunidad(req:Request, res:Response): Promise<void>{
     const idComunidad  = req.params.idComunidad;
 
     const usuario_1 = await usuario.findOne({"id": idUsuario}).exec();
-    //const comunidad_1 = await comunidad.findOne({"id": idComunidad}).exec();
 
     await comunidad.updateOne({"id": idComunidad}, {$addToSet: {"usuarios": usuario_1?._id}}).then((data) => {
         res.status(201).json(data);

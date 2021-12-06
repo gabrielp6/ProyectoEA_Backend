@@ -50,7 +50,9 @@ function newComunidad(req, res) {
         "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
         "name": req.body.name,
         "owner": req.body.owner,
-        "idOwner": req.body.idOwner
+        "idOwner": req.body.idOwner,
+        "descripcion": req.body.descripcion,
+        "imageUrl": req.body.imageUrl
     });
     comunidad_1.save().then((data) => {
         return res.status(201).json(data);
@@ -63,8 +65,9 @@ function updateComunidad(req, res) {
     const name = req.body.name;
     const owner = req.body.owner;
     const idOwner = req.body.idOwner;
-    //const usuarios: Usuario[] = req.body.usuarios;
-    comunidad_2.default.update({ "id": id }, { $set: { "id": id, "name": name, "owner": owner, "idOwner": idOwner } }).then((data) => {
+    const descripcion = req.body.descripcion;
+    const imageUrl = req.body.imageUrl;
+    comunidad_2.default.update({ "id": id }, { $set: { "id": id, "name": name, "owner": owner, "idOwner": idOwner, "descripcion": descripcion, "imageUrl": imageUrl } }).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);
@@ -83,7 +86,6 @@ function unirmeComunidad(req, res) {
         const idUsuario = req.params.idUsuario;
         const idComunidad = req.params.idComunidad;
         const usuario_1 = yield usuario_2.default.findOne({ "id": idUsuario }).exec();
-        //const comunidad_1 = await comunidad.findOne({"id": idComunidad}).exec();
         yield comunidad_2.default.updateOne({ "id": idComunidad }, { $addToSet: { "usuarios": usuario_1 === null || usuario_1 === void 0 ? void 0 : usuario_1._id } }).then((data) => {
             res.status(201).json(data);
         }).catch((err) => {

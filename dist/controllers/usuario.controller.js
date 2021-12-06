@@ -42,7 +42,12 @@ function newUsuario(req, res) {
         "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
         "username": req.body.username,
         "password": req.body.password,
-        "email": req.body.email
+        "email": req.body.email,
+        "nombre": req.body.nombre,
+        "edad": req.body.edad,
+        "descripcion": req.body.descripcion,
+        "imageUrl": req.body.imageUrl,
+        "puntuacion": req.body.puntuacion
     });
     usuario_1.save().then((data) => {
         return res.status(201).json(data);
@@ -55,7 +60,12 @@ function updateUsuario(req, res) {
     const username = req.body.username;
     const password = req.body.password;
     const email = req.body.email;
-    usuario_2.default.update({ "id": id }, { $set: { "id": id, "username": username, "password": password, "email": email } }).then((data) => {
+    const nombre = req.body.nombre;
+    const edad = req.body.edad;
+    const descripcion = req.body.descripcion;
+    const imageUrl = req.body.imageUrl;
+    const puntuacion = req.body.puntuacion;
+    usuario_2.default.update({ "id": id }, { $set: { "id": id, "username": username, "password": password, "email": email, "nombre": nombre, "edad": edad, "descripcion": descripcion, "imageUrl": imageUrl, "puntuacion": puntuacion } }).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);

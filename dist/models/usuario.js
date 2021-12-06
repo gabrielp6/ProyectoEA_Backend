@@ -34,7 +34,7 @@ const usuarioSchema = new mongoose_1.Schema({
     email: {
         type: String, unique: true
     },
-    name: {
+    nombre: {
         type: String
     },
     edad: {

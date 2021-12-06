@@ -21,11 +21,18 @@ const comunidadSchema = new Schema({
         type: String,
     },
 
-    tags: [{type: String}],
     usuarios: [{
         type: Schema.Types.ObjectId,
         ref: Usuario
-    }]
+    }],
+
+    descripcion:{
+        type: String
+    },
+
+    imageUrl:{
+        type: String
+    }
     });
 
 export interface IComunidad extends Document {
@@ -34,6 +41,8 @@ export interface IComunidad extends Document {
     owner: String;
     idOwner: String;
     usuarios: Array<IUsuario>;
+    descripcion: String;
+    imageUrl: String;
 }
 
 export default mongoose.model<IComunidad>('Comunidad', comunidadSchema);

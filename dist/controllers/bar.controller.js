@@ -42,7 +42,12 @@ function newBar(req, res) {
         "address": req.body.address,
         "musicTaste": req.body.musicTaste,
         "owner": req.body.owner,
-        "idOwner": req.body.idOwner
+        "idOwner": req.body.idOwner,
+        "aforo": req.body.aforo,
+        "aforoMax": req.body.aforoMax,
+        "horario": req.body.horario,
+        "descripcion": req.body.descripcion,
+        "imageUrl": req.body.imageUrl
     });
     bar_1.save().then((data) => {
         return res.status(201).json(data);
@@ -57,7 +62,12 @@ function updateBar(req, res) {
     const musicTaste = req.body.musicTaste;
     const owner = req.body.owner;
     const idOwner = req.body.idOwner;
-    bar_2.default.update({ "id": id }, { $set: { "id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner } }).then((data) => {
+    const aforo = req.body.aforo;
+    const aforoMax = req.body.aforoMax;
+    const horario = req.body.horario;
+    const descripcion = req.body.descripcion;
+    const imageUrl = req.body.imageUrl;
+    bar_2.default.update({ "id": id }, { $set: { "id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl } }).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);
