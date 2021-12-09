@@ -65,8 +65,8 @@ function updateBar (req:Request, res:Response): void {
     const musicTaste: String = req.body.musicTaste;
     const owner: String = req.body.owner;
     const idOwner: String = req.body.idOwner;
-    const aforo: Number = req.body.aforo;
-    const aforoMax: Number = req.body.aforoMax;
+    const aforo: String = req.body.aforo;
+    const aforoMax: String = req.body.aforoMax;
     const horario: String = req.body.horario;
     const descripcion: String = req.body.descripcion;
     const imageUrl: String = req.body.imageUrl;

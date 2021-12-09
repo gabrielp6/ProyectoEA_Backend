@@ -24,11 +24,11 @@ const barSchema = new Schema({
     },
 
     aforo:{
-        type: Number
+        type: String
     },
 
     aforoMax:{
-        type: Number
+        type: String
     },
 
     horario:{
@@ -51,8 +51,8 @@ export interface IBar extends Document {
     musicTaste: String;
     owner: String;
     idOwner: String;
-    aforo: Number;
-    aforoMax: Number;
+    aforo: String;
+    aforoMax: String;
     horario: String;
     descripcion: String;
     imageUrl: String;

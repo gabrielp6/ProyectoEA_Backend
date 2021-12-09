@@ -66,7 +66,7 @@ function updateUsuario (req:Request, res:Response): void {
     const password: String = req.body.password;
     const email: String = req.body.email;
     const nombre: String = req.body.nombre;
-    const edad: Number = req.body.edad;
+    const edad: String = req.body.edad;
     const descripcion: String = req.body.descripcion;
     const imageUrl: String = req.body.imageUrl;
     const puntuacion: Number = req.body.puntuacion;

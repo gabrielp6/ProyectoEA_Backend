@@ -46,10 +46,10 @@ const barSchema = new mongoose_1.Schema({
         ref: usuario_1.default
     },
     aforo: {
-        type: Number
+        type: String
     },
     aforoMax: {
-        type: Number
+        type: String
     },
     horario: {
         type: String

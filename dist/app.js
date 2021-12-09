@@ -12,7 +12,6 @@ const usuario_route_1 = __importDefault(require("./routes/usuario.route"));
 const comunidad_route_1 = __importDefault(require("./routes/comunidad.route"));
 const app = express_1.default();
 app.set('port', process.env.PORT || 3000);
-process.env.CADUCIDAD_TOKEN = '48h';
 app.use(morgan_1.default('dev'));
 app.use(cors_1.default());
 app.use(express_1.default.urlencoded({ extended: false }));

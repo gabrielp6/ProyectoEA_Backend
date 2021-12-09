@@ -38,7 +38,7 @@ const usuarioSchema = new mongoose_1.Schema({
         type: String
     },
     edad: {
-        type: Number
+        type: String
     },
     descripcion: {
         type: String

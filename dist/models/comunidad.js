@@ -39,9 +39,6 @@ const comunidadSchema = new mongoose_1.Schema({
         type: String,
         ref: usuario_1.default
     },
-    prueba: {
-        type: String,
-    },
     usuarios: [{
             type: mongoose_1.Schema.Types.ObjectId,
             ref: usuario_1.default

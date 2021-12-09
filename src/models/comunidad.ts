@@ -17,10 +17,6 @@ const comunidadSchema = new Schema({
         ref: Usuario
     },
 
-    prueba:{
-        type: String,
-    },
-
     usuarios: [{
         type: Schema.Types.ObjectId,
         ref: Usuario
