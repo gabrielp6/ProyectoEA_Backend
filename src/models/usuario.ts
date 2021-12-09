@@ -18,7 +18,7 @@ const usuarioSchema = new Schema({
         type: String
     },
     edad:{
-        type: Number
+        type: String
     },
     descripcion:{
         type: String
@@ -39,7 +39,7 @@ export interface IUsuario extends Document {
     password: String;
     email: String;
     nombre: String;
-    edad: Number;
+    edad: String;
     descripcion: String;
     imageUrl: String;
     puntuacion: Number;
