@@ -23,45 +23,32 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importStar(require("mongoose"));
-const usuario_1 = __importDefault(require("./usuario"));
-const barSchema = new mongoose_1.Schema({
+const bar_1 = __importDefault(require("./bar"));
+const publicacionSchema = new mongoose_1.Schema({
     id: {
         type: String, unique: true
     },
-    name: {
-        type: String
-    },
-    address: {
-        type: String
-    },
-    musicTaste: {
-        type: String
-    },
-    owner: {
+    idBar: {
         type: String,
-        ref: usuario_1.default
+        ref: bar_1.default
     },
-    idOwner: {
-        type: String,
-        ref: usuario_1.default
-    },
-    aforo: {
+    nameBar: {
         type: String
     },
-    aforoMax: {
+    imageBar: {
         type: String
     },
-    horario: {
-        type: String
-    },
-    descripcion: {
+    texto: {
         type: String
     },
     imageUrl: {
         type: String
     },
-    agresion: {
+    fecha: {
         type: String
+    },
+    likes: {
+        type: Number
     }
 });
-exports.default = mongoose_1.default.model('Bar', barSchema);
+exports.default = mongoose_1.default.model('Publicacion', publicacionSchema);

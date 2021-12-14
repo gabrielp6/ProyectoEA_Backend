@@ -41,6 +41,10 @@ const barSchema = new Schema({
 
     imageUrl:{
         type: String
+    },
+
+    agresion:{
+        type: String
     }
     });
 
@@ -56,6 +60,7 @@ export interface IBar extends Document {
     horario: String;
     descripcion: String;
     imageUrl: String;
+    agresion: String;
 }
 
 export default mongoose.model<IBar>('Bar', barSchema);

@@ -47,7 +47,8 @@ function newBar(req, res) {
         "aforoMax": req.body.aforoMax,
         "horario": req.body.horario,
         "descripcion": req.body.descripcion,
-        "imageUrl": req.body.imageUrl
+        "imageUrl": req.body.imageUrl,
+        "agresion": ""
     });
     bar_1.save().then((data) => {
         return res.status(201).json(data);
@@ -67,7 +68,8 @@ function updateBar(req, res) {
     const horario = req.body.horario;
     const descripcion = req.body.descripcion;
     const imageUrl = req.body.imageUrl;
-    bar_2.default.update({ "id": id }, { $set: { "id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl } }).then((data) => {
+    const agresion = req.body.agresion;
+    bar_2.default.update({ "id": id }, { $set: { "id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl, "agresion": agresion } }).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);
