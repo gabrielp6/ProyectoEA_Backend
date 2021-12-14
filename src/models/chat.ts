@@ -4,16 +4,18 @@ import { IMensaje} from './mensaje';
 
 let chatSchema = mongoose.Schema;
 const chat = new chatSchema({
+/*_id?*/
+
     name: {
         type: String
     },
     /*admin: [{
         type: Schema.Types.ObjectId,
         ref: 'User'
-    }],
+    }],*/
     image: {
         type: String
-    },*/
+    },
     users: [{
         type: Schema.Types.ObjectId,
         ref: 'User'
@@ -38,8 +40,8 @@ export interface IChat extends Document {
 chat.methods.chatToJSON = function(){
     return {
         name: this.name,
-        /*image: this.image,
-        admin: this.admin,*/
+        image: this.image,
+        /*admin: this.admin,*/
         users: this.users,
         mensajes: this.mensajes
     };
