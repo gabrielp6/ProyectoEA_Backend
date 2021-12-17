@@ -28,7 +28,29 @@ const usuarioSchema = new Schema({
     },
     puntuacion:{
         type: Number
-    }
+    },
+    online: {
+        type: Boolean
+    },
+    private: {
+        type: Boolean
+    },
+    notifications: [
+        {
+            type: Object,
+            ref: 'Notification'
+        }
+    ],
+    chats: [{
+        chat: {
+            type: Schema.Types.ObjectId,
+            ref: 'Chat'
+        },
+        
+        ultimoleido: {
+            type: Number
+        }
+    }]
 
 
     });
@@ -43,7 +65,29 @@ export interface IUsuario extends Document {
     descripcion: String;
     imageUrl: String;
     puntuacion: Number;
+    online: boolean;
+    private: boolean;
+    notifications: Array<any>;
+    chats: Array<any>;
+    userToJson(): JSON;
 
+}
+usuarioSchema.methods.userToJSON = function(){
+    return {
+        id: this.id,
+        username: this.username,
+        password: this.password,
+        email: this.email,
+        nombre: this.nombre,
+        edad: this.edad,
+        descripcion: this.descripcion,
+        imageUrl: this.imageUrl,
+        puntuacion: this.puntuacion,
+        notifications: this.notifications,
+        online: this.online,
+        private: this.private,
+        chat: this.chats,
+    };
 }
 
 export default mongoose.model<IUsuario>('Usuario', usuarioSchema);

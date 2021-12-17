@@ -135,5 +135,10 @@ function LogIn (req:Request, res:Response): void {
    
 }
 
+async function setOnlineStatus(id: String, value: boolean){
+    await usuario.updateOne({"_id":id}, {$set: {"online":value}});
+                    
+}
 
-export default { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario , deleteUsuario, LogIn };
+
+export default { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario , deleteUsuario, LogIn, setOnlineStatus };
