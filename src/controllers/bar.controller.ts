@@ -48,7 +48,7 @@ function newBar (req:Request, res:Response): void {
         "horario": req.body.horario,
         "descripcion": req.body.descripcion,
         "imageUrl": req.body.imageUrl,
-        "agresion": ""
+        "agresion": " "
     });
     
     bar_1.save().then((data) => {
