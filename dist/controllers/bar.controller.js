@@ -56,6 +56,8 @@ function newBar(req, res) {
         return res.status(500).json(err);
     });
 }
+//
+//
 function updateBar(req, res) {
     const id = req.params.id;
     const name = req.body.name;
