@@ -65,6 +65,7 @@ function updateUsuario(req, res) {
     const descripcion = req.body.descripcion;
     const imageUrl = req.body.imageUrl;
     const puntuacion = req.body.puntuacion;
+    const connected = req.body.connected;
     usuario_2.default.update({ "id": id }, { $set: { "id": id, "username": username, "password": password, "email": email, "nombre": nombre, "edad": edad, "descripcion": descripcion, "imageUrl": imageUrl, "puntuacion": puntuacion } }).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
