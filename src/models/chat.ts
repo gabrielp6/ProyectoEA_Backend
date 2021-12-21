@@ -4,8 +4,6 @@ import { IMensaje} from './mensaje';
 
 let chatSchema = mongoose.Schema;
 const chat = new chatSchema({
-/*_id?*/
-
     name: {
         type: String
     },

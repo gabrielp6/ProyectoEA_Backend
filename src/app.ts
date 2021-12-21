@@ -6,6 +6,7 @@ import BarRoutes from './routes/bar.route'
 import UsuarioRoutes from './routes/usuario.route'
 import ComunidadRoutes from './routes/comunidad.route'
 import ChatRoutes from './routes/chat.routes';
+//import SocketRoutes from './sockets/socket'
 
 import passport from 'passport';
 
@@ -25,6 +26,7 @@ app.use(passport.initialize());
 app.use('/bares', BarRoutes);
 app.use('/usuarios', UsuarioRoutes);
 app.use('/comunidades', ComunidadRoutes);
-app.use('/chat', ChatRoutes);
+//app.use('/chat', ChatRoutes);
+//app.use('/chat')
 
 export default app;

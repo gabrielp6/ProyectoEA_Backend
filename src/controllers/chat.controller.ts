@@ -165,7 +165,8 @@ async function addChat(req:Request, res:Response) {
 }
 
 function sendMessage(req:Request, res:Response): void {
-    let enc: Boolean = false;
+    
+    /*let enc: Boolean = false;
     Chat.findById(req.params.id).populate({path: 'users', select: 'username'}).then(data => {
         data?.users.forEach((user) => {
             if (req.body.sender == user.username)
@@ -197,7 +198,7 @@ function sendMessage(req:Request, res:Response): void {
         else{
             return res.status(409).json({message: "No perteneces a este chat"});
         }
-    })
+    })*/
 }
 
 async function abandonarChat(req:Request, res:Response) {

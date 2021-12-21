@@ -1,0 +1,3 @@
+S'ha intentat realitzar un xat senzill via sockets general, això no ha funcionat i he optat per intentar realitzar primer un general que feia la conexió via sockets pero no intercanviava els missatges correctament a través del frontend de backoffice que també he modifcat per poder comprovar que el codi funciona.
+
+Es podrà veure comentat al arxiu sockets que en el acs que estigués ben fet t'uneixes a la comunitat que es sol·licita i només s'avisa que algú es connecta als d'aquella sala.

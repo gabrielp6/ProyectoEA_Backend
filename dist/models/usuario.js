@@ -48,8 +48,46 @@ const usuarioSchema = new mongoose_1.Schema({
     },
     puntuacion: {
         type: Number
-    }
+    },
+    online: {
+        type: Boolean
+    },
+    private: {
+        type: Boolean
+    },
+    notifications: [
+        {
+            type: Object,
+            ref: 'Notification'
+        }
+    ],
+    chats: [{
+            chat: {
+                type: mongoose_1.Schema.Types.ObjectId,
+                ref: 'Chat'
+            },
+            ultimoleido: {
+                type: Number
+            }
+        }]
 });
+usuarioSchema.methods.userToJSON = function () {
+    return {
+        id: this.id,
+        username: this.username,
+        password: this.password,
+        email: this.email,
+        nombre: this.nombre,
+        edad: this.edad,
+        descripcion: this.descripcion,
+        imageUrl: this.imageUrl,
+        puntuacion: this.puntuacion,
+        notifications: this.notifications,
+        online: this.online,
+        private: this.private,
+        chat: this.chats,
+    };
+};
 exports.default = mongoose_1.default.model('Usuario', usuarioSchema);
 usuarioSchema.plugin(uniqueValidator, {
     message: '{PATH} debe de ser único'

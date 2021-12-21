@@ -5,5 +5,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const app_1 = __importDefault(require("./app"));
 require("./database");
+const server = require('http').createServer(app_1.default);
+module.exports.io = require('socket.io')(server);
+require('./sockets/socket');
 app_1.default.listen(app_1.default.get('port'));
 console.log('Server in port', app_1.default.get('port'));

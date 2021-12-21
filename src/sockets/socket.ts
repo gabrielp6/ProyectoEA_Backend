@@ -1,55 +1,38 @@
 const { io } = require('../index');  //app?
 import chatController from '../controllers/chat.controller'
 import usuarioController from '../controllers/usuario.controller'
-
+import comunidadController from '../controllers/comunidad.controller'
+/*
 let sockets: any [] = [];
 
-// Mensajes de Sockets
+// Mensajes de Sockets por comunidad
 io.on('connection', (socket: any) => {
 
-  socket.on('nuevoConectado', (user:any) =>{
-    usuarioController.setOnlineStatus(user.id, true);
-    socket.username = user.username;
-    socket._id = user.id;
-    socket.join(user.id);
-    console.log(user.username + " se ha conectado");
-    let info = {
-      "user": user.username,
-      "estado": true 
-    }
-    
-    chatController.getIdMyChats(user.id).then((data:any) =>{
-      data.chats.forEach((chat:any) =>{
-        socket.join(chat.chat._id);
-      })
-      io.emit("actConectado", info);
-      sockets.push(socket);
-    });
+  socket.on('nuevoConectado', (user:any, comunidad: string) =>{ //Aqui introducimos el usuario que entra y el id de la comunidad
+    socket.join(comunidad);
+
+    //Mandamos un mensaje a todos los que esten en esa sala de que x usuario se ha conectado.
+    io.to(comunidad).emit("EnviarMensaje ", user + "a la comunidad" + comunidad);
   });
 
-  socket.on('mensajeLeido', (info:any) => {
-    chatController.leerChat(info.chat, info.user).then(data => {
-      if (data == 1)
-        socket.to(info.chat).emit('mensajeLeido', info);
-    })
-  })
-
-  socket.on('disconnect', function(){
-    if (socket._id != undefined){
-      let info = {
-        "user": socket.username,
-        "estado": false 
-      }
-      
-      usuarioController.setOnlineStatus(socket._id, false);
-      io.emit('actConectado', info);
-      console.log(socket.username + " se ha desconectado");
-      let i = sockets.indexOf(socket);
-      sockets.splice(i, 1);
-    }
+  socket.on("EnviarMensaje", (message: string, comunidad: string, user: string) => {
+    io.to(comunidad).emit("EnviarMensaje", message, user);
   });
+  
+});*/
+
+
+const misMensajes: any[]=[]
+io.on('conectado', function(socket: any){
+  socket.on('enviarMensaje', function (data: any) {
+    misMensajes.push(data)
+    socket.emit("MensajeEvento", misMensajes)
+    socket.broadcast.emit("MensajeEvento",misMensajes)
+
+  });
+
 });
-
+/*
 function getSocket(){
   return io;
 }
@@ -59,4 +42,4 @@ function getVectorSockets(){
 }
 
 module.exports.getSocket = getSocket;
-module.exports.getVectorSockets = getVectorSockets;
+module.exports.getVectorSockets = getVectorSockets;*/
