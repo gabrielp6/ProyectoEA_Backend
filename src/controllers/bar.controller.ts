@@ -58,6 +58,7 @@ function newBar (req:Request, res:Response): void {
     })
 }
 
+
 function updateBar (req:Request, res:Response): void {
     const id = req.params.id;
     const name: String = req.body.name;

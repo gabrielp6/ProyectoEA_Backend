@@ -6,6 +6,8 @@ import BarRoutes from './routes/bar.route'
 import UsuarioRoutes from './routes/usuario.route'
 import ComunidadRoutes from './routes/comunidad.route'
 import PublicacionRoutes from './routes/publicacion.route'
+import DenunciaRoutes from './routes/denuncia.route'
+import EstadisticasRoutes from './routes/estadisticas.route'
 
 const app = express();
 app.set('port', process.env.PORT || 3000);
@@ -19,7 +21,9 @@ app.use(bodyParser.json());
 app.use('/bares', BarRoutes);
 app.use('/usuarios', UsuarioRoutes);
 app.use('/comunidades', ComunidadRoutes);
-app.use('/publicaciones', PublicacionRoutes)
+app.use('/publicaciones', PublicacionRoutes);
+app.use('/denuncias', DenunciaRoutes);
+app.use('/estadisticas', EstadisticasRoutes);
 
 
 export default app;

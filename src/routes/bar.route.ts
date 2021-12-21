@@ -1,5 +1,6 @@
 import { Router } from "express"; 
 import barController from "../controllers/bar.controller";
+import bar from "../models/bar";
 
 const router = Router();
 
