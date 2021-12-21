@@ -35,7 +35,6 @@ function getComunidad(req, res) {
         return res.status(500).json(err);
     });
 }
-//
 function getComunidadByUser(req, res) {
     comunidad_2.default.find({ "idOwner": req.params.idOwner }).then((data) => {
         let status = 200;

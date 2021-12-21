@@ -23,7 +23,7 @@ function getComunidad (req:Request, res:Response): void {
         return res.status(500).json(err);
     })
 }
-//
+
 function getComunidadByUser (req:Request, res:Response): void{
     comunidad.find({"idOwner":req.params.idOwner}).then((data)=>{
         let status: number = 200;

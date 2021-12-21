@@ -57,9 +57,6 @@ function newBar (req:Request, res:Response): void {
         return res.status(500).json(err);
     })
 }
-//
-
-//
 
 function updateBar (req:Request, res:Response): void {
     const id = req.params.id;
