@@ -45,6 +45,16 @@ function getComunidadByUser(req, res) {
         return res.status(500).json(err);
     });
 }
+function getComunidadByName(req, res) {
+    comunidad_2.default.find({ "name": req.params.name }).then((data) => {
+        let status = 200;
+        if (data == null)
+            status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    });
+}
 function newComunidad(req, res) {
     const comunidad_1 = new comunidad_2.default({
         "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
@@ -109,4 +119,4 @@ function abandonarComunidad(req, res) {
         });
     });
 }
-exports.default = { getAllComunidades, getComunidad, getComunidadByUser, newComunidad, updateComunidad, deleteComunidad, unirmeComunidad, abandonarComunidad };
+exports.default = { getAllComunidades, getComunidad, getComunidadByUser, newComunidad, updateComunidad, deleteComunidad, unirmeComunidad, abandonarComunidad, getComunidadByName };

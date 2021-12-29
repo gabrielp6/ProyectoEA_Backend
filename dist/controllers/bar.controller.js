@@ -25,6 +25,16 @@ function getBar(req, res) {
         return res.status(500).json(err);
     });
 }
+function getBarByName(req, res) {
+    bar_2.default.find({ "name": req.params.name }).then((data) => {
+        let status = 200;
+        if (data == null)
+            status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    });
+}
 function getBarByUser(req, res) {
     bar_2.default.find({ "idOwner": req.params.idOwner }).then((data) => {
         let status = 200;
@@ -48,7 +58,9 @@ function newBar(req, res) {
         "horario": req.body.horario,
         "descripcion": req.body.descripcion,
         "imageUrl": req.body.imageUrl,
-        "agresion": " "
+        "agresion": " ",
+        "longitud": req.body.longitud,
+        "latitud": req.body.latitud,
     });
     bar_1.save().then((data) => {
         return res.status(201).json(data);
@@ -69,7 +81,9 @@ function updateBar(req, res) {
     const descripcion = req.body.descripcion;
     const imageUrl = req.body.imageUrl;
     const agresion = req.body.agresion;
-    bar_2.default.update({ "id": id }, { $set: { "id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl, "agresion": agresion } }).then((data) => {
+    const longitud = req.body.longitud;
+    const latitud = req.body.latitud;
+    bar_2.default.update({ "id": id }, { $set: { "id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl, "agresion": agresion, "longitud": longitud, "latitud": latitud } }).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);
@@ -83,4 +97,4 @@ function deleteBar(req, res) {
         return res.status(500).json(err);
     });
 }
-exports.default = { getAllBares, getBar, getBarByUser, newBar, updateBar, deleteBar };
+exports.default = { getAllBares, getBar, getBarByName, getBarByUser, newBar, updateBar, deleteBar };

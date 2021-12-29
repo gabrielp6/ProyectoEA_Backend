@@ -9,6 +9,7 @@ const router = express_1.Router();
 router.get('/', comunidad_controller_1.default.getAllComunidades);
 router.get('/getComunidad/:id', comunidad_controller_1.default.getComunidad);
 router.get('/getComunidadesByUser/:idOwner', comunidad_controller_1.default.getComunidadByUser);
+router.get('/getComunidadByName/:name', comunidad_controller_1.default.getComunidadByName);
 router.post('/new', comunidad_controller_1.default.newComunidad);
 router.put('/update/:id', comunidad_controller_1.default.updateComunidad);
 router.delete('/delete/:id', comunidad_controller_1.default.deleteComunidad);

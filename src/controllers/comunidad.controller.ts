@@ -35,6 +35,15 @@ function getComunidadByUser (req:Request, res:Response): void{
     })
 }
 
+function getComunidadByName (req:Request, res:Response): void{
+    comunidad.find({"name":req.params.name}).then((data)=>{
+        let status: number = 200;
+        if(data==null) status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    })
+}
 
 function newComunidad (req:Request, res:Response): void {
     const comunidad_1 = new comunidad({
@@ -116,4 +125,4 @@ async function abandonarComunidad(req:Request, res:Response): Promise<void>{
     })
 }
 
-export default { getAllComunidades, getComunidad, getComunidadByUser, newComunidad, updateComunidad , deleteComunidad, unirmeComunidad, abandonarComunidad };
+export default { getAllComunidades, getComunidad, getComunidadByUser, newComunidad, updateComunidad , deleteComunidad, unirmeComunidad, abandonarComunidad, getComunidadByName };

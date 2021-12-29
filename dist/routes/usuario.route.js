@@ -9,6 +9,7 @@ const router = express_1.Router();
 router.get('/', usuario_controller_1.default.getAllUsuarios);
 router.get('/getUsuario/:id', usuario_controller_1.default.getUsuario);
 router.get('/getUsuarioByEmail/:email', usuario_controller_1.default.getUsuarioByEmail);
+router.get('/getUsuarioByUsername/:username', usuario_controller_1.default.getUsuarioByUsername);
 router.post('/new', usuario_controller_1.default.newUsuario);
 router.put('/update/:id', usuario_controller_1.default.updateUsuario);
 router.delete('/delete/:id', usuario_controller_1.default.deleteUsuario);

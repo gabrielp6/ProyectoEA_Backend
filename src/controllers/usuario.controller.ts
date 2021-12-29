@@ -28,6 +28,16 @@ function getUsuario (req:Request, res:Response): void {
     })
 }
 
+function getUsuarioByUsername (req:Request, res:Response): void {
+    usuario.findOne({"username":req.params.username}).then((data)=>{
+        let status: number = 200;
+        if(data==null) status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    })
+}
+
 function getUsuarioByEmail (req:Request, res:Response): void {
     usuario.findOne({"email":req.params.email}).then((data)=>{
         let status: number = 200;
@@ -136,4 +146,4 @@ function LogIn (req:Request, res:Response): void {
 }
 
 
-export default { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario , deleteUsuario, LogIn };
+export default { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario , deleteUsuario, LogIn, getUsuarioByUsername };

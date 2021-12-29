@@ -6,6 +6,7 @@ const router = Router();
 router.get('/', comunidadController.getAllComunidades);
 router.get('/getComunidad/:id', comunidadController.getComunidad);
 router.get('/getComunidadesByUser/:idOwner', comunidadController.getComunidadByUser);
+router.get('/getComunidadByName/:name', comunidadController.getComunidadByName);
 router.post('/new',comunidadController.newComunidad);
 router.put('/update/:id', comunidadController.updateComunidad);
 router.delete('/delete/:id', comunidadController.deleteComunidad);

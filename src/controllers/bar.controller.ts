@@ -23,6 +23,16 @@ function getBar (req:Request, res:Response): void {
     })
 }
 
+function getBarByName (req:Request, res:Response): void{
+    bar.find({"name":req.params.name}).then((data)=>{
+        let status: number = 200;
+        if(data==null) status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    })
+}
+
 
 function getBarByUser (req:Request, res:Response): void{
     bar.find({"idOwner":req.params.idOwner}).then((data)=>{
@@ -48,9 +58,12 @@ function newBar (req:Request, res:Response): void {
         "horario": req.body.horario,
         "descripcion": req.body.descripcion,
         "imageUrl": req.body.imageUrl,
-        "agresion": " "
+        "agresion": " ",
+        "longitud": req.body.longitud,
+        "latitud": req.body.latitud,
     });
-    
+
+
     bar_1.save().then((data) => {
         return res.status(201).json(data);
     }).catch((err) => {
@@ -72,9 +85,11 @@ function updateBar (req:Request, res:Response): void {
     const descripcion: String = req.body.descripcion;
     const imageUrl: String = req.body.imageUrl;
     const agresion: String = req.body.agresion;
+    const longitud: String = req.body.longitud;
+    const latitud: String = req.body.latitud;
 
 
-    bar.update({"id": id}, {$set: {"id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl, "agresion": agresion}}).then((data) => {
+    bar.update({"id": id}, {$set: {"id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl, "agresion": agresion, "longitud": longitud, "latitud": latitud}}).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);
@@ -92,4 +107,4 @@ function deleteBar(req:Request, res:Response): void {
 }
 
 
-export default { getAllBares, getBar, getBarByUser, newBar, updateBar , deleteBar };
+export default { getAllBares, getBar, getBarByName, getBarByUser, newBar, updateBar , deleteBar };

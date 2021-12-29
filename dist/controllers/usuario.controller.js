@@ -27,6 +27,16 @@ function getUsuario(req, res) {
         return res.status(500).json(err);
     });
 }
+function getUsuarioByUsername(req, res) {
+    usuario_2.default.findOne({ "username": req.params.username }).then((data) => {
+        let status = 200;
+        if (data == null)
+            status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    });
+}
 function getUsuarioByEmail(req, res) {
     usuario_2.default.findOne({ "email": req.params.email }).then((data) => {
         let status = 200;
@@ -120,4 +130,4 @@ function LogIn(req, res) {
         });
     });
 }
-exports.default = { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario, deleteUsuario, LogIn };
+exports.default = { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario, deleteUsuario, LogIn, getUsuarioByUsername };

@@ -38,7 +38,6 @@ function getEstadisticas(req, res) {
         });
         yield estadisticas_1.save();
         yield estadisticas_2.default.find({}).then((data) => {
-            console.log(data);
             let status = 200;
             if (data == null)
                 status = 404;

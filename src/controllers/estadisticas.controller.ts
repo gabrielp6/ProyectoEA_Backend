@@ -34,7 +34,6 @@ async function getEstadisticas (req:Request, res:Response): Promise<void> {
     await estadisticas_1.save();
 
     await estadisticas.find({}).then((data)=>{
-        console.log(data)
         let status: number = 200;
         if(data==null) status = 404;
         return res.status(status).json(data);
