@@ -18,62 +18,29 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importStar(require("mongoose"));
-const usuario_1 = __importDefault(require("./usuario"));
-const barSchema = new mongoose_1.Schema({
+const agresionSchema = new mongoose_1.Schema({
     id: {
         type: String, unique: true
     },
-    name: {
+    idBar: {
         type: String
     },
-    address: {
+    idUser: {
         type: String
     },
-    musicTaste: {
-        type: String
-    },
-    owner: {
-        type: String,
-        ref: usuario_1.default
-    },
-    idOwner: {
-        type: String,
-        ref: usuario_1.default
-    },
-    aforo: {
-        type: String
-    },
-    aforoMax: {
-        type: String
-    },
-    horario: {
+    motivacion: {
         type: String
     },
     descripcion: {
         type: String
     },
-    imageUrl: {
+    solucion: {
         type: String
     },
-    agresion: {
+    fecha: {
         type: String
     },
-    idUserAgresion: {
-        type: String
-    },
-    motivacionAgresion: {
-        type: String
-    },
-    descAgresion: {
-        type: String
-    },
-    solAgresion: {
-        type: String
-    }
 });
-exports.default = mongoose_1.default.model('Bar', barSchema);
+exports.default = mongoose_1.default.model('Agresion', agresionSchema);

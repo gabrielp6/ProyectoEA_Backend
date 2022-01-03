@@ -6,6 +6,7 @@ import BarRoutes from './routes/bar.route'
 import UsuarioRoutes from './routes/usuario.route'
 import ComunidadRoutes from './routes/comunidad.route'
 import PublicacionRoutes from './routes/publicacion.route'
+import AgresionesRoutes from './routes/agresion.route'
 
 const app = express();
 app.set('port', process.env.PORT || 3000);
@@ -20,6 +21,7 @@ app.use('/bares', BarRoutes);
 app.use('/usuarios', UsuarioRoutes);
 app.use('/comunidades', ComunidadRoutes);
 app.use('/publicaciones', PublicacionRoutes)
+app.use('/agresiones', AgresionesRoutes)
 
 
 export default app;
