@@ -47,6 +47,22 @@ const barSchema = new Schema({
         type: String
     },
 
+    idUserAgresion: {
+        type: String
+    },
+
+    motivacionAgresion: {
+        type: String
+    },
+
+    descAgresion: {
+        type: String
+    },
+
+    solAgresion: {
+        type: String
+    },
+
     longitud:{
         type: String
     },
@@ -69,6 +85,10 @@ export interface IBar extends Document {
     descripcion: String;
     imageUrl: String;
     agresion: String;
+    idUserAgresion: String;
+    motivacionAgresion: String;
+    descAgresion: String;
+    solAgresion: String;
     longitud: String;
     latitud: String;
 }

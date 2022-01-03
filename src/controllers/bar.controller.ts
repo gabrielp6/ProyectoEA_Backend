@@ -59,6 +59,10 @@ function newBar (req:Request, res:Response): void {
         "descripcion": req.body.descripcion,
         "imageUrl": req.body.imageUrl,
         "agresion": " ",
+        "idUserAgresion": " ",
+        "motivacionAgresion" : " ",
+        "descAgresion": " ",
+        "solAgresion": " ",
         "longitud": req.body.longitud,
         "latitud": req.body.latitud,
     });
@@ -85,6 +89,10 @@ function updateBar (req:Request, res:Response): void {
     const descripcion: String = req.body.descripcion;
     const imageUrl: String = req.body.imageUrl;
     const agresion: String = req.body.agresion;
+    const idUserAgresion: String = req.body.idUserAgresion;
+    const motivacionAgresion: String = req.body.motivacionAgresion;
+    const descAgresion: String = req.body.descAgresion;
+    const solAgresion: String = req.body.solAgresion;    
     const longitud: String = req.body.longitud;
     const latitud: String = req.body.latitud;
 

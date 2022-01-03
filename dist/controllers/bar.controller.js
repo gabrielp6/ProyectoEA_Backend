@@ -59,6 +59,10 @@ function newBar(req, res) {
         "descripcion": req.body.descripcion,
         "imageUrl": req.body.imageUrl,
         "agresion": " ",
+        "idUserAgresion": " ",
+        "motivacionAgresion": " ",
+        "descAgresion": " ",
+        "solAgresion": " ",
         "longitud": req.body.longitud,
         "latitud": req.body.latitud,
     });
@@ -81,6 +85,10 @@ function updateBar(req, res) {
     const descripcion = req.body.descripcion;
     const imageUrl = req.body.imageUrl;
     const agresion = req.body.agresion;
+    const idUserAgresion = req.body.idUserAgresion;
+    const motivacionAgresion = req.body.motivacionAgresion;
+    const descAgresion = req.body.descAgresion;
+    const solAgresion = req.body.solAgresion;
     const longitud = req.body.longitud;
     const latitud = req.body.latitud;
     bar_2.default.update({ "id": id }, { $set: { "id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl, "agresion": agresion, "longitud": longitud, "latitud": latitud } }).then((data) => {
