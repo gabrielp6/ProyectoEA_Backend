@@ -11,4 +11,5 @@ router.get('/getPublicacion/:id', publicacion_controller_1.default.getPublicacio
 router.post('/new', publicacion_controller_1.default.newPublicacion);
 router.put('/update/:id', publicacion_controller_1.default.updatePublicacion);
 router.delete('/delete/:id', publicacion_controller_1.default.deletePublicacion);
+router.put('/like/:idUsuario/:idPublicacion', publicacion_controller_1.default.darLike);
 exports.default = router;

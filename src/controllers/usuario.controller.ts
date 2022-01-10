@@ -141,9 +141,28 @@ function LogIn (req:Request, res:Response): void {
            usuario: usuarioDB,
            token,
        })
-   })
-   
+   })  
 }
 
 
-export default { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario , deleteUsuario, LogIn, getUsuarioByUsername };
+async function updatePuntuacion (req:Request, res:Response): Promise<void> {
+    const id = req.params.id;
+    var puntuacion;
+    
+    await usuario.find({"id": id}).then((data)=>{
+        puntuacion = data.values.arguments.puntuacion;
+    })
+
+    var newPuntuacion = puntuacion + req.params.puntos;
+
+    usuario.update({"id": id}, {$set: {"puntuacion": newPuntuacion}}).then((data) => {
+        res.status(201).json(data);
+    }).catch((err) => {
+        res.status(500).json(err);
+    })
+}
+
+
+
+
+export default { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario , deleteUsuario, LogIn, getUsuarioByUsername, updatePuntuacion };

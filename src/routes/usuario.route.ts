@@ -11,5 +11,6 @@ router.post('/new',usuarioController.newUsuario);
 router.put('/update/:id', usuarioController.updateUsuario);
 router.delete('/delete/:id', usuarioController.deleteUsuario);
 router.post('/login', usuarioController.LogIn);
+router.put('/updatePuntuacion/:id/:puntos', usuarioController.updatePuntuacion);
 
 export default router;

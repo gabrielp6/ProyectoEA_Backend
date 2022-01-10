@@ -1,5 +1,6 @@
 import mongoose, { Schema, Document, NumericTypes} from 'mongoose';
 import Bar, {IBar} from './bar';
+import usuario from './usuario';
 
 const publicacionSchema = new Schema({
     id:{
@@ -26,9 +27,10 @@ const publicacionSchema = new Schema({
         type: String
     },
 
-    likes:{
-        type: Number
-    }
+    likes:[{
+        type: Schema.Types.String,
+        ref: usuario
+    }]
     });
 
 export interface IPublicacion extends Document {
@@ -39,7 +41,7 @@ export interface IPublicacion extends Document {
     texto: String;
     imageUrl: String;
     fecha: String;
-    likes: Number;
+    likes: Array<String>;
 }
 
 export default mongoose.model<IPublicacion>('Publicacion', publicacionSchema);

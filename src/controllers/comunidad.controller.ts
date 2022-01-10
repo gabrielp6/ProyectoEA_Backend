@@ -96,9 +96,7 @@ async function unirmeComunidad(req:Request, res:Response): Promise<void>{
     const idUsuario  = req.params.idUsuario;
     const idComunidad  = req.params.idComunidad;
 
-    const usuario_1 = await usuario.findOne({"id": idUsuario}).exec();
-
-    await comunidad.updateOne({"id": idComunidad}, {$addToSet: {"usuarios": usuario_1?._id}}).then((data) => {
+    await comunidad.updateOne({"id": idComunidad}, {$addToSet: {"usuarios": idUsuario}}).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);

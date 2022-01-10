@@ -40,7 +40,7 @@ const comunidadSchema = new mongoose_1.Schema({
         ref: usuario_1.default
     },
     usuarios: [{
-            type: mongoose_1.Schema.Types.ObjectId,
+            type: mongoose_1.Schema.Types.String,
             ref: usuario_1.default
         }],
     descripcion: {

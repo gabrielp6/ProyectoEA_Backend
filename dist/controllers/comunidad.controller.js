@@ -95,8 +95,7 @@ function unirmeComunidad(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const idUsuario = req.params.idUsuario;
         const idComunidad = req.params.idComunidad;
-        const usuario_1 = yield usuario_2.default.findOne({ "id": idUsuario }).exec();
-        yield comunidad_2.default.updateOne({ "id": idComunidad }, { $addToSet: { "usuarios": usuario_1 === null || usuario_1 === void 0 ? void 0 : usuario_1._id } }).then((data) => {
+        yield comunidad_2.default.updateOne({ "id": idComunidad }, { $addToSet: { "usuarios": idUsuario } }).then((data) => {
             res.status(201).json(data);
         }).catch((err) => {
             res.status(500).json(err);
