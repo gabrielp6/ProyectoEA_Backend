@@ -1,6 +1,6 @@
 import mongoose, { Schema, Document, NumericTypes} from 'mongoose';
 import Bar, {IBar} from './bar';
-import usuario from './usuario';
+import Usuario, {IUsuario} from './usuario';
 
 const publicacionSchema = new Schema({
     id:{
@@ -29,7 +29,7 @@ const publicacionSchema = new Schema({
 
     likes:[{
         type: Schema.Types.String,
-        ref: usuario
+        ref: Usuario
     }]
     });
 

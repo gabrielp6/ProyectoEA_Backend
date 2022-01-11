@@ -109,12 +109,14 @@ async function abandonarComunidad(req:Request, res:Response): Promise<void>{
     const idUsuario  = req.params.idUsuario;
     const idComunidad  = req.params.idComunidad;
 
-    const usuario_1 = await usuario.findOne({"id": idUsuario}).exec();
     const comunidad_1 = await comunidad.findOne({"id": idComunidad}).exec();
 
-    console.log(comunidad_1?.usuarios);
-    comunidad_1?.usuarios.splice(usuario_1?._id);
-    console.log(comunidad_1?.usuarios);
+    const index = comunidad_1?.usuarios.indexOf(idUsuario);
+    
+    if(index != undefined)
+    {
+        comunidad_1?.usuarios.splice(index,1);
+    }
 
     await comunidad.updateOne({"id": idComunidad}, {$set: {"usuarios": comunidad_1?.usuarios}}).then((data) => {
         res.status(201).json(data);

@@ -13,7 +13,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const comunidad_2 = __importDefault(require("../models/comunidad"));
-const usuario_2 = __importDefault(require("../models/usuario"));
 function getAllComunidades(req, res) {
     comunidad_2.default.find({}).then((data) => {
         let status = 200;
@@ -106,11 +105,11 @@ function abandonarComunidad(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const idUsuario = req.params.idUsuario;
         const idComunidad = req.params.idComunidad;
-        const usuario_1 = yield usuario_2.default.findOne({ "id": idUsuario }).exec();
         const comunidad_1 = yield comunidad_2.default.findOne({ "id": idComunidad }).exec();
-        console.log(comunidad_1 === null || comunidad_1 === void 0 ? void 0 : comunidad_1.usuarios);
-        comunidad_1 === null || comunidad_1 === void 0 ? void 0 : comunidad_1.usuarios.splice(usuario_1 === null || usuario_1 === void 0 ? void 0 : usuario_1._id);
-        console.log(comunidad_1 === null || comunidad_1 === void 0 ? void 0 : comunidad_1.usuarios);
+        const index = comunidad_1 === null || comunidad_1 === void 0 ? void 0 : comunidad_1.usuarios.indexOf(idUsuario);
+        if (index != undefined) {
+            comunidad_1 === null || comunidad_1 === void 0 ? void 0 : comunidad_1.usuarios.splice(index, 1);
+        }
         yield comunidad_2.default.updateOne({ "id": idComunidad }, { $set: { "usuarios": comunidad_1 === null || comunidad_1 === void 0 ? void 0 : comunidad_1.usuarios } }).then((data) => {
             res.status(201).json(data);
         }).catch((err) => {

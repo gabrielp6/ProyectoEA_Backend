@@ -87,4 +87,29 @@ async function darLike(req:Request, res:Response): Promise<void>{
 }
 
 
-export default { getAllPublicaciones, getPublicacion, newPublicacion, updatePublicacion , deletePublicacion, darLike };
+async function deshacerLike(req:Request, res:Response): Promise<void>{   
+
+    const idUsuario  = req.params.idUsuario;
+    const idPublicacion  = req.params.idPublicacion;
+
+    const publicacion_1 = await publicacion.findOne({"id": idPublicacion}).exec();
+
+    const index = publicacion_1?.likes.indexOf(idUsuario);
+    
+    if(index != undefined)
+    {
+        publicacion_1?.likes.splice(index,1);
+    }
+
+    await publicacion.updateOne({"id": idPublicacion}, {$set: {"usuarios": publicacion_1?.likes}}).then((data) => {
+        res.status(201).json(data);
+    }).catch((err) => {
+        res.status(500).json(err);
+    })
+}
+
+
+
+
+
+export default { getAllPublicaciones, getPublicacion, newPublicacion, updatePublicacion , deletePublicacion, darLike, deshacerLike };

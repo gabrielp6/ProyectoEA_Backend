@@ -85,4 +85,20 @@ function darLike(req, res) {
         });
     });
 }
-exports.default = { getAllPublicaciones, getPublicacion, newPublicacion, updatePublicacion, deletePublicacion, darLike };
+function deshacerLike(req, res) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const idUsuario = req.params.idUsuario;
+        const idPublicacion = req.params.idPublicacion;
+        const publicacion_1 = yield publicacion_2.default.findOne({ "id": idPublicacion }).exec();
+        const index = publicacion_1 === null || publicacion_1 === void 0 ? void 0 : publicacion_1.likes.indexOf(idUsuario);
+        if (index != undefined) {
+            publicacion_1 === null || publicacion_1 === void 0 ? void 0 : publicacion_1.likes.splice(index, 1);
+        }
+        yield publicacion_2.default.updateOne({ "id": idPublicacion }, { $set: { "usuarios": publicacion_1 === null || publicacion_1 === void 0 ? void 0 : publicacion_1.likes } }).then((data) => {
+            res.status(201).json(data);
+        }).catch((err) => {
+            res.status(500).json(err);
+        });
+    });
+}
+exports.default = { getAllPublicaciones, getPublicacion, newPublicacion, updatePublicacion, deletePublicacion, darLike, deshacerLike };
