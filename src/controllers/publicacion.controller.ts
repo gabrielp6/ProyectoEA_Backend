@@ -101,7 +101,7 @@ async function deshacerLike(req:Request, res:Response): Promise<void>{
         publicacion_1?.likes.splice(index,1);
     }
 
-    await publicacion.updateOne({"id": idPublicacion}, {$set: {"usuarios": publicacion_1?.likes}}).then((data) => {
+    await publicacion.updateOne({"id": idPublicacion}, {$set: {"likes": publicacion_1?.likes}}).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);

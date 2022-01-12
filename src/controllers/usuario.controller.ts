@@ -149,8 +149,8 @@ async function updatePuntuacion (req:Request, res:Response): Promise<void> {
     const id = req.params.id;
     var puntuacion;
     
-    await usuario.find({"id": id}).then((data)=>{
-        puntuacion = data.values.arguments.puntuacion;
+    await usuario.findOne({"id": id}).then((data)=>{
+        puntuacion = data?.puntuacion;
     })
 
     var newPuntuacion = puntuacion + req.params.puntos;
