@@ -28,6 +28,16 @@ function getUsuario (req:Request, res:Response): void {
     })
 }
 
+function getUsuarioByUsername (req:Request, res:Response): void {
+    usuario.findOne({"username":req.params.username}).then((data)=>{
+        let status: number = 200;
+        if(data==null) status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    })
+}
+
 function getUsuarioByEmail (req:Request, res:Response): void {
     usuario.findOne({"email":req.params.email}).then((data)=>{
         let status: number = 200;
@@ -70,7 +80,6 @@ function updateUsuario (req:Request, res:Response): void {
     const descripcion: String = req.body.descripcion;
     const imageUrl: String = req.body.imageUrl;
     const puntuacion: Number = req.body.puntuacion;
-    const connected: String = req.body.connected;
 
 
     usuario.update({"id": id}, {$set: {"id": id, "username": username, "password": password, "email": email, "nombre": nombre, "edad": edad, "descripcion": descripcion, "imageUrl": imageUrl, "puntuacion": puntuacion}}).then((data) => {
@@ -132,9 +141,28 @@ function LogIn (req:Request, res:Response): void {
            usuario: usuarioDB,
            token,
        })
-   })
-   
+   })  
 }
 
 
-export default { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario , deleteUsuario, LogIn };
+async function updatePuntuacion (req:Request, res:Response): Promise<void> {
+    const id = req.params.id;
+    var puntuacion;
+    
+    await usuario.find({"id": id}).then((data)=>{
+        puntuacion = data.values.arguments.puntuacion;
+    })
+
+    var newPuntuacion = puntuacion + req.params.puntos;
+
+    usuario.update({"id": id}, {$set: {"puntuacion": newPuntuacion}}).then((data) => {
+        res.status(201).json(data);
+    }).catch((err) => {
+        res.status(500).json(err);
+    })
+}
+
+
+
+
+export default { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario , deleteUsuario, LogIn, getUsuarioByUsername, updatePuntuacion };

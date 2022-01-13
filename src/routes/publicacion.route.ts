@@ -8,5 +8,6 @@ router.get('/getPublicacion/:id', publicacionController.getPublicacion);
 router.post('/new', publicacionController.newPublicacion);
 router.put('/update/:id', publicacionController.updatePublicacion);
 router.delete('/delete/:id', publicacionController.deletePublicacion);
+router.put('/like/:idUsuario/:idPublicacion', publicacionController.darLike);
 
 export default router;

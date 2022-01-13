@@ -1,6 +1,7 @@
 import { Request, Response} from "express";
 import { getAllJSDocTags } from "typescript";
 import publicacion from '../models/publicacion'
+import usuario from "../models/usuario";
 
 function getAllPublicaciones (req:Request, res:Response): void {
     publicacion.find({}).then((data)=>{
@@ -73,5 +74,17 @@ function deletePublicacion(req:Request, res:Response): void {
     })
 }
 
+async function darLike(req:Request, res:Response): Promise<void>{   
 
-export default { getAllPublicaciones, getPublicacion, newPublicacion, updatePublicacion , deletePublicacion };
+    const idUsuario  = req.params.idUsuario;
+    const idPublicacion  = req.params.idPublicacion;
+
+    await publicacion.updateOne({"id": idPublicacion}, {$addToSet: {"likes": idUsuario}}).then((data) => {
+        res.status(201).json(data);
+    }).catch((err) => {
+        res.status(500).json(err);
+    })
+}
+
+
+export default { getAllPublicaciones, getPublicacion, newPublicacion, updatePublicacion , deletePublicacion, darLike };

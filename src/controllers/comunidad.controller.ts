@@ -35,6 +35,15 @@ function getComunidadByUser (req:Request, res:Response): void{
     })
 }
 
+function getComunidadByName (req:Request, res:Response): void{
+    comunidad.find({"name":req.params.name}).then((data)=>{
+        let status: number = 200;
+        if(data==null) status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    })
+}
 
 function newComunidad (req:Request, res:Response): void {
     const comunidad_1 = new comunidad({
@@ -87,9 +96,7 @@ async function unirmeComunidad(req:Request, res:Response): Promise<void>{
     const idUsuario  = req.params.idUsuario;
     const idComunidad  = req.params.idComunidad;
 
-    const usuario_1 = await usuario.findOne({"id": idUsuario}).exec();
-
-    await comunidad.updateOne({"id": idComunidad}, {$addToSet: {"usuarios": usuario_1?._id}}).then((data) => {
+    await comunidad.updateOne({"id": idComunidad}, {$addToSet: {"usuarios": idUsuario}}).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);
@@ -116,4 +123,4 @@ async function abandonarComunidad(req:Request, res:Response): Promise<void>{
     })
 }
 
-export default { getAllComunidades, getComunidad, getComunidadByUser, newComunidad, updateComunidad , deleteComunidad, unirmeComunidad, abandonarComunidad };
+export default { getAllComunidades, getComunidad, getComunidadByUser, newComunidad, updateComunidad , deleteComunidad, unirmeComunidad, abandonarComunidad, getComunidadByName };

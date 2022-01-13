@@ -24,30 +24,21 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importStar(require("mongoose"));
 const usuario_1 = __importDefault(require("./usuario"));
-const comunidadSchema = new mongoose_1.Schema({
+const publicacion_1 = __importDefault(require("./publicacion"));
+const denunciaSchema = new mongoose_1.Schema({
     id: {
         type: String, unique: true
     },
-    name: {
-        type: String, unique: true
-    },
-    owner: {
-        type: String,
+    idUsuario: {
+        type: String, unique: true,
         ref: usuario_1.default
     },
-    idOwner: {
+    idPublicacion: {
         type: String,
-        ref: usuario_1.default
+        ref: publicacion_1.default
     },
-    usuarios: [{
-            type: mongoose_1.Schema.Types.String,
-            ref: usuario_1.default
-        }],
     descripcion: {
-        type: String
-    },
-    imageUrl: {
         type: String
     }
 });
-exports.default = mongoose_1.default.model('Comunidad', comunidadSchema);
+exports.default = mongoose_1.default.model('Denuncia', denunciaSchema);

@@ -24,6 +24,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importStar(require("mongoose"));
 const bar_1 = __importDefault(require("./bar"));
+const usuario_1 = __importDefault(require("./usuario"));
 const publicacionSchema = new mongoose_1.Schema({
     id: {
         type: String, unique: true
@@ -47,8 +48,9 @@ const publicacionSchema = new mongoose_1.Schema({
     fecha: {
         type: String
     },
-    likes: {
-        type: Number
-    }
+    likes: [{
+            type: mongoose_1.Schema.Types.String,
+            ref: usuario_1.default
+        }]
 });
 exports.default = mongoose_1.default.model('Publicacion', publicacionSchema);

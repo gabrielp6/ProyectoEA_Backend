@@ -18,36 +18,17 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importStar(require("mongoose"));
-const usuario_1 = __importDefault(require("./usuario"));
-const comunidadSchema = new mongoose_1.Schema({
-    id: {
-        type: String, unique: true
-    },
-    name: {
-        type: String, unique: true
-    },
-    owner: {
-        type: String,
-        ref: usuario_1.default
-    },
-    idOwner: {
-        type: String,
-        ref: usuario_1.default
-    },
-    usuarios: [{
-            type: mongoose_1.Schema.Types.String,
-            ref: usuario_1.default
-        }],
-    descripcion: {
+const estadisticasSchema = new mongoose_1.Schema({
+    numUsuarios: {
         type: String
     },
-    imageUrl: {
+    numBares: {
+        type: String
+    },
+    numComunidades: {
         type: String
     }
 });
-exports.default = mongoose_1.default.model('Comunidad', comunidadSchema);
+exports.default = mongoose_1.default.model('Estadisticas', estadisticasSchema);

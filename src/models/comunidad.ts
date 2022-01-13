@@ -18,7 +18,7 @@ const comunidadSchema = new Schema({
     },
 
     usuarios: [{
-        type: Schema.Types.ObjectId,
+        type: Schema.Types.String,
         ref: Usuario
     }],
 
@@ -36,7 +36,7 @@ export interface IComunidad extends Document {
     name: String;
     owner: String;
     idOwner: String;
-    usuarios: Array<IUsuario>;
+    usuarios: Array<String>;
     descripcion: String;
     imageUrl: String;
 }

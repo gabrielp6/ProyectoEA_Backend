@@ -6,9 +6,11 @@ import BarRoutes from './routes/bar.route'
 import UsuarioRoutes from './routes/usuario.route'
 import ComunidadRoutes from './routes/comunidad.route'
 import PublicacionRoutes from './routes/publicacion.route'
-import ChatRoutes from './routes/chat.route'
+import DenunciaRoutes from './routes/denuncia.route'
+import EstadisticasRoutes from './routes/estadisticas.route'
 
-var app= express();
+
+const app = express();
 app.set('port', process.env.PORT || 3000);
 
 app.use(morgan('dev'));
@@ -17,11 +19,13 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 app.use(bodyParser.json());
 
+
 app.use('/bares', BarRoutes);
 app.use('/usuarios', UsuarioRoutes);
 app.use('/comunidades', ComunidadRoutes);
 app.use('/publicaciones', PublicacionRoutes);
-app.use('/chat', ChatRoutes)
+app.use('/denuncias', DenunciaRoutes);
+app.use('/estadisticas', EstadisticasRoutes);
 
 
 

@@ -1,4 +1,13 @@
 "use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -19,6 +28,16 @@ function getAllUsuarios(req, res) {
 }
 function getUsuario(req, res) {
     usuario_2.default.findOne({ "id": req.params.id }).then((data) => {
+        let status = 200;
+        if (data == null)
+            status = 404;
+        return res.status(status).json(data);
+    }).catch((err) => {
+        return res.status(500).json(err);
+    });
+}
+function getUsuarioByUsername(req, res) {
+    usuario_2.default.findOne({ "username": req.params.username }).then((data) => {
         let status = 200;
         if (data == null)
             status = 404;
@@ -65,7 +84,6 @@ function updateUsuario(req, res) {
     const descripcion = req.body.descripcion;
     const imageUrl = req.body.imageUrl;
     const puntuacion = req.body.puntuacion;
-    const connected = req.body.connected;
     usuario_2.default.update({ "id": id }, { $set: { "id": id, "username": username, "password": password, "email": email, "nombre": nombre, "edad": edad, "descripcion": descripcion, "imageUrl": imageUrl, "puntuacion": puntuacion } }).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
@@ -121,4 +139,19 @@ function LogIn(req, res) {
         });
     });
 }
-exports.default = { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario, deleteUsuario, LogIn };
+function updatePuntuacion(req, res) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const id = req.params.id;
+        var puntuacion;
+        yield usuario_2.default.find({ "id": id }).then((data) => {
+            puntuacion = data.values.arguments.puntuacion;
+        });
+        var newPuntuacion = puntuacion + req.params.puntos;
+        usuario_2.default.update({ "id": id }, { $set: { "puntuacion": newPuntuacion } }).then((data) => {
+            res.status(201).json(data);
+        }).catch((err) => {
+            res.status(500).json(err);
+        });
+    });
+}
+exports.default = { getAllUsuarios, getUsuario, getUsuarioByEmail, newUsuario, updateUsuario, deleteUsuario, LogIn, getUsuarioByUsername, updatePuntuacion };

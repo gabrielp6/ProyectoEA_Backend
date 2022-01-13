@@ -62,6 +62,24 @@ const barSchema = new mongoose_1.Schema({
     },
     agresion: {
         type: String
+    },
+    idUserAgresion: {
+        type: String
+    },
+    motivacionAgresion: {
+        type: String
+    },
+    descAgresion: {
+        type: String
+    },
+    solAgresion: {
+        type: String
+    },
+    longitud: {
+        type: String
+    },
+    latitud: {
+        type: String
     }
 });
 exports.default = mongoose_1.default.model('Bar', barSchema);
