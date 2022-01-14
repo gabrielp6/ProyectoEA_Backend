@@ -11,6 +11,7 @@ var io = require("socket.io").listen(server);
 console.log("Servidor arrancado");
 app_1.default.use(express_1.default.json());
 var clients = {};
+const connectedUsers = new Map();
 io.on("connection", (socket) => {
     console.log("connected");
     console.log(socket.id, "ha entrado ");
@@ -22,14 +23,35 @@ io.on("connection", (socket) => {
     socket.on("login", (roomId, usr) => {
         console.log("Buenas " + usr + "!! Bienvenido a la sala de chat de " + roomId);
         socket.join(roomId);
-        io.to(roomId).emit("sendMessage", "Buenas " + usr + "!! Bienvenido a la sala de chat de " + roomId);
+        //Si no existe una entrada para esta comunidad
+        if (!connectedUsers.has(roomId)) {
+            connectedUsers.set(roomId, []);
+        }
+        //Añado al nuevo conectado al registro de conectados
+        connectedUsers.get(roomId).push(usr);
+        console.log("Se ha añadoido el ultimo conectado, la lista queda asi: " + connectedUsers.get(roomId));
+        io.to(roomId).emit("sendMessage", usr + " se ha conectado al chat de " + roomId + ".");
+        // io.to(roomId).emit("sendMessage", connectedUsers.get(roomId).toString, "Conexions");
     });
     socket.on("sendMessage", (message, roomId, usr) => {
         console.log(usr + " ha dicho: " + message + " en la sala de: " + roomId);
         io.to(roomId).emit("sendMessage", message, usr);
-        // console.log("El bueno de "+ socket.id +"dice: "+msg);
-        // let targetId =msg.targetId;
-        // if (clients[targetId]) clients[targetId].emit("message", msg);
+    });
+    socket.on("disconnected", (roomId, usr) => {
+        console.log(usr + " se ha desconectado del chat.");
+        io.to(roomId).emit("sendMessage", usr + " se ha desconectado del chat.");
+        //Borro al usuario
+        let userList = connectedUsers.get(roomId);
+        userList = userList.filter(u => u !== usr);
+        if (!userList.length) {
+            connectedUsers.delete(roomId);
+        }
+        else {
+            connectedUsers.set(roomId, userList);
+        }
+        console.log("La lista de conectados queda asi : " + userList);
+        io.to(roomId).emit("sendMessage", connectedUsers.get(roomId), "Connexions");
+        io.to(roomId).emit("updateUsers", connectedUsers.get(roomId));
     });
 });
 //prueba4
