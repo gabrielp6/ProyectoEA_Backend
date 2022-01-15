@@ -9,7 +9,7 @@ import PublicacionRoutes from './routes/publicacion.route'
 import DenunciaRoutes from './routes/denuncia.route'
 import EstadisticasRoutes from './routes/estadisticas.route'
 
-const app = express();
+var app= express();
 app.set('port', process.env.PORT || 3000);
 
 app.use(morgan('dev'));
@@ -24,6 +24,7 @@ app.use('/comunidades', ComunidadRoutes);
 app.use('/publicaciones', PublicacionRoutes);
 app.use('/denuncias', DenunciaRoutes);
 app.use('/estadisticas', EstadisticasRoutes);
+
 
 
 export default app;

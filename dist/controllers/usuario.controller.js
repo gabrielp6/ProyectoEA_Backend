@@ -84,6 +84,7 @@ function updateUsuario(req, res) {
     const descripcion = req.body.descripcion;
     const imageUrl = req.body.imageUrl;
     const puntuacion = req.body.puntuacion;
+    const connected = req.body.connected;
     usuario_2.default.update({ "id": id }, { $set: { "id": id, "username": username, "password": password, "email": email, "nombre": nombre, "edad": edad, "descripcion": descripcion, "imageUrl": imageUrl, "puntuacion": puntuacion } }).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
@@ -143,8 +144,8 @@ function updatePuntuacion(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const id = req.params.id;
         var puntuacion;
-        yield usuario_2.default.find({ "id": id }).then((data) => {
-            puntuacion = data.values.arguments.puntuacion;
+        yield usuario_2.default.findOne({ "id": id }).then((data) => {
+            puntuacion = data === null || data === void 0 ? void 0 : data.puntuacion;
         });
         var newPuntuacion = puntuacion + req.params.puntos;
         usuario_2.default.update({ "id": id }, { $set: { "puntuacion": newPuntuacion } }).then((data) => {

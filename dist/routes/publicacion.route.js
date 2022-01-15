@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const publicacion_controller_1 = __importDefault(require("../controllers/publicacion.controller"));
-const router = express_1.Router();
+const router = (0, express_1.Router)();
 router.get('/', publicacion_controller_1.default.getAllPublicaciones);
 router.get('/getPublicacion/:id', publicacion_controller_1.default.getPublicacion);
 router.post('/new', publicacion_controller_1.default.newPublicacion);

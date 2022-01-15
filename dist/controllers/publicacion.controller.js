@@ -94,7 +94,7 @@ function deshacerLike(req, res) {
         if (index != undefined) {
             publicacion_1 === null || publicacion_1 === void 0 ? void 0 : publicacion_1.likes.splice(index, 1);
         }
-        yield publicacion_2.default.updateOne({ "id": idPublicacion }, { $set: { "usuarios": publicacion_1 === null || publicacion_1 === void 0 ? void 0 : publicacion_1.likes } }).then((data) => {
+        yield publicacion_2.default.updateOne({ "id": idPublicacion }, { $set: { "likes": publicacion_1 === null || publicacion_1 === void 0 ? void 0 : publicacion_1.likes } }).then((data) => {
             res.status(201).json(data);
         }).catch((err) => {
             res.status(500).json(err);

@@ -60,7 +60,7 @@ function updateValoracion (req:Request, res:Response): void {
     const id = req.body.id;
     const idBar: String = req.body.idUsuario;
     const idUsuario: String = req.body.idPublicacion;
-    const puntos: Number = req.body.puntos;
+    const puntos: String = req.body.puntos;
     const descripcion: String = req.body.descripcion;
     
     valoracion.update({"id": id}, {$set: {"id": id, "idBar": idBar, "idUsuario": idUsuario, "puntos": puntos, "descripcion": descripcion}}).then((data) => {

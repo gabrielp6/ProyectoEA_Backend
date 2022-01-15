@@ -18,7 +18,7 @@ const valoracionSchema = new Schema({
     },
 
     puntos: {
-        type: Number
+        type: String
     },
 
     descripcion: {

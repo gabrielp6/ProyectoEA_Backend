@@ -80,6 +80,7 @@ function updateUsuario (req:Request, res:Response): void {
     const descripcion: String = req.body.descripcion;
     const imageUrl: String = req.body.imageUrl;
     const puntuacion: Number = req.body.puntuacion;
+    const connected: String = req.body.connected;
 
 
     usuario.update({"id": id}, {$set: {"id": id, "username": username, "password": password, "email": email, "nombre": nombre, "edad": edad, "descripcion": descripcion, "imageUrl": imageUrl, "puntuacion": puntuacion}}).then((data) => {
