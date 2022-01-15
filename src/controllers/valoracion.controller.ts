@@ -58,8 +58,8 @@ function newValoracion (req:Request, res:Response): void {
 
 function updateValoracion (req:Request, res:Response): void {
     const id = req.body.id;
-    const idBar: String = req.body.idUsuario;
-    const idUsuario: String = req.body.idPublicacion;
+    const idBar: String = req.body.idBar;
+    const idUsuario: String = req.body.idUsuario;
     const puntos: String = req.body.puntos;
     const descripcion: String = req.body.descripcion;
     

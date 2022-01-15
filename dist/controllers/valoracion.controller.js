@@ -38,8 +38,8 @@ function getValoracionesByBar(req, res) {
 function newValoracion(req, res) {
     const valoracion_1 = new valoracion_2.default({
         "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
-        "idBar": req.body.idUsuario,
-        "idUsuario": req.body.idPublicacion,
+        "idBar": req.body.idBar,
+        "idUsuario": req.body.idUsuario,
         "puntos": req.body.puntos,
         "descripcion": req.body.descripcion
     });
@@ -51,8 +51,8 @@ function newValoracion(req, res) {
 }
 function updateValoracion(req, res) {
     const id = req.body.id;
-    const idBar = req.body.idUsuario;
-    const idUsuario = req.body.idPublicacion;
+    const idBar = req.body.idBar;
+    const idUsuario = req.body.idUsuario;
     const puntos = req.body.puntos;
     const descripcion = req.body.descripcion;
     valoracion_2.default.update({ "id": id }, { $set: { "id": id, "idBar": idBar, "idUsuario": idUsuario, "puntos": puntos, "descripcion": descripcion } }).then((data) => {
