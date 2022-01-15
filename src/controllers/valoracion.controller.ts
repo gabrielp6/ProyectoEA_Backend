@@ -41,8 +41,8 @@ function getValoracionesByBar (req:Request, res:Response): void{
 function newValoracion (req:Request, res:Response): void {
     const valoracion_1 = new valoracion({
         "id": Math.floor(Math.random() * (10000000 - 1 + 1) + 1),
-        "idBar": req.body.idUsuario,
-        "idUsuario": req.body.idPublicacion,
+        "idBar": req.body.idBar,
+        "idUsuario": req.body.idUsuario,
         "puntos": req.body.puntos,
         "descripcion": req.body.descripcion
     });
