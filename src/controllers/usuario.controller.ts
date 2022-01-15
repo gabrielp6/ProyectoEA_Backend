@@ -149,12 +149,13 @@ function LogIn (req:Request, res:Response): void {
 async function updatePuntuacion (req:Request, res:Response): Promise<void> {
     const id = req.params.id;
     var puntuacion;
+    var puntosdadosnum: number = +req.params.puntos;
     
     await usuario.findOne({"id": id}).then((data)=>{
         puntuacion = data?.puntuacion;
     })
 
-    var newPuntuacion = puntuacion + req.params.puntos;
+    var newPuntuacion = puntuacion + puntosdadosnum;
 
     usuario.update({"id": id}, {$set: {"puntuacion": newPuntuacion}}).then((data) => {
         res.status(201).json(data);
