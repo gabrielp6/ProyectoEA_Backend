@@ -144,10 +144,11 @@ function updatePuntuacion(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const id = req.params.id;
         var puntuacion;
+        var puntosdadosnum = +req.params.puntos;
         yield usuario_2.default.findOne({ "id": id }).then((data) => {
             puntuacion = data === null || data === void 0 ? void 0 : data.puntuacion;
         });
-        var newPuntuacion = puntuacion + req.params.puntos;
+        var newPuntuacion = puntuacion + puntosdadosnum;
         usuario_2.default.update({ "id": id }, { $set: { "puntuacion": newPuntuacion } }).then((data) => {
             res.status(201).json(data);
         }).catch((err) => {

@@ -98,7 +98,7 @@ function updateBar (req:Request, res:Response): void {
     const latitud: String = req.body.latitud;
 
 
-    bar.update({"id": id}, {$set: {"id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl, "agresion": agresion, "longitud": longitud, "latitud": latitud}}).then((data) => {
+    bar.update({"id": id}, {$set: {"id": id, "name": name, "address": address, "musicTaste": musicTaste, "owner": owner, "idOwner": idOwner, "aforo": aforo, "aforoMax": aforoMax, "horario": horario, "descripcion": descripcion, "imageUrl": imageUrl, "agresion": agresion, "idUserAgresion": idUserAgresion, "motivacionAgresion": motivacionAgresion, "descAgresion": descAgresion, "solAgresion": solAgresion, "longitud": longitud, "latitud": latitud}}).then((data) => {
         res.status(201).json(data);
     }).catch((err) => {
         res.status(500).json(err);
@@ -106,9 +106,7 @@ function updateBar (req:Request, res:Response): void {
 
 
     publicacion.update({"idBar": id}, {$set: {"imageBar": imageUrl}}).then((data) => {
-        res.status(201).json(data);
     }).catch((err) => {
-        res.status(500).json(err);
     })
 }
 

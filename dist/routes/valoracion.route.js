@@ -8,7 +8,7 @@ const valoracion_controller_1 = __importDefault(require("../controllers/valoraci
 const router = (0, express_1.Router)();
 router.get('/', valoracion_controller_1.default.getAllValoraciones);
 router.get('/getValoracion/:id', valoracion_controller_1.default.getValoracion);
-router.get('/getValoracionesByBar/:idOwner', valoracion_controller_1.default.getValoracionesByBar);
+router.get('/getValoracionesByBar/:idBar', valoracion_controller_1.default.getValoracionesByBar);
 router.post('/new', valoracion_controller_1.default.newValoracion);
 router.put('/update/:id', valoracion_controller_1.default.updateValoracion);
 router.delete('/delete/:id', valoracion_controller_1.default.deleteValoracion);
