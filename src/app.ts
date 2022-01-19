@@ -8,6 +8,8 @@ import ComunidadRoutes from './routes/comunidad.route'
 import PublicacionRoutes from './routes/publicacion.route'
 import DenunciaRoutes from './routes/denuncia.route'
 import EstadisticasRoutes from './routes/estadisticas.route'
+import ValoracionesRoutes from './routes/valoracion.route'
+
 
 var app= express();
 app.set('port', process.env.PORT || 3000);
@@ -24,6 +26,8 @@ app.use('/comunidades', ComunidadRoutes);
 app.use('/publicaciones', PublicacionRoutes);
 app.use('/denuncias', DenunciaRoutes);
 app.use('/estadisticas', EstadisticasRoutes);
+app.use('/valoraciones', ValoracionesRoutes);
+
 
 
 
