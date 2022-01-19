@@ -60,6 +60,7 @@ function newComunidad(req, res) {
         "name": req.body.name,
         "owner": req.body.owner,
         "idOwner": req.body.idOwner,
+        "usuarios": req.body.idOwner,
         "descripcion": req.body.descripcion,
         "imageUrl": req.body.imageUrl
     });
