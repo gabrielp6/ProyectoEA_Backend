@@ -26,6 +26,7 @@ io.on("connection", (socket) => {
         //Si no existe una entrada para esta comunidad
         if (!connectedUsers.has(roomId)) {
             connectedUsers.set(roomId, []);
+            connectedUsers.get(roomId).push(".");
         }
         //Añado al nuevo conectado al registro de conectados
         if (!connectedUsers.has(usr)) {
